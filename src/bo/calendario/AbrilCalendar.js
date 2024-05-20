@@ -1,5 +1,5 @@
-import Navebar from "../../Navebar";
-import Footer from "../../Footer";
+import Navebar from "../Navebar";
+import Footer from "../Footer";
 
 const AbrilCalendar = () => {
 
