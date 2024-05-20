@@ -8,7 +8,7 @@ const MarcoCalendar = () => {
             <Navebar/>
 
             <div class="w3-container w3-center">
-                <img src="https://biladeirosgit.github.io/bila-olimpiadas/março.png" alt="logo"/>
+                <img src="https://biladeirosgit.github.io/bila-olimpiadas/images/março.png" alt="logo"/>
             </div>
             <Footer/>
         </div>
