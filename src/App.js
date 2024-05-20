@@ -16,6 +16,9 @@ import Bilabilhar from './bo/rankings/maio/Bilabilhar';
 import Brawlhalla from './bo/rankings/maio/Brawlhalla';
 import CounterStrike5x5 from './bo/rankings/maio/CounterStrike5x5';
 import Basquetiladas from './bo/rankings/junho/Basquetiladas';
+import MarcoCalendar from './bo/calendario/MarcoCalendar';
+import AbrilCalendar from './bo/calendario/AbrilCalendar';
+import MaioCalendar from './bo/calendario/MaioCalendar';
 
 
 
@@ -36,6 +39,10 @@ const App = () => {
                 <Route path="/bila-olimpiadas/rankings/bilabilhar" element={<Bilabilhar />} />
                 <Route path="/bila-olimpiadas/rankings/cs25x5" element={<CounterStrike5x5 />} />
                 <Route path="/bila-olimpiadas/rankings/basquetiladas" element={<Basquetiladas />} />
+
+                <Route path="/bila-olimpiadas/calendar/marco" element={<MarcoCalendar />} />
+                <Route path="/bila-olimpiadas/calendar/abril" element={<AbrilCalendar />} />
+                <Route path="/bila-olimpiadas/calendar/maio" element={<MaioCalendar />} />
                 {/* Adicione outras rotas aqui */}
             </Routes>
         </Router>
