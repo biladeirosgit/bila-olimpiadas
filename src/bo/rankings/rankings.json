@@ -1,0 +1,524 @@
+{
+    "Xadas" : {
+        "Bilatrecos" : {
+            "Lugar" : "2º",
+            "Pontos" : 10
+        },
+        "Teamfight Tactics" : {
+            "Lugar" : "3º",
+            "Pontos" : 8
+        },
+        "Futbiladas" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
+        },
+        "League of Legends 5x5" : {
+            "Lugar" : "4º",
+            "Pontos" : 2
+        },
+        "Scribbl.io" : {
+            "Lugar" : "8º",
+            "Pontos" : 4
+        },
+        "Rocket League 3x3" : {
+            "Lugar" : "5º",
+            "Pontos" : 2
+        },
+        "Bilabilhar" : {
+            "Lugar" : "7º",
+            "Pontos" : 4
+        }
+    },
+    "Wisdow" : {
+        "Bilatrecos" : {
+            "Lugar" : "1º",
+            "Pontos" : 13
+        },
+        "Teamfight Tactics" : {
+            "Lugar" : "9º",
+            "Pontos" : 3
+        },
+        "Futbiladas" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
+        },
+        "League of Legends 5x5" : {
+            "Lugar" : "2º",
+            "Pontos" : 6
+        },
+        "Scribbl.io" : {
+            "Lugar" : "11º",
+            "Pontos" : 2
+        },
+        "Rocket League 3x3" : {
+            "Lugar" : "4º",
+            "Pontos" : 3
+        },
+        "Bilabilhar" : {
+            "Lugar" : "5º",
+            "Pontos" : 5
+        }
+    },
+    "Mestre Gui" : {
+        "Bilatrecos" : {
+            "Lugar" : "1º",
+            "Pontos" : 13
+        },
+        "Teamfight Tactics" : {
+            "Lugar" : "2º",
+            "Pontos" : 10
+        },
+        "League of Legends 5x5" : {
+            "Lugar" : "4º",
+            "Pontos" : 2
+        },
+        "Scribbl.io" : {
+            "Lugar" : "3º",
+            "Pontos" : 8
+        },
+        "Rocket League 3x3" : {
+            "Lugar" : "5º",
+            "Pontos" : 2
+        }
+    },
+    "Bárbara" : {
+        "Bilatrecos" : {
+            "Lugar" : "2º",
+            "Pontos" : 10
+        },
+        "Teamfight Tactics" : {
+            "Lugar" : "3º",
+            "Pontos" : 8
+        },
+        "Futbiladas" : {
+            "Lugar" : "2º",
+            "Pontos" : 4
+        },
+        "Scribbl.io" : {
+            "Lugar" : "9º",
+            "Pontos" : 3
+        },
+        "Rocket League 3x3" : {
+            "Lugar" : "5º",
+            "Pontos" : 2
+        },
+        "Bilabilhar" : {
+            "Lugar" : "7º",
+            "Pontos" : 4
+        }
+    },
+    "Geremias" : {
+        "Bilatrecos" : {
+            "Lugar" : "5º",
+            "Pontos" : 5
+        },
+        "Teamfight Tactics" : {
+            "Lugar" : "6º",
+            "Pontos" : 5
+        },
+        "Futbiladas" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
+        },
+        "League of Legends 5x5" : {
+            "Lugar" : "4º",
+            "Pontos" : 2
+        },
+        "Scribbl.io" : {
+            "Lugar" : "5º",
+            "Pontos" : 5
+        },
+        "Rocket League 3x3" : {
+            "Lugar" : "5º",
+            "Pontos" : 2
+        },
+        "Bilabilhar" : {
+            "Lugar" : "2º",
+            "Pontos" : 10
+        }
+    },
+    "Braz" : {
+        "Bilatrecos" : {
+            "Lugar" : "4º",
+            "Pontos" : 6
+        },
+        "Teamfight Tactics" : {
+            "Lugar" : "10º",
+            "Pontos" : 3
+        },
+        "Futbiladas" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
+        },
+        "Scribbl.io" : {
+            "Lugar" : "2º",
+            "Pontos" : 10
+        },
+        "Rocket League 3x3" : {
+            "Lugar" : "3º",
+            "Pontos" : 4
+        },
+        "Bilabilhar" : {
+            "Lugar" : "3º",
+            "Pontos" : 8
+        }
+    },
+    "Squnha" : {
+        "Bilatrecos" : {
+            "Lugar" : "6º",
+            "Pontos" : 5
+        },
+        "Teamfight Tactics" : {
+            "Lugar" : "7º",
+            "Pontos" : 4
+        },
+        "Futbiladas" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
+        },
+        "League of Legends 5x5" : {
+            "Lugar" : "3º",
+            "Pontos" : 4
+        },
+        "Scribbl.io" : {
+            "Lugar" : "1º",
+            "Pontos" : 13
+        },
+        "Rocket League 3x3" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
+        },
+        "Bilabilhar" : {
+            "Lugar" : "5º",
+            "Pontos" : 5
+        }
+    },
+    "Cludos" : {
+        "Bilatrecos" : {
+            "Lugar" : "4º",
+            "Pontos" : 6
+        },
+        "Teamfight Tactics" : {
+            "Lugar" : "5º",
+            "Pontos" : 5
+        },
+        "Futbiladas" : {
+            "Lugar" : "2º",
+            "Pontos" : 4
+        },
+        "League of Legends 5x5" : {
+            "Lugar" : "2º",
+            "Pontos" : 6
+        },
+        "Scribbl.io" : {
+            "Lugar" : "7º",
+            "Pontos" : 4
+        },
+        "Rocket League 3x3" : {
+            "Lugar" : "4º",
+            "Pontos" : 3
+        }
+    },
+    "Droga" : {
+        "Teamfight Tactics" : {
+            "Lugar" : "1º",
+            "Pontos" : 13
+        }
+    },
+    "Esquilo" : {
+        "Bilatrecos" : {
+            "Lugar" : "5º",
+            "Pontos" : 5
+        },
+        "Futbiladas" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
+        },
+        "Bilabilhar" : {
+            "Lugar" : "7º",
+            "Pontos" : 4
+        }
+    },
+    "Rodry" : {
+        "Bilatrecos" : {
+            "Lugar" : "6º",
+            "Pontos" : 5
+        },
+        "Futbiladas" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
+        },
+        "League of Legends 5x5" : {
+            "Lugar" : "3º",
+            "Pontos" : 4
+        },
+        "Bilabilhar" : {
+            "Lugar" : "7º",
+            "Pontos" : 4
+        }
+    },
+    "Filipe" : {
+        "Futbiladas" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
+        }
+    },
+    "Lemos" : {
+        "Futbiladas" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
+        },
+        "League of Legends 5x5" : {
+            "Lugar" : "3º",
+            "Pontos" : 4
+        },
+        "Scribbl.io" : {
+            "Lugar" : "6º",
+            "Pontos" : 5
+        },
+        "Rocket League 3x3" : {
+            "Lugar" : "2º",
+            "Pontos" : 6
+        },
+        "Bilabilhar" : {
+            "Lugar" : "1º",
+            "Pontos" : 13
+        }
+    },
+    "Sardoal" : {
+        "Futbiladas" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
+        },
+        "Rocket League 3x3" : {
+            "Lugar" : "4º",
+            "Pontos" : 3
+        },
+        "Bilabilhar" : {
+            "Lugar" : "5º",
+            "Pontos" : 5
+        }
+    },
+    "Simão" : {
+        "Bilatrecos" : {
+            "Lugar" : "3º",
+            "Pontos" : 8
+        }
+    },
+    "Camilo" : {
+        "Bilatrecos" : {
+            "Lugar" : "3º",
+            "Pontos" : 8
+        },
+        "Bilabilhar" : {
+            "Lugar" : "7º",
+            "Pontos" : 4
+        }
+    },
+    "Hydra" : {
+        "Teamfight Tactics" : {
+            "Lugar" : "8º",
+            "Pontos" : 4
+        },
+        "Futbiladas" : {
+            "Lugar" : "2º",
+            "Pontos" : 4
+        },
+        "League of Legends 5x5" : {
+            "Lugar" : "2º",
+            "Pontos" : 6
+        },
+        "Scribbl.io" : {
+            "Lugar" : "10º",
+            "Pontos" : 3
+        },
+        "Rocket League 3x3" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
+        },
+        "Bilabilhar" : {
+            "Lugar" : "4º",
+            "Pontos" : 6
+        }
+    },
+    "João Nuno" : {
+        "Teamfight Tactics" : {
+            "Lugar" : "9º",
+            "Pontos" : 3
+        },
+        "Futbiladas" : {
+            "Lugar" : "2º",
+            "Pontos" : 4
+        },
+        "League of Legends 5x5" : {
+            "Lugar" : "3º",
+            "Pontos" : 4
+        },
+        "Bilabilhar" : {
+            "Lugar" : "3º",
+            "Pontos" : 8
+        }
+    },
+    "Serino" : {
+        "Futbiladas" : {
+            "Lugar" : "2º",
+            "Pontos" : 4
+        }
+    },
+    "Areias" : {
+        "Futbiladas" : {
+            "Lugar" : "2º",
+            "Pontos" : 4
+        },
+        "League of Legends 5x5" : {
+            "Lugar" : "4º",
+            "Pontos" : 2
+        }
+    },
+    "Tone" : {
+        "Futbiladas" : {
+            "Lugar" : "2º",
+            "Pontos" : 4
+        },
+        "Rocket League 3x3" : {
+            "Lugar" : "2º",
+            "Pontos" : 6
+        },
+        "Bilabilhar" : {
+            "Lugar" : "4º",
+            "Pontos" : 6
+        }
+    },
+    "Rui" : {
+        "Futbiladas" : {
+            "Lugar" : "2º",
+            "Pontos" : 4
+        }
+    },
+    "Costa" : {
+        "Futbiladas" : {
+            "Lugar" : "2º",
+            "Pontos" : 4
+        }
+    },
+    "Zé Afonso" : {
+        "Futbiladas" : {
+            "Lugar" : "2º",
+            "Pontos" : 4
+        },
+        "League of Legends 5x5" : {
+            "Lugar" : "1º",
+            "Pontos" : 8,
+            "Penalização" : -6,
+            "Penalização Justificativa" : "Penalização por faltar"
+        }
+    },
+    "Lekky" : {
+        "Teamfight Tactics" : {
+            "Lugar" : "10º",
+            "Pontos" : 3
+        },
+        "League of Legends 5x5" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
+        },
+        "Scribbl.io" : {
+            "Lugar" : "12º",
+            "Pontos" : 2
+        },
+        "Rocket League 3x3" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
+        },
+        "Bilabilhar" : {
+            "Lugar" : "1º",
+            "Pontos" : 13
+        }
+    },
+    "Frazão" : {
+        "League of Legends 5x5" : {
+            "Lugar" : "4º",
+            "Pontos" : 2
+        },
+        "Scribbl.io" : {
+            "Lugar" : "4º",
+            "Pontos" : 6
+        },
+        "Rocket League 3x3" : {
+            "Lugar" : "5º",
+            "Pontos" : 2
+        }
+    },
+    "Gelly" : {
+        "League of Legends 5x5" : {
+            "Lugar" : "3º",
+            "Pontos" : 4
+        },
+        "Rocket League 3x3" : {
+            "Lugar" : "2º",
+            "Pontos" : 6
+        },
+        "Bilabilhar" : {
+            "Lugar" : "7º",
+            "Pontos" : 4
+        }
+    },
+    "Gama" : {
+        "League of Legends 5x5" : {
+            "Lugar" : "2º",
+            "Pontos" : 6
+        }
+    },
+    "Russo" : {
+        "League of Legends 5x5" : {
+            "Lugar" : "2º",
+            "Pontos" : 6
+        }
+    },
+    "Madmess" : {
+        "League of Legends 5x5" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
+        }
+    },
+    "Omniomm" : {
+        "League of Legends 5x5" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
+        }
+    },
+    "Frost" : {
+        "League of Legends 5x5" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
+        }
+    },
+    "Escher" : {
+        "Rocket League 3x3" : {
+            "Lugar" : "3º",
+            "Pontos" : 4
+        }
+    },
+    "Atlas" : {
+        "Rocket League 3x3" : {
+            "Lugar" : "3º",
+            "Pontos" : 4
+        }
+    },
+    "Alcunha" : {
+        "Rocket League 3x3" : {
+            "Lugar" : "5º",
+            "Pontos" : 2
+        },
+        "Bilabilhar" : {
+            "Lugar" : "2º",
+            "Pontos" : 10
+        }
+    },
+    "Migas" : {
+        "Bilabilhar" : {
+            "Lugar" : "5º",
+            "Pontos" : 5
+        }
+    }
+}
