@@ -40,9 +40,9 @@ const App = () => {
                 <Route path="/bila-olimpiadas/rankings/cs25x5" element={<CounterStrike5x5 />} />
                 <Route path="/bila-olimpiadas/rankings/basquetiladas" element={<Basquetiladas />} />
 
-                <Route path="/bila-olimpiadas/calendar/marco" element={<MarcoCalendar />} />
-                <Route path="/bila-olimpiadas/calendar/abril" element={<AbrilCalendar />} />
-                <Route path="/bila-olimpiadas/calendar/maio" element={<MaioCalendar />} />
+                <Route path="/bila-olimpiadas/calendario/marco" element={<MarcoCalendar />} />
+                <Route path="/bila-olimpiadas/calendario/abril" element={<AbrilCalendar />} />
+                <Route path="/bila-olimpiadas/calendario/maio" element={<MaioCalendar />} />
                 {/* Adicione outras rotas aqui */}
             </Routes>
         </Router>
