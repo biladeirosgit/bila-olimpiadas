@@ -35,7 +35,7 @@ const LOL5x5 = () => {
                                         <td>
                                             <div style={{display:"block"}}>
                                                 <img 
-                                                    src={`bila-olimpiadas/images/${player.Nome}.png`} 
+                                                    src={`https://biladeirosgit.github.io/bila-olimpiadas/images/${player.Nome}.png`} 
                                                     alt={player.Nome} 
                                                     className="player-image"
                                                     style={{width:"50px",borderRadius:"50%"}}
