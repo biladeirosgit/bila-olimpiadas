@@ -9,7 +9,7 @@ const Navebar = () => {
     return (
         <>
         <ul className="nav site-nav">
-            <li><img src="images/logo.png" alt="logo" style= {{width:"auto", height: "60px"}}/></li>
+            <li><img src="bila-olimpiadas/images/logo.png" alt="logo" style= {{width:"auto", height: "60px"}}/></li>
             <li><Link to={"/bila-olimpiadas/"}>Home</Link></li>
             <li className='flyout'>
                 <a>Rankings</a>
