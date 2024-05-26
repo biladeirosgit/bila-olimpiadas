@@ -27,6 +27,10 @@
         "Bilabilhar" : {
             "Lugar" : "7º",
             "Pontos" : 4
+        },
+        "Brawlhalla" : {
+            "Lugar" : "5º",
+            "Pontos" : 5
         }
     },
     "Wisdow" : {
@@ -57,6 +61,10 @@
         "Bilabilhar" : {
             "Lugar" : "5º",
             "Pontos" : 5
+        },
+        "Brawlhalla" : {
+            "Lugar" : "2º",
+            "Pontos" : 10
         }
     },
     "Mestre Gui" : {
@@ -79,6 +87,10 @@
         "Rocket League 3x3" : {
             "Lugar" : "5º",
             "Pontos" : 2
+        },
+        "Brawlhalla" : {
+            "Lugar" : "5º",
+            "Pontos" : 5
         }
     },
     "Bárbara" : {
@@ -135,6 +147,10 @@
         "Bilabilhar" : {
             "Lugar" : "2º",
             "Pontos" : 10
+        },
+        "Brawlhalla" : {
+            "Lugar" : "7º",
+            "Pontos" : 4
         }
     },
     "Braz" : {
@@ -191,6 +207,10 @@
         "Bilabilhar" : {
             "Lugar" : "5º",
             "Pontos" : 5
+        },
+        "Brawlhalla" : {
+            "Lugar" : "7º",
+            "Pontos" : 4
         }
     },
     "Cludos" : {
@@ -217,6 +237,10 @@
         "Rocket League 3x3" : {
             "Lugar" : "4º",
             "Pontos" : 3
+        },
+        "Brawlhalla" : {
+            "Lugar" : "3º",
+            "Pontos" : 8
         }
     },
     "Droga" : {
@@ -339,6 +363,10 @@
         "Bilabilhar" : {
             "Lugar" : "4º",
             "Pontos" : 6
+        },
+        "Brawlhalla" : {
+            "Lugar" : "7º",
+            "Pontos" : 4
         }
     },
     "João Nuno" : {
@@ -461,6 +489,10 @@
         "Bilabilhar" : {
             "Lugar" : "7º",
             "Pontos" : 4
+        },
+        "Brawlhalla" : {
+            "Lugar" : "1º",
+            "Pontos" : 13
         }
     },
     "Gama" : {
@@ -519,6 +551,12 @@
         "Bilabilhar" : {
             "Lugar" : "5º",
             "Pontos" : 5
+        }
+    },
+    "XSitlo" : {
+        "Brawlhalla" : {
+            "Lugar" : "4º",
+            "Pontos" : 6
         }
     }
 }
