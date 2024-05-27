@@ -1,7 +1,7 @@
 // src/App.js
 
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route, HashRouter } from "react-router-dom";
 import BilaOlimpiadasPage from './bo/BilaOlimpiadasPage';
 import Rankings from './bo/rankings/Rankings';
 import Bilatrecos from './bo/rankings/marco/Bilatrecos';
@@ -24,28 +24,28 @@ import MaioCalendar from './bo/calendario/MaioCalendar';
 
 const App = () => {
     return (
-        <Router>
+        <HashRouter>
             <Routes>
-                <Route path="/bila-olimpiadas" element={<BilaOlimpiadasPage />} />
-                <Route path="/bila-olimpiadas/rankings" element={<Rankings />} />
-                <Route path="/bila-olimpiadas/rankings/bilatrecos" element={<Bilatrecos />} />
-                <Route path="/bila-olimpiadas/rankings/tft" element={<TFT />} />
-                <Route path="/bila-olimpiadas/rankings/futbiladas" element={<Futbiladas />} />
-                <Route path="/bila-olimpiadas/rankings/lol5x5" element={<LOL5x5 />} />
-                <Route path="/bila-olimpiadas/rankings/rocketleague" element={<RocketLeague3x3 />} />
-                <Route path="/bila-olimpiadas/rankings/scribblio" element={<Scribblio />} />
-                <Route path="/bila-olimpiadas/rankings/sueca" element={<Sueca />} />
-                <Route path="/bila-olimpiadas/rankings/brawlhalla" element={<Brawlhalla />} />
-                <Route path="/bila-olimpiadas/rankings/bilabilhar" element={<Bilabilhar />} />
-                <Route path="/bila-olimpiadas/rankings/cs25x5" element={<CounterStrike5x5 />} />
-                <Route path="/bila-olimpiadas/rankings/basquetiladas" element={<Basquetiladas />} />
+                <Route path="" element={<BilaOlimpiadasPage />} />
+                <Route path="/rankings" element={<Rankings />} />
+                <Route path="/rankings/bilatrecos" element={<Bilatrecos />} />
+                <Route path="/rankings/tft" element={<TFT />} />
+                <Route path="/rankings/futbiladas" element={<Futbiladas />} />
+                <Route path="/rankings/lol5x5" element={<LOL5x5 />} />
+                <Route path="/rankings/rocketleague" element={<RocketLeague3x3 />} />
+                <Route path="/rankings/scribblio" element={<Scribblio />} />
+                <Route path="/rankings/sueca" element={<Sueca />} />
+                <Route path="/rankings/brawlhalla" element={<Brawlhalla />} />
+                <Route path="/rankings/bilabilhar" element={<Bilabilhar />} />
+                <Route path="/rankings/cs25x5" element={<CounterStrike5x5 />} />
+                <Route path="/rankings/basquetiladas" element={<Basquetiladas />} />
 
-                <Route path="/bila-olimpiadas/calendario/marco" element={<MarcoCalendar />} />
-                <Route path="/bila-olimpiadas/calendario/abril" element={<AbrilCalendar />} />
-                <Route path="/bila-olimpiadas/calendario/maio" element={<MaioCalendar />} />
+                <Route path="/calendario/marco" element={<MarcoCalendar />} />
+                <Route path="/calendario/abril" element={<AbrilCalendar />} />
+                <Route path="/calendario/maio" element={<MaioCalendar />} />
                 {/* Adicione outras rotas aqui */}
             </Routes>
-        </Router>
+        </HashRouter>
     );
 }
 

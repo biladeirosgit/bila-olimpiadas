@@ -8,7 +8,7 @@ const AbrilCalendar = () => {
             <Navebar/>
 
             <div class="w3-container w3-center">
-                <img src="https://biladeirosgit.github.io/bila-olimpiadas/images/abril.png" alt="logo"/>
+                <img style={{width:"80%"}} src="https://biladeirosgit.github.io/bila-olimpiadas/images/abril.png" alt="logo"/>
             </div>
             <Footer/>
         </div>
