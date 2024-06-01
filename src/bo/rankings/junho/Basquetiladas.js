@@ -46,7 +46,10 @@ const Basquetiladas = () => {
                        <b>Pts</b> - Pontos Ganhos | <b>R</b> - Resultados
                      </p>
                  </div>
-                 <div className="w3-container">
+                 <br></br>
+                 <br></br>
+                 <br></br>
+                 <div className="w3-container w3-center" style={{ width: "60%", display: "inline-block" }}>
                     <table className="rankings-table w3-table w3-centered w3-table-all w3-hoverable">
                             <thead>
                                     <tr>
