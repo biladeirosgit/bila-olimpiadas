@@ -31,6 +31,10 @@
         "Brawlhalla" : {
             "Lugar" : "5º",
             "Pontos" : 5
+        },
+        "Basquetiladas" : {
+            "Lugar" : "2º",
+            "Pontos" : 6
         }
     },
     "Wisdow" : {
@@ -117,6 +121,10 @@
         "Bilabilhar" : {
             "Lugar" : "7º",
             "Pontos" : 4
+        },
+        "Basquetiladas" : {
+            "Lugar" : "2º",
+            "Pontos" : 6
         }
     },
     "Geremias" : {
@@ -177,6 +185,10 @@
         "Bilabilhar" : {
             "Lugar" : "3º",
             "Pontos" : 8
+        },
+        "Basquetiladas" : {
+            "Lugar" : "2º",
+            "Pontos" : 6
         }
     },
     "Squnha" : {
@@ -211,6 +223,10 @@
         "Brawlhalla" : {
             "Lugar" : "7º",
             "Pontos" : 4
+        },
+        "Basquetiladas" : {
+            "Lugar" : "3º",
+            "Pontos" : 4
         }
     },
     "Cludos" : {
@@ -241,6 +257,10 @@
         "Brawlhalla" : {
             "Lugar" : "3º",
             "Pontos" : 8
+        },
+        "Basquetiladas" : {
+            "Lugar" : "3º",
+            "Pontos" : 4
         }
     },
     "Droga" : {
@@ -261,6 +281,10 @@
         "Bilabilhar" : {
             "Lugar" : "7º",
             "Pontos" : 4
+        },
+        "Basquetiladas" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
         }
     },
     "Rodry" : {
@@ -391,6 +415,10 @@
         "Futbiladas" : {
             "Lugar" : "2º",
             "Pontos" : 4
+        },
+        "Basquetiladas" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
         }
     },
     "Areias" : {
@@ -557,6 +585,18 @@
         "Brawlhalla" : {
             "Lugar" : "4º",
             "Pontos" : 6
+        }
+    },
+    "Zé" : {
+        "Basquetiladas" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
+        }
+    },
+    "Diogo" : {
+        "Basquetiladas" : {
+            "Lugar" : "3º",
+            "Pontos" : 4
         }
     }
 }
