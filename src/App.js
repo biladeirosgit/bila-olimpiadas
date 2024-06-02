@@ -19,6 +19,7 @@ import Basquetiladas from './bo/rankings/junho/Basquetiladas';
 import MarcoCalendar from './bo/calendario/MarcoCalendar';
 import AbrilCalendar from './bo/calendario/AbrilCalendar';
 import MaioCalendar from './bo/calendario/MaioCalendar';
+import JunhoCalendar from './bo/calendario/JunhoCalendar';
 
 
 
@@ -43,6 +44,7 @@ const App = () => {
                 <Route path="/calendario/marco" element={<MarcoCalendar />} />
                 <Route path="/calendario/abril" element={<AbrilCalendar />} />
                 <Route path="/calendario/maio" element={<MaioCalendar />} />
+                <Route path="/calendario/junho" element={<JunhoCalendar />} />
                 {/* Adicione outras rotas aqui */}
             </Routes>
         </HashRouter>
