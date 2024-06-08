@@ -35,6 +35,10 @@
         "Basquetiladas" : {
             "Lugar" : "2º",
             "Pontos" : 6
+        },
+        "CounterStrike 2" : {
+            "Lugar" : "4º",
+            "Pontos" : 2
         }
     },
     "Wisdow" : {
@@ -69,6 +73,10 @@
         "Brawlhalla" : {
             "Lugar" : "2º",
             "Pontos" : 10
+        },
+        "CounterStrike 2" : {
+            "Lugar" : "3º",
+            "Pontos" : 4
         }
     },
     "Mestre Gui" : {
@@ -159,6 +167,10 @@
         "Brawlhalla" : {
             "Lugar" : "7º",
             "Pontos" : 4
+        },
+        "CounterStrike 2" : {
+            "Lugar" : "4º",
+            "Pontos" : 2
         }
     },
     "Braz" : {
@@ -189,6 +201,10 @@
         "Basquetiladas" : {
             "Lugar" : "2º",
             "Pontos" : 6
+        },
+        "CounterStrike 2" : {
+            "Lugar" : "4º",
+            "Pontos" : 2
         }
     },
     "Squnha" : {
@@ -227,6 +243,10 @@
         "Basquetiladas" : {
             "Lugar" : "3º",
             "Pontos" : 4
+        },
+        "CounterStrike 2" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
         }
     },
     "Cludos" : {
@@ -261,6 +281,10 @@
         "Basquetiladas" : {
             "Lugar" : "3º",
             "Pontos" : 4
+        },
+        "CounterStrike 2" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
         }
     },
     "Droga" : {
@@ -303,6 +327,10 @@
         "Bilabilhar" : {
             "Lugar" : "7º",
             "Pontos" : 4
+        },
+        "CounterStrike 2" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
         }
     },
     "Filipe" : {
@@ -331,6 +359,10 @@
         "Bilabilhar" : {
             "Lugar" : "1º",
             "Pontos" : 13
+        },
+        "CounterStrike 2" : {
+            "Lugar" : "2º",
+            "Pontos" : 6
         }
     },
     "Sardoal" : {
@@ -345,6 +377,10 @@
         "Bilabilhar" : {
             "Lugar" : "5º",
             "Pontos" : 5
+        },
+        "CounterStrike 2" : {
+            "Lugar" : "3º",
+            "Pontos" : 4
         }
     },
     "Simão" : {
@@ -391,6 +427,12 @@
         "Brawlhalla" : {
             "Lugar" : "7º",
             "Pontos" : 4
+        },
+        "CounterStrike 2" : {
+            "Lugar" : "2º",
+            "Pontos" : 6,
+            "Penalização" : -1,
+            "Penalização Justificativa" : "Penalização por faltar 1 jogo"
         }
     },
     "João Nuno" : {
@@ -409,6 +451,10 @@
         "Bilabilhar" : {
             "Lugar" : "3º",
             "Pontos" : 8
+        },
+        "CounterStrike 2" : {
+            "Lugar" : "4º",
+            "Pontos" : 2
         }
     },
     "Serino" : {
@@ -443,6 +489,12 @@
         "Bilabilhar" : {
             "Lugar" : "4º",
             "Pontos" : 6
+        },
+        "CounterStrike 2" : {
+            "Lugar" : "2º",
+            "Pontos" : 6,
+            "Penalização" : -3,
+            "Penalização Justificativa" : "Penalização por faltar 2 jogos"
         }
     },
     "Rui" : {
@@ -489,6 +541,12 @@
         "Bilabilhar" : {
             "Lugar" : "1º",
             "Pontos" : 13
+        },
+        "CounterStrike 2" : {
+            "Lugar" : "2º",
+            "Pontos" : 6,
+            "Penalização" : -12,
+            "Penalização Justificativa" : "Penalização por faltar todos os jogos"
         }
     },
     "Frazão" : {
@@ -521,6 +579,10 @@
         "Brawlhalla" : {
             "Lugar" : "1º",
             "Pontos" : 13
+        },
+        "CounterStrike 2" : {
+            "Lugar" : "2º",
+            "Pontos" : 6
         }
     },
     "Gama" : {
@@ -573,6 +635,10 @@
         "Bilabilhar" : {
             "Lugar" : "2º",
             "Pontos" : 10
+        },
+        "CounterStrike 2" : {
+            "Lugar" : "4º",
+            "Pontos" : 2
         }
     },
     "Migas" : {
@@ -595,6 +661,36 @@
     },
     "Diogo" : {
         "Basquetiladas" : {
+            "Lugar" : "3º",
+            "Pontos" : 4
+        }
+    },
+    "Mestre Diogo" : {
+        "CounterStrike 2" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
+        }
+    },
+    "Xavier" : {
+        "CounterStrike 2" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
+        }
+    },
+    "Joãozinho" : {
+        "CounterStrike 2" : {
+            "Lugar" : "3º",
+            "Pontos" : 4
+        }
+    },
+    "João Tavares" : {
+        "CounterStrike 2" : {
+            "Lugar" : "3º",
+            "Pontos" : 4
+        }
+    },
+    "Lobato" : {
+        "CounterStrike 2" : {
             "Lugar" : "3º",
             "Pontos" : 4
         }
