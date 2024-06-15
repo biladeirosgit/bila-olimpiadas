@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Rankings.css';
-import Navebar from './../Navebar';
-import Footer from './../Footer';
+import Navebar from '../Navebar';
+import Footer from '../Footer';
 import rankingsjson from "./rankings.json";
 
-const Rankings = () => {
+const RankingsPresencial = () => {
 
     const [expandedPlayer, setExpandedPlayer] = useState(null);
+
+    const presencial = ["Bilatrecos","Futbiladas","Bilabilhar","Basquetiladas"]
 
     const togglePlayerDetails = (playerName) => {
         if (expandedPlayer === playerName) {
@@ -28,16 +30,18 @@ const Rankings = () => {
             "torneios" : []
         }
         for (var torneio in torneios){
-            rankings[player]["pr"] += 1
-            rankings[player]["pts"] += torneios[torneio]["Pontos"]
-            if ("Penalização" in torneios[torneio]) {
-                rankings[player]["pts"] += torneios[torneio]["Penalização"]
+            if (presencial.includes(torneio)){
+                rankings[player]["pr"] += 1
+                rankings[player]["pts"] += torneios[torneio]["Pontos"]
+                if ("Penalização" in torneios[torneio]) {
+                    rankings[player]["pts"] += torneios[torneio]["Penalização"]
+                }
+                if (torneios[torneio]["Lugar"] === "1º"){
+                    rankings[player]["tg"] += 1
+                }
+                rankings[player]["mpp"] = rankings[player]["pts"] / rankings[player]["pr"]
+                rankings[player]["mpp"] = parseFloat(rankings[player]["mpp"].toFixed(2))
             }
-            if (torneios[torneio]["Lugar"] === "1º"){
-                rankings[player]["tg"] += 1
-            }
-            rankings[player]["mpp"] = rankings[player]["pts"] / rankings[player]["pr"]
-            rankings[player]["mpp"] = parseFloat(rankings[player]["mpp"].toFixed(2))
         }
     }
 
@@ -155,4 +159,4 @@ const Rankings = () => {
     );
 }
 
-export default Rankings;
+export default RankingsPresencial;

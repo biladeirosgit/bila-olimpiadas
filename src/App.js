@@ -4,6 +4,7 @@ import React from 'react';
 import { Routes, Route, HashRouter } from "react-router-dom";
 import BilaOlimpiadasPage from './bo/BilaOlimpiadasPage';
 import Rankings from './bo/rankings/Rankings';
+import RankingsPresencial from './bo/rankings/RankingsPresencial';
 import Bilatrecos from './bo/rankings/marco/Bilatrecos';
 import TFT from './bo/rankings/marco/TFT';
 import Futbiladas from './bo/rankings/marco/Futbiladas';
@@ -31,6 +32,7 @@ const App = () => {
             <Routes>
                 <Route path="" element={<BilaOlimpiadasPage />} />
                 <Route path="/rankings" element={<Rankings />} />
+                <Route path="/rankings/presencial" element={<RankingsPresencial />} />
                 <Route path="/rankings/bilatrecos" element={<Bilatrecos />} />
                 <Route path="/rankings/tft" element={<TFT />} />
                 <Route path="/rankings/futbiladas" element={<Futbiladas />} />
