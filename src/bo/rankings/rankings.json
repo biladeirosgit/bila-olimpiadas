@@ -39,6 +39,10 @@
         "CounterStrike 2" : {
             "Lugar" : "4º",
             "Pontos" : 2
+        },
+        "Overwatch 2" : {
+            "Lugar" : "2º",
+            "Pontos" : 6
         }
     },
     "Wisdow" : {
@@ -77,6 +81,10 @@
         "CounterStrike 2" : {
             "Lugar" : "3º",
             "Pontos" : 4
+        },
+        "Overwatch 2" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
         }
     },
     "Mestre Gui" : {
@@ -171,6 +179,10 @@
         "CounterStrike 2" : {
             "Lugar" : "4º",
             "Pontos" : 2
+        },
+        "Overwatch 2" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
         }
     },
     "Braz" : {
@@ -205,6 +217,10 @@
         "CounterStrike 2" : {
             "Lugar" : "4º",
             "Pontos" : 2
+        },
+        "Overwatch 2" : {
+            "Lugar" : "2º",
+            "Pontos" : 6
         }
     },
     "Squnha" : {
@@ -247,6 +263,10 @@
         "CounterStrike 2" : {
             "Lugar" : "1º",
             "Pontos" : 8
+        },
+        "Overwatch 2" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
         }
     },
     "Cludos" : {
@@ -283,6 +303,10 @@
             "Pontos" : 4
         },
         "CounterStrike 2" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
+        },
+        "Overwatch 2" : {
             "Lugar" : "1º",
             "Pontos" : 8
         }
@@ -329,6 +353,10 @@
             "Pontos" : 4
         },
         "CounterStrike 2" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
+        },
+        "Overwatch 2" : {
             "Lugar" : "1º",
             "Pontos" : 8
         }
@@ -433,6 +461,12 @@
             "Pontos" : 6,
             "Penalização" : -1,
             "Penalização Justificativa" : "Penalização por faltar 1 jogo"
+        },
+        "Overwatch 2" : {
+            "Lugar" : "-",
+            "Pontos" : 0,
+            "Penalização" : -6,
+            "Penalização Justificativa" : "Penalização por faltar"
         }
     },
     "João Nuno" : {
@@ -455,6 +489,10 @@
         "CounterStrike 2" : {
             "Lugar" : "4º",
             "Pontos" : 2
+        },
+        "Overwatch 2" : {
+            "Lugar" : "2º",
+            "Pontos" : 6
         }
     },
     "Serino" : {
@@ -543,9 +581,9 @@
             "Pontos" : 13
         },
         "CounterStrike 2" : {
-            "Lugar" : "2º",
-            "Pontos" : 6,
-            "Penalização" : -12,
+            "Lugar" : "-",
+            "Pontos" : 0,
+            "Penalização" : -6,
             "Penalização Justificativa" : "Penalização por faltar todos os jogos"
         }
     },
@@ -619,12 +657,20 @@
         "Rocket League 3x3" : {
             "Lugar" : "3º",
             "Pontos" : 4
+        },
+        "Overwatch 2" : {
+            "Lugar" : "2º",
+            "Pontos" : 6
         }
     },
     "Atlas" : {
         "Rocket League 3x3" : {
             "Lugar" : "3º",
             "Pontos" : 4
+        },
+        "Overwatch 2" : {
+            "Lugar" : "2º",
+            "Pontos" : 6
         }
     },
     "Alcunha" : {
@@ -693,6 +739,36 @@
         "CounterStrike 2" : {
             "Lugar" : "3º",
             "Pontos" : 4
+        }
+    },
+    "Xiro" : {
+        "Overwatch 2" : {
+            "Lugar" : "3º",
+            "Pontos" : 4
+        }
+    },
+    "g0mes_26" : {
+        "Overwatch 2" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
+        }
+    },
+    "simas7559" : {
+        "Overwatch 2" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
+        }
+    },
+    "xxbrunoxx2514" : {
+        "Overwatch 2" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
+        }
+    },
+    "Shanks" : {
+        "Overwatch 2" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
         }
     }
 }
