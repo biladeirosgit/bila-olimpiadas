@@ -33,6 +33,9 @@ const App = () => {
                 <Route path="" element={<BilaOlimpiadasPage />} />
                 <Route path="/rankings" element={<Rankings />} />
                 <Route path="/rankings/presencial" element={<RankingsPresencial />} />
+                <Route path="/rankings/grupo" element={<RankingsGrupo />} />
+                <Route path="/rankings/individual" element={<RankingsIndividual />} />
+                <Route path="/rankings/online" element={<RankingsOnline />} />
                 <Route path="/rankings/bilatrecos" element={<Bilatrecos />} />
                 <Route path="/rankings/tft" element={<TFT />} />
                 <Route path="/rankings/futbiladas" element={<Futbiladas />} />
