@@ -120,14 +120,15 @@ const RankingsGrupo = () => {
                                                     <div className="player-details">
                                                         <h5 key={torneio}><b>Participações</b></h5>
                                                         {Object.keys(rankingsjson[player.name]).map(torneio => (
-                                                            <>
+                                                            <> 
+                                                                (grupo.includes(torneio) &&
                                                                 <p><b>Torneio: </b>{torneio}</p>
                                                                 <p><b>Lugar: </b>{rankingsjson[player.name][torneio]["Lugar"]}</p>
                                                                 <p><b>Pontos Ganhos: </b>{rankingsjson[player.name][torneio]["Pontos"]}</p>
                                                                 {rankingsjson[player.name][torneio]["Penalização"] && (
                                                                     <p><b>Penalização:</b> {rankingsjson[player.name][torneio]["Penalização"]} ({rankingsjson[player.name][torneio]["Penalização Justificativa"]}) </p>
                                                                 )}
-                                                                <br></br>
+                                                                <br></br>)
                                                             </>                                                        ))}
                                                     </div>
                                                 </td>
