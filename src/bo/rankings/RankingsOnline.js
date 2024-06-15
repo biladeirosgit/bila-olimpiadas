@@ -119,7 +119,7 @@ const RankingsOnline = () => {
                                                     <div className="player-details">
                                                         <h5 key={torneio}><b>Participações</b></h5>
                                                         {Object.keys(rankingsjson[player.name]).map(torneio => (
-                                                            <> (online.includes(torneio) && 
+                                                            online.includes(torneio) && (<> 
                                                                 <p><b>Torneio: </b>{torneio}</p>
                                                                 <p><b>Lugar: </b>{rankingsjson[player.name][torneio]["Lugar"]}</p>
                                                                 <p><b>Pontos Ganhos: </b>{rankingsjson[player.name][torneio]["Pontos"]}</p>
@@ -127,8 +127,8 @@ const RankingsOnline = () => {
                                                                     <p><b>Penalização:</b> {rankingsjson[player.name][torneio]["Penalização"]} ({rankingsjson[player.name][torneio]["Penalização Justificativa"]}) </p>
                                                                 )}
                                                                 <br></br>
-                                                                )
-                                                            </>                                                        ))}
+                                                                
+                                                            </> )                                                       ))}
                                                     </div>
                                                 </td>
                                             </tr>
