@@ -43,6 +43,14 @@
         "Overwatch 2" : {
             "Lugar" : "2º",
             "Pontos" : 6
+        },
+        "AmongUs" : {
+            "Lugar" : "6º",
+            "Pontos" : 5
+        },
+        "EscapeRoom" : {
+            "Lugar" : "2º",
+            "Pontos" : 4
         }
     },
     "Wisdow" : {
@@ -85,6 +93,14 @@
         "Overwatch 2" : {
             "Lugar" : "3º",
             "Pontos" : 4
+        },
+        "AmongUs" : {
+            "Lugar" : "9º",
+            "Pontos" : 3
+        },
+        "EscapeRoom" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
         }
     },
     "Mestre Gui" : {
@@ -111,6 +127,14 @@
         "Brawlhalla" : {
             "Lugar" : "5º",
             "Pontos" : 5
+        },
+        "AmongUs" : {
+            "Lugar" : "1º",
+            "Pontos" : 13
+        },
+        "EscapeRoom" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
         }
     },
     "Bárbara" : {
@@ -141,6 +165,14 @@
         "Basquetiladas" : {
             "Lugar" : "2º",
             "Pontos" : 6
+        },
+        "AmongUs" : {
+            "Lugar" : "5º",
+            "Pontos" : 5
+        },
+        "EscapeRoom" : {
+            "Lugar" : "2º",
+            "Pontos" : 4
         }
     },
     "Geremias" : {
@@ -183,6 +215,14 @@
         "Overwatch 2" : {
             "Lugar" : "3º",
             "Pontos" : 4
+        },
+        "AmongUs" : {
+            "Lugar" : "8º",
+            "Pontos" : 4
+        },
+        "EscapeRoom" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
         }
     },
     "Braz" : {
@@ -221,6 +261,10 @@
         "Overwatch 2" : {
             "Lugar" : "2º",
             "Pontos" : 6
+        },
+        "EscapeRoom" : {
+            "Lugar" : "2º",
+            "Pontos" : 4
         }
     },
     "Squnha" : {
@@ -267,6 +311,14 @@
         "Overwatch 2" : {
             "Lugar" : "3º",
             "Pontos" : 4
+        },
+        "AmongUs" : {
+            "Lugar" : "2º",
+            "Pontos" : 10
+        },
+        "EscapeRoom" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
         }
     },
     "Cludos" : {
@@ -309,6 +361,14 @@
         "Overwatch 2" : {
             "Lugar" : "3º",
             "Pontos" : 4
+        },
+        "AmongUs" : {
+            "Lugar" : "4º",
+            "Pontos" : 6
+        },
+        "EscapeRoom" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
         }
     },
     "Droga" : {
@@ -409,6 +469,10 @@
         "CounterStrike 2" : {
             "Lugar" : "3º",
             "Pontos" : 4
+        },
+        "EscapeRoom" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
         }
     },
     "Simão" : {
@@ -425,6 +489,10 @@
         "Bilabilhar" : {
             "Lugar" : "7º",
             "Pontos" : 4
+        },
+        "EscapeRoom" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
         }
     },
     "Hydra" : {
@@ -467,6 +535,10 @@
             "Pontos" : 0,
             "Penalização" : -6,
             "Penalização Justificativa" : "Penalização por faltar"
+        },
+        "AmongUs" : {
+            "Lugar" : "3º",
+            "Pontos" : 8
         }
     },
     "João Nuno" : {
@@ -493,6 +565,10 @@
         "Overwatch 2" : {
             "Lugar" : "2º",
             "Pontos" : 6
+        },
+        "EscapeRoom" : {
+            "Lugar" : "2º",
+            "Pontos" : 4
         }
     },
     "Serino" : {
@@ -599,6 +675,10 @@
         "Rocket League 3x3" : {
             "Lugar" : "5º",
             "Pontos" : 2
+        },
+        "AmongUs" : {
+            "Lugar" : "7º",
+            "Pontos" : 4
         }
     },
     "Gelly" : {
@@ -627,6 +707,10 @@
         "League of Legends 5x5" : {
             "Lugar" : "2º",
             "Pontos" : 6
+        },
+        "EscapeRoom" : {
+            "Lugar" : "2º",
+            "Pontos" : 4
         }
     },
     "Russo" : {

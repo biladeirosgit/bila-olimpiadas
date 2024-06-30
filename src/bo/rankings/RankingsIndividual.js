@@ -9,7 +9,7 @@ const RankingsIndividual = () => {
 
     const [expandedPlayer, setExpandedPlayer] = useState(null);
 
-    const individual = ["Teamfight Tactics","Scribbl.io","Brawlhalla"]
+    const individual = ["Teamfight Tactics","Scribbl.io","Brawlhalla","AmongUs"]
 
 
     const togglePlayerDetails = (playerName) => {

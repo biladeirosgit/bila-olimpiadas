@@ -9,7 +9,7 @@ const RankingsPresencial = () => {
 
     const [expandedPlayer, setExpandedPlayer] = useState(null);
 
-    const presencial = ["Bilatrecos","Futbiladas","Bilabilhar","Basquetiladas"]
+    const presencial = ["Bilatrecos","Futbiladas","Bilabilhar","Basquetiladas", "EscapeRoom"]
 
     const togglePlayerDetails = (playerName) => {
         if (expandedPlayer === playerName) {

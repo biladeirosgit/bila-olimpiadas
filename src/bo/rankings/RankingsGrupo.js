@@ -9,7 +9,7 @@ const RankingsGrupo = () => {
 
     const [expandedPlayer, setExpandedPlayer] = useState(null);
 
-    const grupo = ["Bilatrecos","Futbiladas","League of Legends 5x5","Bilabilhar","Basquetiladas","CounterStrike 2","Overwatch 2"]
+    const grupo = ["Bilatrecos","Futbiladas","League of Legends 5x5","Bilabilhar","Basquetiladas","CounterStrike 2","Overwatch 2","EscapeRoom"]
 
 
     const togglePlayerDetails = (playerName) => {

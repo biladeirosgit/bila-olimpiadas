@@ -21,6 +21,8 @@ import Brawlhalla from './bo/rankings/maio/Brawlhalla';
 import CounterStrike5x5 from './bo/rankings/maio/CounterStrike5x5';
 import Basquetiladas from './bo/rankings/junho/Basquetiladas';
 import Overwatch from './bo/rankings/junho/Overwatch';
+import AmongUs from './bo/rankings/junho/Amongus';
+import EscapeRoom from './bo/rankings/junho/EscapeRoom';
 
 import MarcoCalendar from './bo/calendario/MarcoCalendar';
 import AbrilCalendar from './bo/calendario/AbrilCalendar';
@@ -51,6 +53,8 @@ const App = () => {
                 <Route path="/rankings/cs25x5" element={<CounterStrike5x5 />} />
                 <Route path="/rankings/basquetiladas" element={<Basquetiladas />} />
                 <Route path="/rankings/overwatch2" element={<Overwatch />} />
+                <Route path="/rankings/amongus" element={<AmongUs />} />
+                <Route path="/rankings/escaperoom" element={<EscapeRoom />} />
 
                 <Route path="/calendario/marco" element={<MarcoCalendar />} />
                 <Route path="/calendario/abril" element={<AbrilCalendar />} />
