@@ -24,6 +24,7 @@ const Overwatch = () => {
                                     <th>Nome</th>
                                     <th>Membros</th>
                                     <th>Pts</th>
+                                    <th>R</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -33,6 +34,7 @@ const Overwatch = () => {
                                         <td>{player.Nome}</td>
                                         <td>{player.Membros}</td>
                                         <td>{player.Pt}</td>
+                                        <td>{player.R}</td>
                                     </tr>
                                 ))}
                             </tbody>

@@ -451,6 +451,12 @@
         "CounterStrike 2" : {
             "Lugar" : "2º",
             "Pontos" : 6
+        },
+        "AmongUs" : {
+            "Lugar" : "-",
+            "Pontos" : 0,
+            "Penalização" : -6,
+            "Penalização Justificativa" : "Penalização por faltar"
         }
     },
     "Sardoal" : {

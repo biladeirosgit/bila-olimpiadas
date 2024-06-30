@@ -31,7 +31,14 @@ const AmongUs = () => {
                                      <th>#</th>
                                      <th>Membros</th>
                                      <th>Pts</th>
-                                     <th>R</th>
+                                     <th>Pa</th>
+                                     <th>nI</th>
+                                     <th>Vi</th>
+                                     <th>Vc</th>
+                                     <th>Ct</th>
+                                     <th>K</th>
+                                     <th>CA</th>
+                                     <th>IA</th>
                                  </tr>
                              </thead>
                              <tbody>
@@ -40,7 +47,14 @@ const AmongUs = () => {
                                          <td>{player["#"]}</td>
                                          <td>{player.Membros}</td>
                                          <td>{player.Pt}</td>
-                                         <td>{player.R}</td>
+                                         <td>{player.Pa}</td>
+                                         <td>{player.nI}</td>
+                                         <td>{player.Vi}</td>
+                                         <td>{player.Vc}</td>
+                                         <td>{player.Ct}</td>
+                                         <td>{player.K}</td>
+                                         <td>{player.CA}</td>
+                                         <td>{player.IA}</td>
                                      </tr>
                                  ))}
                              </tbody>
