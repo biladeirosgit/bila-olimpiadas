@@ -23,6 +23,7 @@ const EscapeRoom = () => {
                                     <th>Nome</th>
                                     <th>Membros</th>
                                     <th>Pts</th>
+                                    <th>T</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -32,6 +33,7 @@ const EscapeRoom = () => {
                                         <td>{player.Nome}</td>
                                         <td>{player.Membros}</td>
                                         <td>{player.Pt}</td>
+                                        <td>{player.T}</td>
                                     </tr>
                                 ))}
                             </tbody>
