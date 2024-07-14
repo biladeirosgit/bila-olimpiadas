@@ -9,7 +9,7 @@ const RankingsOnline = () => {
 
     const [expandedPlayer, setExpandedPlayer] = useState(null);
 
-    const online = ["Arenas LoL","Teamfight Tactics","League of Legends 5x5","Scribbl.io","Rocket League 3x3","Brawlhalla","CounterStrike 2","Overwatch 2","AmongUs"]
+    const online = ["Bilapredicts Europeu 2024","Arenas LoL","Teamfight Tactics","League of Legends 5x5","Scribbl.io","Rocket League 3x3","Brawlhalla","CounterStrike 2","Overwatch 2","AmongUs"]
 
     const togglePlayerDetails = (playerName) => {
         if (expandedPlayer === playerName) {
