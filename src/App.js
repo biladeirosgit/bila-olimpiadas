@@ -23,6 +23,7 @@ import Basquetiladas from './bo/rankings/junho/Basquetiladas';
 import Overwatch from './bo/rankings/junho/Overwatch';
 import AmongUs from './bo/rankings/junho/Amongus';
 import EscapeRoom from './bo/rankings/junho/EscapeRoom';
+import BilapredictsEuropeu from './bo/rankings/junho/BilapredictsEuropeu';
 
 import MarcoCalendar from './bo/calendario/MarcoCalendar';
 import AbrilCalendar from './bo/calendario/AbrilCalendar';
@@ -58,6 +59,7 @@ const App = () => {
                 <Route path="/rankings/amongus" element={<AmongUs />} />
                 <Route path="/rankings/escaperoom" element={<EscapeRoom />} />
                 <Route path="/rankings/arenaslol" element={<ArenasLOL />} />
+                <Route path="/rankings/bilapredictseuropeu" element={<BilapredictsEuropeu />} />
 
                 <Route path="/calendario/marco" element={<MarcoCalendar />} />
                 <Route path="/calendario/abril" element={<AbrilCalendar />} />

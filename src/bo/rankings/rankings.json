@@ -55,6 +55,10 @@
         "Arenas LoL" : {
             "Lugar" : "4º",
             "Pontos" : 6
+        },
+        "Bilapredicts Europeu 2024" : {
+            "Lugar" : "1º",
+            "Pontos" : 13
         }
     },
     "Wisdow" : {
@@ -109,6 +113,10 @@
         "Arenas LoL" : {
             "Lugar" : "3º",
             "Pontos" : 8
+        },
+        "Bilapredicts Europeu 2024" : {
+            "Lugar" : "6º",
+            "Pontos" : 5
         }
     },
     "Mestre Gui" : {
@@ -146,6 +154,10 @@
         },
         "Arenas LoL" : {
             "Lugar" : "7º",
+            "Pontos" : 4
+        },
+        "Bilapredicts Europeu 2024" : {
+            "Lugar" : "8º",
             "Pontos" : 4
         }
     },
@@ -185,6 +197,10 @@
         "EscapeRoom" : {
             "Lugar" : "2º",
             "Pontos" : 4
+        },
+        "Bilapredicts Europeu 2024" : {
+            "Lugar" : "3º",
+            "Pontos" : 8
         }
     },
     "Geremias" : {
@@ -237,6 +253,10 @@
             "Pontos" : 8
         },
         "Arenas LoL" : {
+            "Lugar" : "7º",
+            "Pontos" : 4
+        },
+        "Bilapredicts Europeu 2024" : {
             "Lugar" : "7º",
             "Pontos" : 4
         }
@@ -339,6 +359,10 @@
         "Arenas LoL" : {
             "Lugar" : "2º",
             "Pontos" : 10
+        },
+        "Bilapredicts Europeu 2024" : {
+            "Lugar" : "2º",
+            "Pontos" : 10
         }
     },
     "Cludos" : {
@@ -393,6 +417,10 @@
         "Arenas LoL" : {
             "Lugar" : "2º",
             "Pontos" : 10
+        },
+        "Bilapredicts Europeu 2024" : {
+            "Lugar" : "5º",
+            "Pontos" : 5
         }
     },
     "Droga" : {
@@ -511,6 +539,10 @@
         "EscapeRoom" : {
             "Lugar" : "1º",
             "Pontos" : 8
+        },
+        "Bilapredicts Europeu 2024" : {
+            "Lugar" : "10º",
+            "Pontos" : 3
         }
     },
     "Simão" : {
@@ -577,6 +609,10 @@
         "AmongUs" : {
             "Lugar" : "3º",
             "Pontos" : 8
+        },
+        "Bilapredicts Europeu 2024" : {
+            "Lugar" : "14º",
+            "Pontos" : 2
         }
     },
     "João Nuno" : {
@@ -611,6 +647,10 @@
         "Arenas LoL" : {
             "Lugar" : "4º",
             "Pontos" : 6
+        },
+        "Bilapredicts Europeu 2024" : {
+            "Lugar" : "9º",
+            "Pontos" : 3
         }
     },
     "Serino" : {
@@ -713,6 +753,10 @@
             "Pontos" : 0,
             "Penalização" : -13,
             "Penalização Justificativa" : "Penalização por faltar"
+        },
+        "Bilapredicts Europeu 2024" : {
+            "Lugar" : "13º",
+            "Pontos" : 2
         }
     },
     "Frazão" : {
@@ -731,6 +775,10 @@
         "AmongUs" : {
             "Lugar" : "7º",
             "Pontos" : 4
+        },
+        "Bilapredicts Europeu 2024" : {
+            "Lugar" : "12º",
+            "Pontos" : 2
         }
     },
     "Gelly" : {
@@ -757,6 +805,10 @@
         "Arenas LoL" : {
             "Lugar" : "5º",
             "Pontos" : 5
+        },
+        "Bilapredicts Europeu 2024" : {
+            "Lugar" : "11º",
+            "Pontos" : 2
         }
     },
     "Gama" : {
@@ -837,6 +889,10 @@
         "CounterStrike 2" : {
             "Lugar" : "4º",
             "Pontos" : 2
+        },
+        "Bilapredicts Europeu 2024" : {
+            "Lugar" : "4º",
+            "Pontos" : 6
         }
     },
     "Migas" : {
