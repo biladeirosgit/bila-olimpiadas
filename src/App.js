@@ -28,7 +28,7 @@ import MarcoCalendar from './bo/calendario/MarcoCalendar';
 import AbrilCalendar from './bo/calendario/AbrilCalendar';
 import MaioCalendar from './bo/calendario/MaioCalendar';
 import JunhoCalendar from './bo/calendario/JunhoCalendar';
-import JunhoCalendar from './bo/calendario/JulhoCalendar';
+import JulhoCalendar from './bo/calendario/JulhoCalendar';
 import ArenasLOL from './bo/rankings/julho/ArenasLOL';
 
 
