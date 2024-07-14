@@ -53,6 +53,12 @@ const Navebar = () => {
                             <li><Link to={"/rankings/escaperoom"}>           <div className="w3-bar-item w3-button">EscapeRoom         </div></Link></li>
                         </ul>
                     </li>
+                    <li className="flyout-alt">
+                        <a>Julho</a>
+                        <ul className="flyout-content nav stacked">
+                            <li><Link to={"/rankings/arenaslol"}>        <div className="w3-bar-item w3-button">Arenas LOL</div></Link></li>
+                        </ul>
+                    </li>
                 </ul>
             </li>
             <li className='flyout'>
@@ -62,6 +68,7 @@ const Navebar = () => {
                     <li><Link to={"/calendario/abril"}>Abril</Link></li>
                     <li><Link to={"/calendario/maio"}>Maio</Link></li>
                     <li><Link to={"/calendario/junho"}>Junho</Link></li>
+                    <li><Link to={"/calendario/julho"}>Julho</Link></li>
                 </ul>
             </li>
         </ul>

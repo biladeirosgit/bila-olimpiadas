@@ -28,6 +28,8 @@ import MarcoCalendar from './bo/calendario/MarcoCalendar';
 import AbrilCalendar from './bo/calendario/AbrilCalendar';
 import MaioCalendar from './bo/calendario/MaioCalendar';
 import JunhoCalendar from './bo/calendario/JunhoCalendar';
+import JunhoCalendar from './bo/calendario/JulhoCalendar';
+import ArenasLOL from './bo/rankings/julho/ArenasLOL';
 
 
 
@@ -55,11 +57,13 @@ const App = () => {
                 <Route path="/rankings/overwatch2" element={<Overwatch />} />
                 <Route path="/rankings/amongus" element={<AmongUs />} />
                 <Route path="/rankings/escaperoom" element={<EscapeRoom />} />
+                <Route path="/rankings/arenaslol" element={<ArenasLOL />} />
 
                 <Route path="/calendario/marco" element={<MarcoCalendar />} />
                 <Route path="/calendario/abril" element={<AbrilCalendar />} />
                 <Route path="/calendario/maio" element={<MaioCalendar />} />
                 <Route path="/calendario/junho" element={<JunhoCalendar />} />
+                <Route path="/calendario/julho" element={<JulhoCalendar />} />
                 {/* Adicione outras rotas aqui */}
             </Routes>
         </HashRouter>

@@ -51,6 +51,10 @@
         "EscapeRoom" : {
             "Lugar" : "2º",
             "Pontos" : 4
+        },
+        "Arenas LoL" : {
+            "Lugar" : "4º",
+            "Pontos" : 6
         }
     },
     "Wisdow" : {
@@ -101,6 +105,10 @@
         "EscapeRoom" : {
             "Lugar" : "1º",
             "Pontos" : 8
+        },
+        "Arenas LoL" : {
+            "Lugar" : "3º",
+            "Pontos" : 8
         }
     },
     "Mestre Gui" : {
@@ -135,6 +143,10 @@
         "EscapeRoom" : {
             "Lugar" : "1º",
             "Pontos" : 8
+        },
+        "Arenas LoL" : {
+            "Lugar" : "7º",
+            "Pontos" : 4
         }
     },
     "Bárbara" : {
@@ -223,6 +235,10 @@
         "EscapeRoom" : {
             "Lugar" : "1º",
             "Pontos" : 8
+        },
+        "Arenas LoL" : {
+            "Lugar" : "7º",
+            "Pontos" : 4
         }
     },
     "Braz" : {
@@ -319,6 +335,10 @@
         "EscapeRoom" : {
             "Lugar" : "1º",
             "Pontos" : 8
+        },
+        "Arenas LoL" : {
+            "Lugar" : "2º",
+            "Pontos" : 10
         }
     },
     "Cludos" : {
@@ -369,12 +389,20 @@
         "EscapeRoom" : {
             "Lugar" : "1º",
             "Pontos" : 8
+        },
+        "Arenas LoL" : {
+            "Lugar" : "2º",
+            "Pontos" : 10
         }
     },
     "Droga" : {
         "Teamfight Tactics" : {
             "Lugar" : "1º",
             "Pontos" : 13
+        },
+        "Arenas LoL" : {
+            "Lugar" : "5º",
+            "Pontos" : 5
         }
     },
     "Esquilo" : {
@@ -457,6 +485,10 @@
             "Pontos" : 0,
             "Penalização" : -6,
             "Penalização Justificativa" : "Penalização por faltar"
+        },
+        "Arenas LoL" : {
+            "Lugar" : "8º",
+            "Pontos" : 4
         }
     },
     "Sardoal" : {
@@ -575,6 +607,10 @@
         "EscapeRoom" : {
             "Lugar" : "2º",
             "Pontos" : 4
+        },
+        "Arenas LoL" : {
+            "Lugar" : "4º",
+            "Pontos" : 6
         }
     },
     "Serino" : {
@@ -595,6 +631,10 @@
         "League of Legends 5x5" : {
             "Lugar" : "4º",
             "Pontos" : 2
+        },
+        "Arenas LoL" : {
+            "Lugar" : "6º",
+            "Pontos" : 5
         }
     },
     "Tone" : {
@@ -707,6 +747,10 @@
         "CounterStrike 2" : {
             "Lugar" : "2º",
             "Pontos" : 6
+        },
+        "Arenas LoL" : {
+            "Lugar" : "5º",
+            "Pontos" : 5
         }
     },
     "Gama" : {
@@ -729,17 +773,29 @@
         "League of Legends 5x5" : {
             "Lugar" : "1º",
             "Pontos" : 8
+        },
+        "Arenas LoL" : {
+            "Lugar" : "1º",
+            "Pontos" : 13
         }
     },
     "Omniomm" : {
         "League of Legends 5x5" : {
             "Lugar" : "1º",
             "Pontos" : 8
+        },
+        "Arenas LoL" : {
+            "Lugar" : "1º",
+            "Pontos" : 13
         }
     },
-    "Frost" : {
+    "Frosty" : {
         "League of Legends 5x5" : {
             "Lugar" : "1º",
+            "Pontos" : 8
+        },
+        "Arenas LoL" : {
+            "Lugar" : "3º",
             "Pontos" : 8
         }
     },
@@ -835,6 +891,16 @@
         "Overwatch 2" : {
             "Lugar" : "3º",
             "Pontos" : 4
+        },
+        "Arenas LoL" : {
+            "Lugar" : "6º",
+            "Pontos" : 5
+        }
+    },
+    "Brito" : {
+        "Arenas LoL" : {
+            "Lugar" : "6º",
+            "Pontos" : 5
         }
     },
     "g0mes_26" : {
@@ -859,6 +925,12 @@
         "Overwatch 2" : {
             "Lugar" : "1º",
             "Pontos" : 8
+        }
+    },
+    "Lampreia" : {
+        "Arenas LoL" : {
+            "Lugar" : "8º",
+            "Pontos" : 4
         }
     }
 }
