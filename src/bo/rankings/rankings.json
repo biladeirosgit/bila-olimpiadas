@@ -707,6 +707,12 @@
             "Pontos" : 0,
             "Penalização" : -6,
             "Penalização Justificativa" : "Penalização por faltar todos os jogos"
+        },
+        "Arenas LoL" : {
+            "Lugar" : "-",
+            "Pontos" : 0,
+            "Penalização" : -13,
+            "Penalização Justificativa" : "Penalização por faltar"
         }
     },
     "Frazão" : {
