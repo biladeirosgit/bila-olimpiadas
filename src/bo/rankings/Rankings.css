@@ -9,7 +9,7 @@
     --font-family: "Inter", sans-serif;
   }
 
-.amount {
+.amount,.format {
     margin-bottom: 10px;
 }
 

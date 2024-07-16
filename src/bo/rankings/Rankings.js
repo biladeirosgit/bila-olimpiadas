@@ -11,6 +11,7 @@ const Rankings = () => {
     const [rankedPlayers, setRankedPlayers] = useState(null);
     const [amountFilters, setAmountFilters] = useState([])
     const [formatFilters, setFormatFilters] = useState([])
+    const [monthFilters, setMonthFilters] = useState([])
     const [filteredTournaments, setFilteredTournaments] = useState([])
 
     const filtersList = {
@@ -19,17 +20,49 @@ const Rankings = () => {
             "Teamfight Tactics",
             "Futbiladas",
             "League of Legends 5x5",
-            "Scribbl.io",
             "Rocket League 3x3",
-            "Bilabilhar",
+            "Sueca",
+            "Scribbl.io",
             "Brawlhalla",
-            "Basquetiladas",
+            "Bilabilhar",
             "CounterStrike 2",
+            "Basquetiladas",
             "Overwatch 2",
             "AmongUs",
             "EscapeRoom",
-            "Arenas LoL",
-            "Bilapredicts Europeu 2024"
+            "Bilapredicts Europeu 2024",
+            "Arenas LoL"
+        ],
+
+        "março" : [
+            "Bilatrecos",
+            "Teamfight Tactics",
+            "Futbiladas",
+            "League of Legends 5x5",
+        ],
+
+        "abril" : [
+            "Rocket League 3x3",
+            "Sueca",
+            "Scribbl.io",
+        ],
+
+        "maio" : [
+            "Brawlhalla",
+            "Bilabilhar",
+            "CounterStrike 2",
+        ],
+
+        "junho" : [
+            "Basquetiladas",
+            "Overwatch 2",
+            "AmongUs",
+            "EscapeRoom",
+            "Bilapredicts Europeu 2024",
+        ],
+
+        "julho" : [
+            "Arenas LoL"
         ],
         
         "duos" : [
@@ -79,6 +112,7 @@ const Rankings = () => {
         "presencial" : [
             "Bilatrecos",
             "Futbiladas",
+            "Sueca",
             "Bilabilhar",
             "Basquetiladas",
             "EscapeRoom"
@@ -101,11 +135,15 @@ const Rankings = () => {
         var filteredTournamentsAux = filtersList["todos"]
         var listAmount = []
         var listFormat = []
+        var listMonth = []
         amountFilters.forEach(filter => {
             listAmount = listAmount.concat(filtersList[filter]);
         })
         formatFilters.forEach(filter => {
             listFormat = listFormat.concat(filtersList[filter]);
+        })
+        monthFilters.forEach(filter => {
+            listMonth = listMonth.concat(filtersList[filter]);
         })
 
         if(listAmount.length != 0){
@@ -113,6 +151,9 @@ const Rankings = () => {
         }
         if(listFormat.length != 0){
             filteredTournamentsAux = filteredTournamentsAux.filter(item => listFormat.includes(item))
+        }
+        if(listMonth.length != 0){
+            filteredTournamentsAux = filteredTournamentsAux.filter(item => listMonth.includes(item))
         }
         setFilteredTournaments(filteredTournamentsAux);
         for (var player in rankingsjson){
@@ -189,10 +230,13 @@ const Rankings = () => {
     function change() {
         var amountFilters = document.querySelectorAll(".amount input[type='checkbox']");
         var formatFilters = document.querySelectorAll(".format input[type='checkbox']");
+        var monthFilters = document.querySelectorAll(".months input[type='checkbox']");
         amountFilters = getClassOfCheckedCheckboxes(amountFilters);
         formatFilters = getClassOfCheckedCheckboxes(formatFilters);
+        monthFilters = getClassOfCheckedCheckboxes(monthFilters);
         setAmountFilters(amountFilters);
         setFormatFilters(formatFilters);
+        setMonthFilters(monthFilters);
     }
 
     useEffect(() => {
@@ -201,7 +245,7 @@ const Rankings = () => {
 
     useEffect(() => {
         setRankedPlayers(getRankingsWithTies());
-    }, [amountFilters,formatFilters])
+    }, [amountFilters,formatFilters,monthFilters])
 
     return (
         <div>
@@ -229,6 +273,23 @@ const Rankings = () => {
                             </div>
                             <div className="lns-checkbox">
                               <label><input type="checkbox" rel="presencial" onChange={change} /> <span>Presencial</span></label>
+                            </div>
+                        </div>
+                        <div className="months">
+                            <div className="lns-checkbox">
+                              <label><input type="checkbox" rel="março" onChange={change} /><span>Março</span></label>
+                            </div>
+                            <div className="lns-checkbox">
+                              <label><input type="checkbox" rel="abril" onChange={change} /> <span>Abril</span></label>
+                            </div>
+                            <div className="lns-checkbox">
+                              <label><input type="checkbox" rel="maio" onChange={change} /> <span>Maio</span></label>
+                            </div>
+                            <div className="lns-checkbox">
+                              <label><input type="checkbox" rel="junho" onChange={change} /> <span>Junho</span></label>
+                            </div>
+                            <div className="lns-checkbox">
+                              <label><input type="checkbox" rel="julho" onChange={change} /> <span>Julho</span></label>
                             </div>
                         </div>
                         
