@@ -15,10 +15,6 @@ const Navebar = () => {
                 <a>Rankings</a>
                 <ul className="flyout-content nav stacked">
                     <li><Link to={"/rankings"}>Geral</Link></li>
-                    <li><Link to={"/rankings/presencial"}>Presencial</Link></li>
-                    <li><Link to={"/rankings/online"}>Online</Link></li>
-                    <li><Link to={"/rankings/grupo"}>Grupo</Link></li>
-                    <li><Link to={"/rankings/individual"}>Individual</Link></li>
                     <li className="flyout-alt">
                         <a>Março</a>
                         <ul className="flyout-content nav stacked">
