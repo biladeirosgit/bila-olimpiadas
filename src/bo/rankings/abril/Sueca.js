@@ -26,7 +26,7 @@ const Sueca = () => {
                              <thead>
                                  <tr>
                                      <th>#</th>
-                                     <th>Membros</th>
+                                     <th>Duos</th>
                                      <th>Pts</th>
                                  </tr>
                              </thead>
@@ -34,7 +34,7 @@ const Sueca = () => {
                                  {players.map((player, index) => (
                                      <tr key={index}>
                                          <td>{player["#"]}</td>
-                                         <td>{player.Membros}</td>
+                                         <td>{player.Duos}</td>
                                          <td>{player.Pt}</td>
                                      </tr>
                                  ))}
