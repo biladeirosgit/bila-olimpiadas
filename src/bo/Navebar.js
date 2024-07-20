@@ -54,6 +54,7 @@ const Navebar = () => {
                         <a>Julho</a>
                         <ul className="flyout-content nav stacked">
                             <li><Link to={"/rankings/arenaslol"}>        <div className="w3-bar-item w3-button">Arenas LOL</div></Link></li>
+                            <li><Link to={"/rankings/pingpong"}>        <div className="w3-bar-item w3-button">Ping Pong</div></Link></li>
                         </ul>
                     </li>
                 </ul>

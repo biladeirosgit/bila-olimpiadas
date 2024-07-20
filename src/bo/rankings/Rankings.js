@@ -31,7 +31,8 @@ const Rankings = () => {
             "AmongUs",
             "EscapeRoom",
             "Bilapredicts Europeu 2024",
-            "Arenas LoL"
+            "Arenas LoL",
+            "Ping Pong"
         ],
 
         "março" : [
@@ -62,11 +63,13 @@ const Rankings = () => {
         ],
 
         "julho" : [
-            "Arenas LoL"
+            "Arenas LoL",
+            "Ping Pong"
         ],
         
         "duos" : [
             "Bilatrecos",
+            "Sueca",
             "Bilabilhar",
             "Arenas LoL"
         ],
@@ -92,6 +95,7 @@ const Rankings = () => {
             "Brawlhalla",
             "AmongUs",
             "Bilapredicts Europeu 2024",
+            "Ping Pong"
         ],
         
         

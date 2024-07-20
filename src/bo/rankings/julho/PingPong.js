@@ -2,25 +2,29 @@ import Navebar from "../../Navebar";
 import Footer from "../../Footer";
 
 
-const Sueca = () => {
+const PingPong = () => {
 
     
      // Dados dos jogadores
-     var player1 = { "#" : "1º" , "Duos" : "Xadas e Bárbara"      , Pt: "+13" };
-     var player2 = { "#" : "2º" , "Duos" : "Cludos e Lemos"       , Pt: "+10" };
-     var player3 = { "#" : "3º" , "Duos" : "Wisdow e Squnha"      , Pt: "+8"  };
-     var player4 = { "#" : "4º" , "Duos" : "Geremias e Esquilo"   , Pt: "+6"  };
-     var player5 = { "#" : "5º" , "Duos" : "Braz e Atlas"         , Pt: "+5"  };
-     var player6 = { "#" : "5º" , "Duos" : "Hydra e Lekky"        , Pt: "+5"  };
+     var player1 = { "#" : "1º" , "Membros" : "Xadas"       , Pt: "+13" };
+     var player2 = { "#" : "2º" , "Membros" : "João Nuno"   , Pt: "+10" };
+     var player3 = { "#" : "3º" , "Membros" : "Lekky"       , Pt: "+8"  };
+     var player4 = { "#" : "4º" , "Membros" : "Atlas"       , Pt: "+6"  };
+     var player5 = { "#" : "5º" , "Membros" : "Bárbara"     , Pt: "+5"  };
+     var player6 = { "#" : "5º" , "Membros" : "Braz"        , Pt: "+5"  };
+     var player7 = { "#" : "7º" , "Membros" : "Squnha"      , Pt: "+4"  };
+     var player8 = { "#" : "8º" , "Membros" : "Cludos"      , Pt: "+4"  };
+     var player9 = { "#" : "9º" , "Membros" : "Lemos"       , Pt: "+3"  };
+     var player10 = { "#" : "10º" , "Membros" : "Gelly"     , Pt: "+3"  };
  
-     var players = [player1, player2, player3, player4, player5, player6];
+     var players = [player1, player2, player3, player4, player5, player6,player7,player8,player9,player10];
  
      return (
          <>
              <Navebar />
              <div className="w3-container w3-light-gray" style={{ textAlign: "center" }}>
                  <div className="w3-container w3-center" style={{ width: "60%", display: "inline-block" }}>
-                     <h1 className="w3-center">Rankings do Sueca</h1>
+                     <h1 className="w3-center">Rankings do Ping Pong</h1>
                      <div className="rankings-container">
                          <table className="rankings-table w3-table w3-centered w3-table-all w3-hoverable">
                              <thead>
@@ -52,7 +56,7 @@ const Sueca = () => {
                  <div class="w3-container">
                      <div class="w3-container w3-center" style={{width:"80%",display:"inline-block"}}>
                          <h1 class="w3-center">Brackets</h1>
-                         <iframe src="https://challonge.com/pt/egpr25tn/module" width="100%" height="500" frameborder="0" scrolling="auto" allowtransparency="true"></iframe>
+                         <iframe src="https://challonge.com/pt/cc3rurwi/module" width="100%" height="500" frameborder="0" scrolling="auto" allowtransparency="true"></iframe>
                      </div>
                  </div>
                  <br></br>
@@ -66,4 +70,4 @@ const Sueca = () => {
          </>
      );
  }
- export default Sueca;
+ export default PingPong;

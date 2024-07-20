@@ -27,6 +27,7 @@ import MaioCalendar from './bo/calendario/MaioCalendar';
 import JunhoCalendar from './bo/calendario/JunhoCalendar';
 import JulhoCalendar from './bo/calendario/JulhoCalendar';
 import ArenasLOL from './bo/rankings/julho/ArenasLOL';
+import PingPong from './bo/rankings/julho/PingPong';
 
 
 
@@ -52,6 +53,7 @@ const App = () => {
                 <Route path="/rankings/escaperoom" element={<EscapeRoom />} />
                 <Route path="/rankings/arenaslol" element={<ArenasLOL />} />
                 <Route path="/rankings/bilapredictseuropeu" element={<BilapredictsEuropeu />} />
+                <Route path="/rankings/pingpong" element={<PingPong />} />
 
                 <Route path="/calendario/marco" element={<MarcoCalendar />} />
                 <Route path="/calendario/abril" element={<AbrilCalendar />} />
