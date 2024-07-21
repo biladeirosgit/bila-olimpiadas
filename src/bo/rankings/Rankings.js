@@ -119,7 +119,8 @@ const Rankings = () => {
             "Sueca",
             "Bilabilhar",
             "Basquetiladas",
-            "EscapeRoom"
+            "EscapeRoom",
+            "Ping Pong"
         ]
     }
 
