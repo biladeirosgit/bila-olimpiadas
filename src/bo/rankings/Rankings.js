@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import './Rankings.css';
 import Navebar from './../Navebar';
 import Footer from './../Footer';
@@ -155,13 +154,13 @@ const Rankings = () => {
             listMonth = listMonth.concat(filtersList[filter]);
         })
 
-        if(listAmount.length != 0){
+        if(listAmount.length !== 0){
             filteredTournamentsAux = filteredTournamentsAux.filter(item => listAmount.includes(item))
         }
-        if(listFormat.length != 0){
+        if(listFormat.length !== 0){
             filteredTournamentsAux = filteredTournamentsAux.filter(item => listFormat.includes(item))
         }
-        if(listMonth.length != 0){
+        if(listMonth.length !== 0){
             filteredTournamentsAux = filteredTournamentsAux.filter(item => listMonth.includes(item))
         }
         setFilteredTournaments(filteredTournamentsAux);
@@ -356,7 +355,7 @@ const Rankings = () => {
                                                 </td>
                                             </tr>
                                         )}
-                                        {expandedPlayer === player.name && (!rankingsjson[player.name] && Object.keys(rankingsjson[player.name]).length == 0) && (
+                                        {expandedPlayer === player.name && (!rankingsjson[player.name] && Object.keys(rankingsjson[player.name]).length === 0) && (
                                             <tr>
                                                 <td colSpan="6">
                                                     <div className="player-details">

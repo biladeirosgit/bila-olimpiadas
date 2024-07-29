@@ -1,7 +1,6 @@
 // src/CinemaClubPage.js
 
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './BilaOlimpiadasPage.css';
 import Navebar from './Navebar';
 import Footer from './Footer';

@@ -50,7 +50,7 @@ const CounterStrike5x5 = () => {
                 <div class="w3-container">
                     <div class="w3-container w3-center" style={{width:"80%",display:"inline-block"}}>
                         <h1 class="w3-center">Brackets</h1>
-                        <iframe src="https://challonge.com/pt/up1hx237/module" width="100%" height="500" frameborder="0" scrolling="auto" allowtransparency="true"></iframe>
+                        <iframe title="CounterStrike" src="https://challonge.com/pt/up1hx237/module" width="100%" height="500" frameborder="0" scrolling="auto" allowtransparency="true"></iframe>
                     </div>
                 </div>
             </div>
