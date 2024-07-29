@@ -67,6 +67,10 @@
         "Ping Pong" : {
             "Lugar" : "1º",
             "Pontos" : 13
+        },
+        "Volleyball" : {
+            "Lugar" : "2º",
+            "Pontos" : 6
         }
     },
     "Wisdow" : {
@@ -221,6 +225,10 @@
         "Ping Pong" : {
             "Lugar" : "5º",
             "Pontos" : 5
+        },
+        "Volleyball" : {
+            "Lugar" : "2º",
+            "Pontos" : 6
         }
     },
     "Geremias" : {
@@ -333,6 +341,10 @@
         "Ping Pong" : {
             "Lugar" : "5º",
             "Pontos" : 5
+        },
+        "Volleyball" : {
+            "Lugar" : "3º",
+            "Pontos" : 4
         }
     },
     "Squnha" : {
@@ -403,6 +415,10 @@
         "Ping Pong" : {
             "Lugar" : "7º",
             "Pontos" : 4
+        },
+        "Volleyball" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
         }
     },
     "Cludos" : {
@@ -469,6 +485,10 @@
         "Ping Pong" : {
             "Lugar" : "8º",
             "Pontos" : 4
+        },
+        "Volleyball" : {
+            "Lugar" : "2º",
+            "Pontos" : 6
         }
     },
     "Droga" : {
@@ -719,6 +739,10 @@
         "Ping Pong" : {
             "Lugar" : "2º",
             "Pontos" : 10
+        },
+        "Volleyball" : {
+            "Lugar" : "3º",
+            "Pontos" : 4
         }
     },
     "Serino" : {
@@ -743,6 +767,10 @@
         "Arenas LoL" : {
             "Lugar" : "6º",
             "Pontos" : 5
+        },
+        "Volleyball" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
         }
     },
     "Tone" : {
@@ -1080,6 +1108,18 @@
     "Lampreia" : {
         "Arenas LoL" : {
             "Lugar" : "8º",
+            "Pontos" : 4
+        }
+    },
+    "Soares" : {
+        "Volleyball" : {
+            "Lugar" : "1º",
+            "Pontos" : 8
+        }
+    },
+    "Maria" : {
+        "Volleyball" : {
+            "Lugar" : "3º",
             "Pontos" : 4
         }
     }

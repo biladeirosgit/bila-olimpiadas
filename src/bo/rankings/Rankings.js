@@ -32,7 +32,8 @@ const Rankings = () => {
             "EscapeRoom",
             "Bilapredicts Europeu 2024",
             "Arenas LoL",
-            "Ping Pong"
+            "Ping Pong",
+            "Volleyball"
         ],
 
         "março" : [
@@ -64,7 +65,8 @@ const Rankings = () => {
 
         "julho" : [
             "Arenas LoL",
-            "Ping Pong"
+            "Ping Pong",
+            "Volleyball"
         ],
         
         "duos" : [
@@ -77,6 +79,7 @@ const Rankings = () => {
         "trios" : [
             "Basquetiladas",
             "Rocket League 3x3",
+            "Volleyball"
         ],
         
         "grupo" : [
@@ -120,7 +123,8 @@ const Rankings = () => {
             "Bilabilhar",
             "Basquetiladas",
             "EscapeRoom",
-            "Ping Pong"
+            "Ping Pong",
+            "Volleyball"
         ]
     }
 
