@@ -71,6 +71,10 @@
         "Volleyball" : {
             "Lugar" : "2º",
             "Pontos" : 6
+        },
+        "Business Tour" : {
+            "Lugar" : "5º",
+            "Pontos" : 5
         }
     },
     "Wisdow" : {
@@ -133,6 +137,10 @@
         "Bilapredicts Europeu 2024" : {
             "Lugar" : "6º",
             "Pontos" : 5
+        },
+        "Business Tour" : {
+            "Lugar" : "3º",
+            "Pontos" : 8
         }
     },
     "Mestre Gui" : {
@@ -175,6 +183,10 @@
         "Bilapredicts Europeu 2024" : {
             "Lugar" : "8º",
             "Pontos" : 4
+        },
+        "Business Tour" : {
+            "Lugar" : "5º",
+            "Pontos" : 5
         }
     },
     "Bárbara" : {
@@ -291,6 +303,10 @@
         "Bilapredicts Europeu 2024" : {
             "Lugar" : "7º",
             "Pontos" : 4
+        },
+        "Business Tour" : {
+            "Lugar" : "1º",
+            "Pontos" : 13
         }
     },
     "Braz" : {
@@ -419,6 +435,10 @@
         "Volleyball" : {
             "Lugar" : "1º",
             "Pontos" : 8
+        },
+        "Business Tour" : {
+            "Lugar" : "7º",
+            "Pontos" : 4
         }
     },
     "Cludos" : {
@@ -488,6 +508,10 @@
         },
         "Volleyball" : {
             "Lugar" : "2º",
+            "Pontos" : 6
+        },
+        "Business Tour" : {
+            "Lugar" : "4º",
             "Pontos" : 6
         }
     },
@@ -861,6 +885,10 @@
         "Ping Pong" : {
             "Lugar" : "3º",
             "Pontos" : 8
+        },
+        "Business Tour" : {
+            "Lugar" : "2º",
+            "Pontos" : 10
         }
     },
     "Frazão" : {
@@ -917,6 +945,10 @@
         "Ping Pong" : {
             "Lugar" : "10º",
             "Pontos" : 3
+        },
+        "Business Tour" : {
+            "Lugar" : "7º",
+            "Pontos" : 4
         }
     },
     "Gama" : {

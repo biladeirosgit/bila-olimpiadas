@@ -58,6 +58,12 @@ const Navebar = () => {
                             <li><Link to={"/rankings/volleyball"}>        <div className="w3-bar-item w3-button">Volleyball</div></Link></li>
                         </ul>
                     </li>
+                    <li className="flyout-alt">
+                        <a>Agosto</a>
+                        <ul className="flyout-content nav stacked">
+                            <li><Link to={"/rankings/businesstour"}>        <div className="w3-bar-item w3-button">Business Tour</div></Link></li>
+                        </ul>
+                    </li>
                 </ul>
             </li>
             <li className='flyout'>

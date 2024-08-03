@@ -32,7 +32,8 @@ const Rankings = () => {
             "Bilapredicts Europeu 2024",
             "Arenas LoL",
             "Ping Pong",
-            "Volleyball"
+            "Volleyball",
+            "Business Tour"
         ],
 
         "março" : [
@@ -67,6 +68,10 @@ const Rankings = () => {
             "Ping Pong",
             "Volleyball"
         ],
+
+        "agosto" : [
+            "Business Tour"
+        ],
         
         "duos" : [
             "Bilatrecos",
@@ -97,7 +102,8 @@ const Rankings = () => {
             "Brawlhalla",
             "AmongUs",
             "Bilapredicts Europeu 2024",
-            "Ping Pong"
+            "Ping Pong",
+            "Business Tour"
         ],
         
         
@@ -112,6 +118,7 @@ const Rankings = () => {
             "AmongUs",
             "Bilapredicts Europeu 2024",
             "Arenas LoL",
+            "Business Tour"
         ],
         
         

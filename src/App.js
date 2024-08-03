@@ -29,6 +29,7 @@ import JulhoCalendar from './bo/calendario/JulhoCalendar';
 import ArenasLOL from './bo/rankings/julho/ArenasLOL';
 import PingPong from './bo/rankings/julho/PingPong';
 import Volleyball from './bo/rankings/julho/Volleyball';
+import BusinessTour from './bo/rankings/agosto/BusinessTour';
 
 
 
@@ -56,6 +57,7 @@ const App = () => {
                 <Route path="/rankings/bilapredictseuropeu" element={<BilapredictsEuropeu />} />
                 <Route path="/rankings/pingpong" element={<PingPong />} />
                 <Route path="/rankings/volleyball" element={<Volleyball />} />
+                <Route path="/rankings/businesstour" element={<BusinessTour />} />
 
                 <Route path="/calendario/marco" element={<MarcoCalendar />} />
                 <Route path="/calendario/abril" element={<AbrilCalendar />} />
