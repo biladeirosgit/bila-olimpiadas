@@ -30,6 +30,7 @@ import ArenasLOL from './bo/rankings/julho/ArenasLOL';
 import PingPong from './bo/rankings/julho/PingPong';
 import Volleyball from './bo/rankings/julho/Volleyball';
 import BusinessTour from './bo/rankings/agosto/BusinessTour';
+import AgostoCalendar from './bo/calendario/AgostoCalendar';
 
 
 
@@ -64,6 +65,7 @@ const App = () => {
                 <Route path="/calendario/maio" element={<MaioCalendar />} />
                 <Route path="/calendario/junho" element={<JunhoCalendar />} />
                 <Route path="/calendario/julho" element={<JulhoCalendar />} />
+                <Route path="/calendario/agosto" element={<AgostoCalendar />} />
                 {/* Adicione outras rotas aqui */}
             </Routes>
         </HashRouter>

@@ -74,6 +74,7 @@ const Navebar = () => {
                     <li><Link to={"/calendario/maio"}>Maio</Link></li>
                     <li><Link to={"/calendario/junho"}>Junho</Link></li>
                     <li><Link to={"/calendario/julho"}>Julho</Link></li>
+                    <li><Link to={"/calendario/agosto"}>Agosto</Link></li>
                 </ul>
             </li>
         </ul>

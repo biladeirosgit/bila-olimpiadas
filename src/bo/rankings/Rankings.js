@@ -306,6 +306,9 @@ const Rankings = () => {
                             <div className="lns-checkbox">
                               <label><input type="checkbox" rel="julho" onChange={change} /> <span>Julho</span></label>
                             </div>
+                            <div className="lns-checkbox">
+                              <label><input type="checkbox" rel="agosto" onChange={change} /> <span>Agosto</span></label>
+                            </div>
                         </div>
                         
                     </div>
