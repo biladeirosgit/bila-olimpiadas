@@ -28,6 +28,7 @@
     user-select: none;
     margin-right: 10px;
     font-family: var(--font-family);
+    z-index: -1;
   
     @media (min-width: 992px) {
       font-size: 1.25rem;
