@@ -364,7 +364,7 @@ const Rankings = () => {
                                         </tr>
                                         {expandedPlayer === player.name && rankingsjson[player.name] && Object.keys(rankingsjson[player.name]).length > 0 && (
                                             <tr>
-                                                <td colSpan="6">
+                                                <td colSpan="8">
                                                     <div className="player-details">
                                                         <h5 key={player.name}><b>Participações</b></h5>
                                                         {Object.keys(rankingsjson[player.name]).map(torneio => (
@@ -383,7 +383,7 @@ const Rankings = () => {
                                         )}
                                         {expandedPlayer === player.name && (!rankingsjson[player.name] && Object.keys(rankingsjson[player.name]).length === 0) && (
                                             <tr>
-                                                <td colSpan="6">
+                                                <td colSpan="8">
                                                     <div className="player-details">
                                                         <p>O jogador não tem torneios registrados.</p>
                                                     </div>
