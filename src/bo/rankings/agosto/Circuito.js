@@ -18,7 +18,7 @@ const Circuito = () => {
         { jogo : "Bottle Flip"                          , "Balance" : "🥈", "Anjos Caídos" : "🥇"  , "Faltou 3º Membro" : "🥉"},
         { jogo : "Corrida de Corda e o Badalo"          , "Balance" : "🥇", "Anjos Caídos" : "🥉"  , "Faltou 3º Membro" : "🥈"},
         { jogo : "Percurso Banana e Laranja"            , "Balance" : "🥉", "Anjos Caídos" : "🥈"  , "Faltou 3º Membro" : "🥇"},
-        { jogo : "Derrubar torre de latas com elásticos", "Balance" : "🥇", "Anjos Caídos" : "-"    , "Faltou 3º Membro" : "🥇"},
+        { jogo : "Derrubar torre de latas com elásticos", "Balance" : "🥇", "Anjos Caídos" : "🥉"  , "Faltou 3º Membro" : "🥇"},
         { jogo : "Separar m&m por cores"                , "Balance" : "🥇", "Anjos Caídos" : "🥈"  , "Faltou 3º Membro" : "🥉"},
         { jogo : "Sprint Final"                         , "Balance" : "🥇", "Anjos Caídos" : "🥉"  , "Faltou 3º Membro" : "🥈"},
         { jogo : "Pirâmide de Copos"                    , "Balance" : "🥈", "Anjos Caídos" : "🥇"  , "Faltou 3º Membro" : "🥉"},
