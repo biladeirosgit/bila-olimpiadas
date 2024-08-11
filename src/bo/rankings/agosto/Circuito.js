@@ -7,7 +7,7 @@ const Circuito = () => {
     
      // Dados dos jogadores
      var player1 = { "#" : "🥇" , "Equipa": "Balance"          ,"Membros" : "Bárbara, Atlas & Geremias"       , "1º" : 11, "2º" : 3 , "3º" : 6, Pts: 45,  Pt: "+13" };
-     var player2 = { "#" : "🥈" , "Equipa": "Anjos Caídos"           ,"Membros" : "Xadas, João Nuno & Braz"   , "1º" : 6 , "2º" : 6 , "3º" : 8, Pts: 38,  Pt: "+10" };
+     var player2 = { "#" : "🥈" , "Equipa": "Anjos Caídos"     ,"Membros" : "Xadas, João Nuno & Braz"   , "1º" : 6 , "2º" : 6 , "3º" : 8, Pts: 38,  Pt: "+10" };
      var player3 = { "#" : "🥉" , "Equipa": "Faltou 3º Membro" ,"Membros" : "Wisdow & Areias"                 , "1º" : 4 , "2º" : 10, "3º" : 6, Pts: 38,  Pt: "+8"  };
  
      var players = [player1, player2, player3];
@@ -78,9 +78,9 @@ const Circuito = () => {
                                  <tr>
                                      <th>Nº</th>
                                      <th>Jogo</th>
-                                     <th>🥇</th>
-                                     <th>🥈</th>
-                                     <th>🥉</th>
+                                     <th>Balance</th>
+                                     <th>Anjos Caídos</th>
+                                     <th>Faltou 3º Membro</th>
                                  </tr>
                              </thead>
                              <tbody>
@@ -88,9 +88,9 @@ const Circuito = () => {
                                      <tr key={index}>
                                          <td>{index+1}</td>
                                          <td>{jogo.jogo}</td>
-                                         <td>{jogo["1º"]}</td>
-                                         <td>{jogo["2º"]}</td>
-                                         <td>{jogo["3º"]}</td>
+                                         <td>{jogo["Balance"]}</td>
+                                         <td>{jogo["Anjos Caídos"]}</td>
+                                         <td>{jogo["Faltou 3º Membro"]}</td>
                                      </tr>
                                  ))}
                              </tbody>
