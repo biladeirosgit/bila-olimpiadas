@@ -31,6 +31,7 @@ import PingPong from './bo/rankings/julho/PingPong';
 import Volleyball from './bo/rankings/julho/Volleyball';
 import BusinessTour from './bo/rankings/agosto/BusinessTour';
 import AgostoCalendar from './bo/calendario/AgostoCalendar';
+import Circuito from './bo/rankings/agosto/Circuito';
 
 
 
@@ -59,6 +60,7 @@ const App = () => {
                 <Route path="/rankings/pingpong" element={<PingPong />} />
                 <Route path="/rankings/volleyball" element={<Volleyball />} />
                 <Route path="/rankings/businesstour" element={<BusinessTour />} />
+                <Route path="/rankings/circuito" element={<Circuito />} />
 
                 <Route path="/calendario/marco" element={<MarcoCalendar />} />
                 <Route path="/calendario/abril" element={<AbrilCalendar />} />

@@ -33,7 +33,8 @@ const Rankings = () => {
             "Arenas LoL",
             "Ping Pong",
             "Volleyball",
-            "Business Tour"
+            "Business Tour",
+            "Circuito"
         ],
 
         "março" : [
@@ -70,7 +71,8 @@ const Rankings = () => {
         ],
 
         "agosto" : [
-            "Business Tour"
+            "Business Tour",
+            "Circuito"
         ],
         
         "duos" : [
@@ -83,7 +85,8 @@ const Rankings = () => {
         "trios" : [
             "Basquetiladas",
             "Rocket League 3x3",
-            "Volleyball"
+            "Volleyball",
+            "Circuito"
         ],
         
         "grupo" : [
@@ -176,7 +179,9 @@ const Rankings = () => {
             rankings[player] = {
                 "pts" : 0,
                 "pr" : 0,
-                "tg" : 0,
+                "1º" : 0,
+                "2º" : 0,
+                "3º" : 0,
                 "torneios" : []
             }
             for (var torneio in torneios){
@@ -187,7 +192,13 @@ const Rankings = () => {
                         rankings[player]["pts"] += torneios[torneio]["Penalização"]
                     }
                     if (torneios[torneio]["Lugar"] === "1º"){
-                        rankings[player]["tg"] += 1
+                        rankings[player]["1º"] += 1
+                    }
+                    else if(torneios[torneio]["Lugar"] === "2º"){
+                        rankings[player]["2º"] += 1
+                    }
+                    else if(torneios[torneio]["Lugar"] === "3º"){
+                        rankings[player]["3º"] += 1
                     }
                     rankings[player]["mpp"] = rankings[player]["pts"] / rankings[player]["pr"]
                     rankings[player]["mpp"] = parseFloat(rankings[player]["mpp"].toFixed(2))
@@ -200,7 +211,9 @@ const Rankings = () => {
         }).sort((a, b) => {
             if (b.pts !== a.pts) return b.pts - a.pts;
             if (b.mpp !== a.mpp) return b.mpp - a.mpp;
-            if (b.tg !== a.tg) return b.tg - a.tg;
+            if (b["1º"] !== a["1º"]) return b["1º"] - a["1º"];
+            if (b["2º"] !== a["2º"]) return b["2º"] - a["2º"];
+            if (b["3º"] !== a["3º"]) return b["3º"] - a["3º"];
             return 0;
         });
 
@@ -216,12 +229,12 @@ const Rankings = () => {
         let previousMpp = null;
         let previousTg = null;
         return players.map((player, index) => {
-            if (previousPts !== player.pts || previousMpp !== player.mpp || previousTg !== player.tg) {
+            if (previousPts !== player.pts || previousMpp !== player.mpp || previousTg !== player["1º"]) {
                 rank = index + 1;
             }
             previousPts = player.pts;
             previousMpp = player.mpp;
-            previousTg = player.tg;
+            previousTg = player["1º"];
             return { rank, ...player };
         });
     };
@@ -322,7 +335,9 @@ const Rankings = () => {
                                     <th>Pontos</th>
                                     <th>Participações</th>
                                     <th>Média Pontos por Torneio</th>
-                                    <th>Torneios Ganhos</th>
+                                    <th>🥇</th>
+                                    <th>🥈</th>
+                                    <th>🥉</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -344,7 +359,9 @@ const Rankings = () => {
                                             <td>{player.pts}</td>
                                             <td>{player.pr}</td>
                                             <td>{player.mpp}</td>
-                                            <td>{player.tg}</td>
+                                            <td>{player["1º"]}</td>
+                                            <td>{player["2º"]}</td>
+                                            <td>{player["3º"]}</td>
                                         </tr>
                                         {expandedPlayer === player.name && rankingsjson[player.name] && Object.keys(rankingsjson[player.name]).length > 0 && (
                                             <tr>

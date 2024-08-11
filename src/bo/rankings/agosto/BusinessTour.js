@@ -6,14 +6,14 @@ const BusinessTour = () => {
 
     
      // Dados dos jogadores
-     var player1 = { "#" : "1º" , "Membros" : "Geremias"    , Pt: "+13" };
-     var player2 = { "#" : "2º" , "Membros" : "Lekky"       , Pt: "+10" };
-     var player3 = { "#" : "3º" , "Membros" : "Wisdow"      , Pt: "+8"  };
-     var player4 = { "#" : "4º" , "Membros" : "Cludos"      , Pt: "+6"  };
-     var player5 = { "#" : "5º" , "Membros" : "Mestre Gui"  , Pt: "+5"  };
-     var player6 = { "#" : "5º" , "Membros" : "Xadas"       , Pt: "+5"  };
-     var player7 = { "#" : "7º" , "Membros" : "Squnha"      , Pt: "+4"  };
-     var player8 = { "#" : "7º" , "Membros" : "Gelly"       , Pt: "+4"  };
+     var player1 = { "#" : "1º" , "Jogador" : "Geremias"    , Pt: "+13" };
+     var player2 = { "#" : "2º" , "Jogador" : "Lekky"       , Pt: "+10" };
+     var player3 = { "#" : "3º" , "Jogador" : "Wisdow"      , Pt: "+8"  };
+     var player4 = { "#" : "4º" , "Jogador" : "Cludos"      , Pt: "+6"  };
+     var player5 = { "#" : "5º" , "Jogador" : "Mestre Gui"  , Pt: "+5"  };
+     var player6 = { "#" : "5º" , "Jogador" : "Xadas"       , Pt: "+5"  };
+     var player7 = { "#" : "7º" , "Jogador" : "Squnha"      , Pt: "+4"  };
+     var player8 = { "#" : "7º" , "Jogador" : "Gelly"       , Pt: "+4"  };
  
      var players = [player1, player2, player3, player4, player5, player6,player7,player8];
  
@@ -28,7 +28,7 @@ const BusinessTour = () => {
                              <thead>
                                  <tr>
                                      <th>#</th>
-                                     <th>Membros</th>
+                                     <th>Jogador</th>
                                      <th>Pts</th>
                                  </tr>
                              </thead>
@@ -36,7 +36,7 @@ const BusinessTour = () => {
                                  {players.map((player, index) => (
                                      <tr key={index}>
                                          <td>{player["#"]}</td>
-                                         <td>{player.Membros}</td>
+                                         <td>{player.Jogador}</td>
                                          <td>{player.Pt}</td>
                                      </tr>
                                  ))}

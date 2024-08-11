@@ -75,6 +75,10 @@
         "Business Tour" : {
             "Lugar" : "5º",
             "Pontos" : 5
+        },
+        "Circuito" : {
+            "Lugar" : "2º",
+            "Pontos" : 10
         }
     },
     "Wisdow" : {
@@ -139,6 +143,10 @@
             "Pontos" : 5
         },
         "Business Tour" : {
+            "Lugar" : "3º",
+            "Pontos" : 8
+        },
+        "Circuito" : {
             "Lugar" : "3º",
             "Pontos" : 8
         }
@@ -241,6 +249,10 @@
         "Volleyball" : {
             "Lugar" : "2º",
             "Pontos" : 6
+        },
+        "Circuito" : {
+            "Lugar" : "1º",
+            "Pontos" : 13
         }
     },
     "Geremias" : {
@@ -307,6 +319,10 @@
         "Business Tour" : {
             "Lugar" : "1º",
             "Pontos" : 13
+        },
+        "Circuito" : {
+            "Lugar" : "1º",
+            "Pontos" : 13
         }
     },
     "Braz" : {
@@ -361,6 +377,10 @@
         "Volleyball" : {
             "Lugar" : "3º",
             "Pontos" : 4
+        },
+        "Circuito" : {
+            "Lugar" : "2º",
+            "Pontos" : 10
         }
     },
     "Squnha" : {
@@ -767,6 +787,10 @@
         "Volleyball" : {
             "Lugar" : "3º",
             "Pontos" : 4
+        },
+        "Circuito" : {
+            "Lugar" : "2º",
+            "Pontos" : 10
         }
     },
     "Serino" : {
@@ -794,6 +818,10 @@
         },
         "Volleyball" : {
             "Lugar" : "1º",
+            "Pontos" : 8
+        },
+        "Circuito" : {
+            "Lugar" : "3º",
             "Pontos" : 8
         }
     },
@@ -1023,6 +1051,10 @@
         "Ping Pong" : {
             "Lugar" : "4º",
             "Pontos" : 6
+        },
+        "Circuito" : {
+            "Lugar" : "1º",
+            "Pontos" : 13
         }
     },
     "Alcunha" : {
