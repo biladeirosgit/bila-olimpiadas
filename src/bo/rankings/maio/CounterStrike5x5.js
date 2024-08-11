@@ -4,9 +4,9 @@ import Footer from "../../Footer";
 
 const CounterStrike5x5 = () => {
 
-    var player1 = { "#" : "1º" ,Nome: "Matadores dos Cheios de Fome" , Membros : "Squnha, Mestre Diogo, Rodry, Cludos, Xavier"          , Pt: "+8"};
-    var player2 = { "#" : "2º" ,Nome: "ReisDelas"                    , Membros : "Lemos, Gelly, Hydra, Tone & Lekky"             , Pt: "+6"};
-    var player3 = { "#" : "3º" ,Nome: "Os Sportinguistas do Sardoal" , Membros : "Wisdow, Sardoal, João, João Tavares & Lobato"  , Pt: "+4"};
+    var player1 = { "#" : "🥇" ,Nome: "Matadores dos Cheios de Fome" , Membros : "Squnha, Mestre Diogo, Rodry, Cludos, Xavier"          , Pt: "+8"};
+    var player2 = { "#" : "🥈" ,Nome: "ReisDelas"                    , Membros : "Lemos, Gelly, Hydra, Tone & Lekky"             , Pt: "+6"};
+    var player3 = { "#" : "🥉" ,Nome: "Os Sportinguistas do Sardoal" , Membros : "Wisdow, Sardoal, João, João Tavares & Lobato"  , Pt: "+4"};
     var player4 = { "#" : "4º" ,Nome: "Os Fora da Lei"               , Membros : "Geremias, Alcunha, Braz, João Nuno & Xadas"    , Pt: "+2"};
     
     var players = [player1, player2, player3, player4];

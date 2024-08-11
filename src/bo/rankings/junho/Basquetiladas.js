@@ -5,9 +5,9 @@ import Footer from "../../Footer";
 const Basquetiladas = () => {
 
     
-    var player1 = { "#" : "1º" ,Nome: "Os Cubas"              , Membros : "Esquilo, Serino & Zé"          , Pt: "+8", R: "2-0"};
-    var player2 = { "#" : "2º" ,Nome: "Os Caceteiros"         , Membros : "Xadas, Bárbara & Braz"         , Pt: "+6", R: "1-1"};
-    var player3 = { "#" : "3º" ,Nome: "Os Primos do Pedro"    , Membros : "Cludos, Squnha & Diogo"        , Pt: "+4", R: "0-2"};
+    var player1 = { "#" : "🥇" ,Nome: "Os Cubas"              , Membros : "Esquilo, Serino & Zé"          , Pt: "+8", R: "2-0"};
+    var player2 = { "#" : "🥈" ,Nome: "Os Caceteiros"         , Membros : "Xadas, Bárbara & Braz"         , Pt: "+6", R: "1-1"};
+    var player3 = { "#" : "🥉" ,Nome: "Os Primos do Pedro"    , Membros : "Cludos, Squnha & Diogo"        , Pt: "+4", R: "0-2"};
     
     var players = [player1, player2, player3];
 

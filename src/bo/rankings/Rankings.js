@@ -191,13 +191,13 @@ const Rankings = () => {
                     if ("Penalização" in torneios[torneio]) {
                         rankings[player]["pts"] += torneios[torneio]["Penalização"]
                     }
-                    if (torneios[torneio]["Lugar"] === "1º"){
+                    if (torneios[torneio]["Lugar"] === "🥇"){
                         rankings[player]["1º"] += 1
                     }
-                    else if(torneios[torneio]["Lugar"] === "2º"){
+                    else if(torneios[torneio]["Lugar"] === "🥈"){
                         rankings[player]["2º"] += 1
                     }
-                    else if(torneios[torneio]["Lugar"] === "3º"){
+                    else if(torneios[torneio]["Lugar"] === "🥉"){
                         rankings[player]["3º"] += 1
                     }
                     rankings[player]["mpp"] = rankings[player]["pts"] / rankings[player]["pr"]
@@ -205,7 +205,6 @@ const Rankings = () => {
                 }
             }
         }
-
         const sortedPlayers = Object.keys(rankings).map(player => {
             return { name: player, ...rankings[player] }
         }).sort((a, b) => {

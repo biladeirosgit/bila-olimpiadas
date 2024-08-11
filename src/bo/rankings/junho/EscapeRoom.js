@@ -4,11 +4,10 @@ import Footer from "../../Footer";
 
 const EscapeRoom = () => {
 
-    var player1 = { "#" : "1º" , Membros : "Wisdow, Geremias, Cludos, Squnha, Mestre Gui, Camilo, Sardoal", Pt: "+8", T: "46 min e 6 seg"};
-    var player2 = { "#" : "2º" , Membros : "Xadas, Bárbara, João Nuno, Braz, Gama"                        , Pt: "+4", T: "58 min e 26 seg"};
+    var player1 = { "#" : "🥇" , Membros : "Wisdow, Geremias, Cludos, Squnha, Mestre Gui, Camilo, Sardoal", Pt: "+8", T: "46 min e 6 seg"};
+    var player2 = { "#" : "🥈" , Membros : "Xadas, Bárbara, João Nuno, Braz, Gama"                        , Pt: "+4", T: "58 min e 26 seg"};
 
     var players = [player1, player2];
-
     return (
         <>
             <Navebar />

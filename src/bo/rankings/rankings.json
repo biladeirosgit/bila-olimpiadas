@@ -1,15 +1,15 @@
 {
     "Xadas" : {
         "Bilatrecos" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 10
         },
         "Teamfight Tactics" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 8
         },
         "Futbiladas" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         },
         "League of Legends 5x5" : {
@@ -17,7 +17,7 @@
             "Pontos" : 2
         },
         "Sueca" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 13
         },
         "Scribbl.io" : {
@@ -37,7 +37,7 @@
             "Pontos" : 5
         },
         "Basquetiladas" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 6
         },
         "CounterStrike 2" : {
@@ -45,7 +45,7 @@
             "Pontos" : 2
         },
         "Overwatch 2" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 6
         },
         "AmongUs" : {
@@ -53,7 +53,7 @@
             "Pontos" : 5
         },
         "EscapeRoom" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 4
         },
         "Arenas LoL" : {
@@ -61,15 +61,15 @@
             "Pontos" : 6
         },
         "Bilapredicts Europeu 2024" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 13
         },
         "Ping Pong" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 13
         },
         "Volleyball" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 6
         },
         "Business Tour" : {
@@ -77,13 +77,13 @@
             "Pontos" : 5
         },
         "Circuito" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 10
         }
     },
     "Wisdow" : {
         "Bilatrecos" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 13
         },
         "Teamfight Tactics" : {
@@ -91,19 +91,19 @@
             "Pontos" : 3
         },
         "Futbiladas" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         },
         "League of Legends 5x5" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 6
         },
         "Sueca" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 8
         },
         "Scribbl.io" : {
-            "Lugar" : "11º",
+            "Lugar" : "1🥇",
             "Pontos" : 2
         },
         "Rocket League 3x3" : {
@@ -115,15 +115,15 @@
             "Pontos" : 5
         },
         "Brawlhalla" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 10
         },
         "CounterStrike 2" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 4
         },
         "Overwatch 2" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 4
         },
         "AmongUs" : {
@@ -131,11 +131,11 @@
             "Pontos" : 3
         },
         "EscapeRoom" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         },
         "Arenas LoL" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 8
         },
         "Bilapredicts Europeu 2024" : {
@@ -143,21 +143,21 @@
             "Pontos" : 5
         },
         "Business Tour" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 8
         },
         "Circuito" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 8
         }
     },
     "Mestre Gui" : {
         "Bilatrecos" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 13
         },
         "Teamfight Tactics" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 10
         },
         "League of Legends 5x5" : {
@@ -165,7 +165,7 @@
             "Pontos" : 2
         },
         "Scribbl.io" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 8
         },
         "Rocket League 3x3" : {
@@ -177,11 +177,11 @@
             "Pontos" : 5
         },
         "AmongUs" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 13
         },
         "EscapeRoom" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         },
         "Arenas LoL" : {
@@ -199,19 +199,19 @@
     },
     "Bárbara" : {
         "Bilatrecos" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 10
         },
         "Teamfight Tactics" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 8
         },
         "Futbiladas" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 4
         },
         "Sueca" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 13
         },
         "Scribbl.io" : {
@@ -227,7 +227,7 @@
             "Pontos" : 4
         },
         "Basquetiladas" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 6
         },
         "AmongUs" : {
@@ -235,11 +235,11 @@
             "Pontos" : 5
         },
         "EscapeRoom" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 4
         },
         "Bilapredicts Europeu 2024" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 8
         },
         "Ping Pong" : {
@@ -247,11 +247,11 @@
             "Pontos" : 5
         },
         "Volleyball" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 6
         },
         "Circuito" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 13
         }
     },
@@ -265,7 +265,7 @@
             "Pontos" : 5
         },
         "Futbiladas" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         },
         "League of Legends 5x5" : {
@@ -285,7 +285,7 @@
             "Pontos" : 2
         },
         "Bilabilhar" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 10
         },
         "Brawlhalla" : {
@@ -297,7 +297,7 @@
             "Pontos" : 2
         },
         "Overwatch 2" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 4
         },
         "AmongUs" : {
@@ -305,7 +305,7 @@
             "Pontos" : 4
         },
         "EscapeRoom" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         },
         "Arenas LoL" : {
@@ -317,11 +317,11 @@
             "Pontos" : 4
         },
         "Business Tour" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 13
         },
         "Circuito" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 13
         }
     },
@@ -335,7 +335,7 @@
             "Pontos" : 3
         },
         "Futbiladas" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         },
         "Sueca" : {
@@ -343,19 +343,19 @@
             "Pontos" : 5
         },
         "Scribbl.io" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 10
         },
         "Rocket League 3x3" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 4
         },
         "Bilabilhar" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 8
         },
         "Basquetiladas" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 6
         },
         "CounterStrike 2" : {
@@ -363,11 +363,11 @@
             "Pontos" : 2
         },
         "Overwatch 2" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 6
         },
         "EscapeRoom" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 4
         },
         "Ping Pong" : {
@@ -375,11 +375,11 @@
             "Pontos" : 5
         },
         "Volleyball" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 4
         },
         "Circuito" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 10
         }
     },
@@ -393,23 +393,23 @@
             "Pontos" : 4
         },
         "Futbiladas" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         },
         "League of Legends 5x5" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 4
         },
         "Sueca" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 8
         },
         "Scribbl.io" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 13
         },
         "Rocket League 3x3" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         },
         "Bilabilhar" : {
@@ -421,31 +421,31 @@
             "Pontos" : 4
         },
         "Basquetiladas" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 4
         },
         "CounterStrike 2" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         },
         "Overwatch 2" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 4
         },
         "AmongUs" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 10
         },
         "EscapeRoom" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         },
         "Arenas LoL" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 10
         },
         "Bilapredicts Europeu 2024" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 10
         },
         "Ping Pong" : {
@@ -453,7 +453,7 @@
             "Pontos" : 4
         },
         "Volleyball" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         },
         "Business Tour" : {
@@ -471,15 +471,15 @@
             "Pontos" : 5
         },
         "Futbiladas" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 4
         },
         "League of Legends 5x5" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 6
         },
         "Sueca" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 10
         },
         "Scribbl.io" : {
@@ -491,19 +491,19 @@
             "Pontos" : 3
         },
         "Brawlhalla" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 8
         },
         "Basquetiladas" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 4
         },
         "CounterStrike 2" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         },
         "Overwatch 2" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 4
         },
         "AmongUs" : {
@@ -511,11 +511,11 @@
             "Pontos" : 6
         },
         "EscapeRoom" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         },
         "Arenas LoL" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 10
         },
         "Bilapredicts Europeu 2024" : {
@@ -527,7 +527,7 @@
             "Pontos" : 4
         },
         "Volleyball" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 6
         },
         "Business Tour" : {
@@ -537,7 +537,7 @@
     },
     "Droga" : {
         "Teamfight Tactics" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 13
         },
         "Arenas LoL" : {
@@ -551,7 +551,7 @@
             "Pontos" : 5
         },
         "Futbiladas" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         },
         "Sueca" : {
@@ -563,7 +563,7 @@
             "Pontos" : 4
         },
         "Basquetiladas" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         }
     },
@@ -573,11 +573,11 @@
             "Pontos" : 5
         },
         "Futbiladas" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         },
         "League of Legends 5x5" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 4
         },
         "Bilabilhar" : {
@@ -585,31 +585,31 @@
             "Pontos" : 4
         },
         "CounterStrike 2" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         },
         "Overwatch 2" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         }
     },
     "Filipe" : {
         "Futbiladas" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         }
     },
     "Lemos" : {
         "Futbiladas" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         },
         "League of Legends 5x5" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 4
         },
         "Sueca" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 10
         },
         "Scribbl.io" : {
@@ -617,15 +617,15 @@
             "Pontos" : 5
         },
         "Rocket League 3x3" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 6
         },
         "Bilabilhar" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 13
         },
         "CounterStrike 2" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 6
         },
         "AmongUs" : {
@@ -645,7 +645,7 @@
     },
     "Sardoal" : {
         "Futbiladas" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         },
         "Rocket League 3x3" : {
@@ -657,11 +657,11 @@
             "Pontos" : 5
         },
         "CounterStrike 2" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 4
         },
         "EscapeRoom" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         },
         "Bilapredicts Europeu 2024" : {
@@ -671,13 +671,13 @@
     },
     "Simão" : {
         "Bilatrecos" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 8
         }
     },
     "Camilo" : {
         "Bilatrecos" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 8
         },
         "Bilabilhar" : {
@@ -685,7 +685,7 @@
             "Pontos" : 4
         },
         "EscapeRoom" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         }
     },
@@ -695,11 +695,11 @@
             "Pontos" : 4
         },
         "Futbiladas" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 4
         },
         "League of Legends 5x5" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 6
         },
         "Sueca" : {
@@ -711,7 +711,7 @@
             "Pontos" : 3
         },
         "Rocket League 3x3" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         },
         "Bilabilhar" : {
@@ -723,7 +723,7 @@
             "Pontos" : 4
         },
         "CounterStrike 2" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 6,
             "Penalização" : -1,
             "Penalização Justificativa" : "Penalização por faltar 1 jogo"
@@ -735,7 +735,7 @@
             "Penalização Justificativa" : "Penalização por faltar"
         },
         "AmongUs" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 8
         },
         "Bilapredicts Europeu 2024" : {
@@ -749,15 +749,15 @@
             "Pontos" : 3
         },
         "Futbiladas" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 4
         },
         "League of Legends 5x5" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 4
         },
         "Bilabilhar" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 8
         },
         "CounterStrike 2" : {
@@ -765,11 +765,11 @@
             "Pontos" : 2
         },
         "Overwatch 2" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 6
         },
         "EscapeRoom" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 4
         },
         "Arenas LoL" : {
@@ -781,31 +781,31 @@
             "Pontos" : 3
         },
         "Ping Pong" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 10
         },
         "Volleyball" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 4
         },
         "Circuito" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 10
         }
     },
     "Serino" : {
         "Futbiladas" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 4
         },
         "Basquetiladas" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         }
     },
     "Areias" : {
         "Futbiladas" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 4
         },
         "League of Legends 5x5" : {
@@ -817,21 +817,21 @@
             "Pontos" : 5
         },
         "Volleyball" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         },
         "Circuito" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 8
         }
     },
     "Tone" : {
         "Futbiladas" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 4
         },
         "Rocket League 3x3" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 6
         },
         "Bilabilhar" : {
@@ -839,7 +839,7 @@
             "Pontos" : 6
         },
         "CounterStrike 2" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 6,
             "Penalização" : -9,
             "Penalização Justificativa" : "Penalização por faltar 50% dos jogos"
@@ -847,23 +847,23 @@
     },
     "Rui" : {
         "Futbiladas" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 4
         }
     },
     "Costa" : {
         "Futbiladas" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 4
         }
     },
     "Zé Afonso" : {
         "Futbiladas" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 4
         },
         "League of Legends 5x5" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8,
             "Penalização" : -6,
             "Penalização Justificativa" : "Penalização por faltar"
@@ -875,7 +875,7 @@
             "Pontos" : 3
         },
         "League of Legends 5x5" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         },
         "Sueca" : {
@@ -883,15 +883,15 @@
             "Pontos" : 5
         },
         "Scribbl.io" : {
-            "Lugar" : "12º",
+            "Lugar" : "1🥈",
             "Pontos" : 2
         },
         "Rocket League 3x3" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         },
         "Bilabilhar" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 13
         },
         "CounterStrike 2" : {
@@ -907,15 +907,15 @@
             "Penalização Justificativa" : "Penalização por faltar"
         },
         "Bilapredicts Europeu 2024" : {
-            "Lugar" : "13º",
+            "Lugar" : "1🥉",
             "Pontos" : 2
         },
         "Ping Pong" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 8
         },
         "Business Tour" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 10
         }
     },
@@ -937,17 +937,17 @@
             "Pontos" : 4
         },
         "Bilapredicts Europeu 2024" : {
-            "Lugar" : "12º",
+            "Lugar" : "1🥈",
             "Pontos" : 2
         }
     },
     "Gelly" : {
         "League of Legends 5x5" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 4
         },
         "Rocket League 3x3" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 6
         },
         "Bilabilhar" : {
@@ -955,11 +955,11 @@
             "Pontos" : 4
         },
         "Brawlhalla" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 13
         },
         "CounterStrike 2" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 6
         },
         "Arenas LoL" : {
@@ -967,7 +967,7 @@
             "Pontos" : 5
         },
         "Bilapredicts Europeu 2024" : {
-            "Lugar" : "11º",
+            "Lugar" : "1🥇",
             "Pontos" : 2
         },
         "Ping Pong" : {
@@ -981,63 +981,63 @@
     },
     "Gama" : {
         "League of Legends 5x5" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 6
         },
         "EscapeRoom" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 4
         }
     },
     "Russo" : {
         "League of Legends 5x5" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 6
         }
     },
     "Madmess" : {
         "League of Legends 5x5" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         },
         "Arenas LoL" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 13
         }
     },
     "Omniomm" : {
         "League of Legends 5x5" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         },
         "Arenas LoL" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 13
         }
     },
     "Frosty" : {
         "League of Legends 5x5" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         },
         "Arenas LoL" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 8
         }
     },
     "Escher" : {
         "Rocket League 3x3" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 4
         },
         "Overwatch 2" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 6
         }
     },
     "Atlas" : {
         "Rocket League 3x3" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 4
         },
         "Sueca" : {
@@ -1045,7 +1045,7 @@
             "Pontos" : 5
         },
         "Overwatch 2" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 6
         },
         "Ping Pong" : {
@@ -1053,7 +1053,7 @@
             "Pontos" : 6
         },
         "Circuito" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 13
         }
     },
@@ -1063,7 +1063,7 @@
             "Pontos" : 2
         },
         "Bilabilhar" : {
-            "Lugar" : "2º",
+            "Lugar" : "🥈",
             "Pontos" : 10
         },
         "CounterStrike 2" : {
@@ -1089,49 +1089,49 @@
     },
     "Zé" : {
         "Basquetiladas" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         }
     },
     "Diogo" : {
         "Basquetiladas" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 4
         }
     },
     "Mestre Diogo" : {
         "CounterStrike 2" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         }
     },
     "Xavier" : {
         "CounterStrike 2" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         }
     },
     "Joãozinho" : {
         "CounterStrike 2" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 4
         }
     },
     "João Tavares" : {
         "CounterStrike 2" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 4
         }
     },
     "Lobato" : {
         "CounterStrike 2" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 4
         }
     },
     "Xiro" : {
         "Overwatch 2" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 4
         },
         "Arenas LoL" : {
@@ -1147,25 +1147,25 @@
     },
     "g0mes_26" : {
         "Overwatch 2" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         }
     },
     "simas7559" : {
         "Overwatch 2" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         }
     },
     "xxbrunoxx2514" : {
         "Overwatch 2" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         }
     },
     "Shanks" : {
         "Overwatch 2" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         }
     },
@@ -1177,13 +1177,13 @@
     },
     "Soares" : {
         "Volleyball" : {
-            "Lugar" : "1º",
+            "Lugar" : "🥇",
             "Pontos" : 8
         }
     },
     "Maria" : {
         "Volleyball" : {
-            "Lugar" : "3º",
+            "Lugar" : "🥉",
             "Pontos" : 4
         }
     }

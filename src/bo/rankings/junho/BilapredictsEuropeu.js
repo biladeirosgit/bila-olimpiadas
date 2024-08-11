@@ -6,9 +6,9 @@ const BilapredictsEuropeu = () => {
 
     
      // Dados dos jogadores
-     var player1  = { "#" : "1º" , "Membros" : "Xadas"         , Pt: "+13"   , T: 1040, Mp: 430, Tb: 610};
-     var player2  = { "#" : "2º" , "Membros" : "Squnha"        , Pt: "+10"   , T: 1035, Mp: 405, Tb: 630};
-     var player3  = { "#" : "3º" , "Membros" : "Bárbara"       , Pt: "+8"    , T: 1000, Mp: 310, Tb: 690};
+     var player1  = { "#" : "🥇" , "Membros" : "Xadas"         , Pt: "+13"   , T: 1040, Mp: 430, Tb: 610};
+     var player2  = { "#" : "🥈" , "Membros" : "Squnha"        , Pt: "+10"   , T: 1035, Mp: 405, Tb: 630};
+     var player3  = { "#" : "🥉" , "Membros" : "Bárbara"       , Pt: "+8"    , T: 1000, Mp: 310, Tb: 690};
      var player4  = { "#" : "4º" , "Membros" : "Alcunha"       , Pt: "+6"    , T: 963 , Mp: 333, Tb: 630};
      var player5  = { "#" : "5º" , "Membros" : "Cludos"        , Pt: "+5"    , T: 910 , Mp: 390, Tb: 520};
      var player6  = { "#" : "6º" , "Membros" : "Wisdow"        , Pt: "+5"    , T: 864 , Mp: 344, Tb: 520};

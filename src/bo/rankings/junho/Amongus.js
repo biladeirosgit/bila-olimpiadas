@@ -6,9 +6,9 @@ const AmongUs = () => {
 
     
      // Dados dos jogadores
-     var player1 = { "#" : "1º" , "Membros" : "Mestre Gui", Pt: "+13"   , Pa: 127, nI: 3, Vi : 2, Vc : 2, Ct : 1 , K: 9 , CA: 4, IA: 0 };
-     var player2 = { "#" : "2º" , "Membros" : "Squnha"    , Pt: "+10"   , Pa: 117, nI: 2, Vi : 2, Vc : 3, Ct : 3 , K: 2 , CA: 8, IA: 3 };
-     var player3 = { "#" : "3º" , "Membros" : "Hydra"     , Pt: "+8"    , Pa: 72 , nI: 2, Vi : 1, Vc : 2, Ct : 1 , K: 4 , CA: 2, IA: 1 };
+     var player1 = { "#" : "🥇" , "Membros" : "Mestre Gui", Pt: "+13"   , Pa: 127, nI: 3, Vi : 2, Vc : 2, Ct : 1 , K: 9 , CA: 4, IA: 0 };
+     var player2 = { "#" : "🥈" , "Membros" : "Squnha"    , Pt: "+10"   , Pa: 117, nI: 2, Vi : 2, Vc : 3, Ct : 3 , K: 2 , CA: 8, IA: 3 };
+     var player3 = { "#" : "🥉" , "Membros" : "Hydra"     , Pt: "+8"    , Pa: 72 , nI: 2, Vi : 1, Vc : 2, Ct : 1 , K: 4 , CA: 2, IA: 1 };
      var player4 = { "#" : "4º" , "Membros" : "Cludos"    , Pt: "+6"    , Pa: 71 , nI: 3, Vi : 1, Vc : 2, Ct : 2 , K: 3 , CA: 4, IA: 3 };
      var player5 = { "#" : "5º" , "Membros" : "Bárbara"   , Pt: "+5"    , Pa: 64 , nI: 1, Vi : 0, Vc : 2, Ct : 1 , K: 2 , CA: 7, IA: 1 };
      var player6 = { "#" : "6º" , "Membros" : "Xadas"     , Pt: "+5"    , Pa: 59 , nI: 1, Vi : 1, Vc : 3, Ct : 1 , K: 2 , CA: 0, IA: 3 };

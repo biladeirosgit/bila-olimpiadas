@@ -4,9 +4,9 @@ import Footer from "../../Footer";
 
 const LOL5x5 = () => {
 
-    var player1 = { "#" : "1º" ,Nome: "omnimommy"                , "Membros" : "Frost, Omniomm, Lekky, Madmess e Zé Afonso"      , Pt: "+8"    , R: "3-1" };
-    var player2 = { "#" : "2º" ,Nome: "Chega do Hydra"           , "Membros" : "Russo, Gama, Cludos, Hydra e Wisdow"            , Pt: "+6"    , R: "2-1" };
-    var player3 = { "#" : "3º" ,Nome: "Queremos Waffles Quentes" , "Membros" : "Lemos, Gelly, Rodry, Squnha e João Nuno"        , Pt: "+4"    , R: "1-2" };
+    var player1 = { "#" : "🥇" ,Nome: "omnimommy"                , "Membros" : "Frost, Omniomm, Lekky, Madmess e Zé Afonso"      , Pt: "+8"    , R: "3-1" };
+    var player2 = { "#" : "🥈" ,Nome: "Chega do Hydra"           , "Membros" : "Russo, Gama, Cludos, Hydra e Wisdow"            , Pt: "+6"    , R: "2-1" };
+    var player3 = { "#" : "🥉" ,Nome: "Queremos Waffles Quentes" , "Membros" : "Lemos, Gelly, Rodry, Squnha e João Nuno"        , Pt: "+4"    , R: "1-2" };
     var player4 = { "#" : "4º" ,Nome: "Torres do Frazão"         , "Membros" : "Geremias, Mestre Gui, Xadas, Areias e Frazão"   , Pt: "+2"    , R: "0-2" };
     
     var players = [player1, player2, player3, player4];

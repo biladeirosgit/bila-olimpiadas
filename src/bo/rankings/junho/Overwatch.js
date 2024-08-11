@@ -4,9 +4,9 @@ import Footer from "../../Footer";
 
 const Overwatch = () => {
 
-    var player1 = { "#" : "1º" ,Nome: "Avecs da Tuga"  , Membros : "Rodry, g0mes_27, simas7559, xxbrunoxx2514, Shanks", Pt: "+8", R: "2-0"};
-    var player2 = { "#" : "2º" ,Nome: "Lacaios do Braz", Membros : "Braz, João Nuno, Escher, Xadas & Atlas"     , Pt: "+6", R: "1-1"};
-    var player3 = { "#" : "3º" ,Nome: "Temos 2 Cunhas" , Membros : "Wisdow, Geremias, Xiro, Squnha & Cludos"    , Pt: "+4", R: "0-2"};
+    var player1 = { "#" : "🥇" ,Nome: "Avecs da Tuga"  , Membros : "Rodry, g0mes_27, simas7559, xxbrunoxx2514, Shanks", Pt: "+8", R: "2-0"};
+    var player2 = { "#" : "🥈" ,Nome: "Lacaios do Braz", Membros : "Braz, João Nuno, Escher, Xadas & Atlas"     , Pt: "+6", R: "1-1"};
+    var player3 = { "#" : "🥉" ,Nome: "Temos 2 Cunhas" , Membros : "Wisdow, Geremias, Xiro, Squnha & Cludos"    , Pt: "+4", R: "0-2"};
 
     var players = [player1, player2, player3];
 

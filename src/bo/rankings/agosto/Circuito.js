@@ -6,9 +6,9 @@ const Circuito = () => {
 
     
      // Dados dos jogadores
-     var player1 = { "#" : "1º" , "Equipa": "Balance"          ,"Membros" : "Bárbara, Atlas & Geremias"       , "1º" : 11, "2º" : 3 , "3º" : 6, Pts: 45,  Pt: "+13" };
-     var player2 = { "#" : "2º" , "Equipa": "Anjos Caídos"           ,"Membros" : "Xadas, João Nuno & Braz"   , "1º" : 6 , "2º" : 6 , "3º" : 8, Pts: 38,  Pt: "+10" };
-     var player3 = { "#" : "3º" , "Equipa": "Faltou 3º Membro" ,"Membros" : "Wisdow & Areias"                 , "1º" : 4 , "2º" : 10, "3º" : 6, Pts: 38,  Pt: "+8"  };
+     var player1 = { "#" : "🥇" , "Equipa": "Balance"          ,"Membros" : "Bárbara, Atlas & Geremias"       , "1º" : 11, "2º" : 3 , "3º" : 6, Pts: 45,  Pt: "+13" };
+     var player2 = { "#" : "🥈" , "Equipa": "Anjos Caídos"           ,"Membros" : "Xadas, João Nuno & Braz"   , "1º" : 6 , "2º" : 6 , "3º" : 8, Pts: 38,  Pt: "+10" };
+     var player3 = { "#" : "🥉" , "Equipa": "Faltou 3º Membro" ,"Membros" : "Wisdow & Areias"                 , "1º" : 4 , "2º" : 10, "3º" : 6, Pts: 38,  Pt: "+8"  };
  
      var players = [player1, player2, player3];
 

@@ -6,9 +6,9 @@ const PingPong = () => {
 
     
      // Dados dos jogadores
-     var player1 = { "#" : "1º" , "Membros" : "Xadas"       , Pt: "+13" };
-     var player2 = { "#" : "2º" , "Membros" : "João Nuno"   , Pt: "+10" };
-     var player3 = { "#" : "3º" , "Membros" : "Lekky"       , Pt: "+8"  };
+     var player1 = { "#" : "🥇" , "Membros" : "Xadas"       , Pt: "+13" };
+     var player2 = { "#" : "🥈" , "Membros" : "João Nuno"   , Pt: "+10" };
+     var player3 = { "#" : "🥉" , "Membros" : "Lekky"       , Pt: "+8"  };
      var player4 = { "#" : "4º" , "Membros" : "Atlas"       , Pt: "+6"  };
      var player5 = { "#" : "5º" , "Membros" : "Bárbara"     , Pt: "+5"  };
      var player6 = { "#" : "5º" , "Membros" : "Braz"        , Pt: "+5"  };

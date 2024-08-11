@@ -5,9 +5,9 @@ import Footer from "../../Footer";
 const Bilabilhar = () => {
 
     // Dados dos jogadores
-    var player1 = { "#" : "1º" , "Membros" : "Lekky & Lemos"         , Pt: "+13"   , R: "4-0" };
-    var player2 = { "#" : "2º" , "Membros" : "Geremias & Alcunha"    , Pt: "+10"   , R: "5-2" };
-    var player3 = { "#" : "3º" , "Membros" : "Braz & João Nuno"      , Pt: "+8"    , R: "2-2" };
+    var player1 = { "#" : "🥇" , "Membros" : "Lekky & Lemos"         , Pt: "+13"   , R: "4-0" };
+    var player2 = { "#" : "🥈" , "Membros" : "Geremias & Alcunha"    , Pt: "+10"   , R: "5-2" };
+    var player3 = { "#" : "🥉" , "Membros" : "Braz & João Nuno"      , Pt: "+8"    , R: "2-2" };
     var player4 = { "#" : "4º" , "Membros" : "Tone & Hydra"          , Pt: "+6"    , R: "2-2" };
     var player5 = { "#" : "5º" , "Membros" : "Squnha & Migas"        , Pt: "+5"    , R: "2-2" };
     var player6 = { "#" : "5º" , "Membros" : "Wisdow & Sardoal"      , Pt: "+5"    , R: "1-2" };

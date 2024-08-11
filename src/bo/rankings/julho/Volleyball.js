@@ -5,9 +5,9 @@ import Footer from "../../Footer";
 const Volleyball = () => {
 
     
-    var player1 = { "#" : "1º" , Membros : "Squnha, Areias & Soares"  , Pt: "+8", R: "2-0"};
-    var player2 = { "#" : "2º" , Membros : "Xadas, Bárbara & Cludos" , Pt: "+6" , R: "1-1"};
-    var player3 = { "#" : "3º" , Membros : "Braz, João Nuno & Maria" , Pt: "+4" , R: "0-2"};
+    var player1 = { "#" : "🥇" , Membros : "Squnha, Areias & Soares"  , Pt: "+8", R: "2-0"};
+    var player2 = { "#" : "🥈" , Membros : "Xadas, Bárbara & Cludos" , Pt: "+6" , R: "1-1"};
+    var player3 = { "#" : "🥉" , Membros : "Braz, João Nuno & Maria" , Pt: "+4" , R: "0-2"};
     
     var players = [player1, player2, player3];
 

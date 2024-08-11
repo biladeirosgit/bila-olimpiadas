@@ -6,9 +6,9 @@ const Brawlhalla = () => {
 
     
      // Dados dos jogadores
-     var player1 = { "#" : "1º" , "Membros" : "Gelly"        , Pt: "+13"   , R: "5-1" };
-     var player2 = { "#" : "2º" , "Membros" : "Wisdow"       , Pt: "+10"   , R: "3-1" };
-     var player3 = { "#" : "3º" , "Membros" : "Cludos"       , Pt: "+8"    , R: "3-2" };
+     var player1 = { "#" : "🥇" , "Membros" : "Gelly"        , Pt: "+13"   , R: "5-1" };
+     var player2 = { "#" : "🥈" , "Membros" : "Wisdow"       , Pt: "+10"   , R: "3-1" };
+     var player3 = { "#" : "🥉" , "Membros" : "Cludos"       , Pt: "+8"    , R: "3-2" };
      var player4 = { "#" : "4º" , "Membros" : "XSitlo"       , Pt: "+6"    , R: "2-2" };
      var player5 = { "#" : "5º" , "Membros" : "Mestre Gui"   , Pt: "+5"    , R: "1-2" };
      var player6 = { "#" : "5º" , "Membros" : "Xadas"        , Pt: "+5"    , R: "1-2" };

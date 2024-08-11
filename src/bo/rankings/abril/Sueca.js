@@ -6,9 +6,9 @@ const Sueca = () => {
 
     
      // Dados dos jogadores
-     var player1 = { "#" : "1º" , "Duos" : "Xadas e Bárbara"      , Pt: "+13" };
-     var player2 = { "#" : "2º" , "Duos" : "Cludos e Lemos"       , Pt: "+10" };
-     var player3 = { "#" : "3º" , "Duos" : "Wisdow e Squnha"      , Pt: "+8"  };
+     var player1 = { "#" : "🥇" , "Duos" : "Xadas e Bárbara"      , Pt: "+13" };
+     var player2 = { "#" : "🥈" , "Duos" : "Cludos e Lemos"       , Pt: "+10" };
+     var player3 = { "#" : "🥉" , "Duos" : "Wisdow e Squnha"      , Pt: "+8"  };
      var player4 = { "#" : "4º" , "Duos" : "Geremias e Esquilo"   , Pt: "+6"  };
      var player5 = { "#" : "5º" , "Duos" : "Braz e Atlas"         , Pt: "+5"  };
      var player6 = { "#" : "5º" , "Duos" : "Hydra e Lekky"        , Pt: "+5"  };

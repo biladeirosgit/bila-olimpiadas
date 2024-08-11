@@ -6,9 +6,9 @@ const BusinessTour = () => {
 
     
      // Dados dos jogadores
-     var player1 = { "#" : "1º" , "Jogador" : "Geremias"    , Pt: "+13" };
-     var player2 = { "#" : "2º" , "Jogador" : "Lekky"       , Pt: "+10" };
-     var player3 = { "#" : "3º" , "Jogador" : "Wisdow"      , Pt: "+8"  };
+     var player1 = { "#" : "🥇" , "Jogador" : "Geremias"    , Pt: "+13" };
+     var player2 = { "#" : "🥈" , "Jogador" : "Lekky"       , Pt: "+10" };
+     var player3 = { "#" : "🥉" , "Jogador" : "Wisdow"      , Pt: "+8"  };
      var player4 = { "#" : "4º" , "Jogador" : "Cludos"      , Pt: "+6"  };
      var player5 = { "#" : "5º" , "Jogador" : "Mestre Gui"  , Pt: "+5"  };
      var player6 = { "#" : "5º" , "Jogador" : "Xadas"       , Pt: "+5"  };

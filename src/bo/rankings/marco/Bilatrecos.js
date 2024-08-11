@@ -5,9 +5,9 @@ import Footer from "../../Footer";
 const Bilatrecos = () => {
 
     // Dados dos jogadores
-    var player1 = { "#" : "1º" , Nome: "Os Fora da LEI"           , "Membros" : "Wisdow & Mestre Gui", Pt: "+13"   , J: 7 ,  V: 5  , D : 2, GM : 23, GS: 18 };
-    var player2 = { "#" : "2º" , Nome: "Marra e Quilha"           , "Membros" : "Xadas & Bárbara"    , Pt: "+10"   , J: 6 ,  V: 4  , D : 1, GM : 18, GS: 15 };
-    var player3 = { "#" : "3º" , Nome: "Vale Tudo"                , "Membros" : "Simão & Camilo"     , Pt: "+8"    , J: 3 ,  V: 1  , D : 2, GM : 8 , GS: 11 };
+    var player1 = { "#" : "🥇" , Nome: "Os Fora da LEI"           , "Membros" : "Wisdow & Mestre Gui", Pt: "+13"   , J: 7 ,  V: 5  , D : 2, GM : 23, GS: 18 };
+    var player2 = { "#" : "🥈" , Nome: "Marra e Quilha"           , "Membros" : "Xadas & Bárbara"    , Pt: "+10"   , J: 6 ,  V: 4  , D : 1, GM : 18, GS: 15 };
+    var player3 = { "#" : "🥉" , Nome: "Vale Tudo"                , "Membros" : "Simão & Camilo"     , Pt: "+8"    , J: 3 ,  V: 1  , D : 2, GM : 8 , GS: 11 };
     var player4 = { "#" : "4º" , Nome: "Os Marrecos dos Matrecos" , "Membros" : "Cludos & Braz"      , Pt: "+6"    , J: 3 ,  V: 1  , D : 2, GM : 9 , GS: 11 };
     var player5 = { "#" : "5º" , Nome: "Duo Lipa"                 , "Membros" : "Geremias & Esquilo" , Pt: "+5"    , J: 3 ,  V: 1  , D : 2, GM : 10, GS: 10 };
     var player6 = { "#" : "6º" , Nome: "Borussia Doutro Mundo"    , "Membros" : "Squnha & Rodry"     , Pt: "+5"    , J: 2 ,  V: 0  , D : 2, GM : 5 , GS: 8  };
