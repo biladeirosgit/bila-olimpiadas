@@ -79,6 +79,10 @@
         "Circuito" : {
             "Lugar" : "🥈",
             "Pontos" : 10
+        },
+        "DeadByDaylight" : {
+            "Lugar" : "🥈",
+            "Pontos" : 4
         }
     },
     "Wisdow" : {
@@ -195,6 +199,10 @@
         "Business Tour" : {
             "Lugar" : "5º",
             "Pontos" : 5
+        },
+        "DeadByDaylight" : {
+            "Lugar" : "🥈",
+            "Pontos" : 4
         }
     },
     "Bárbara" : {
@@ -323,6 +331,10 @@
         "Circuito" : {
             "Lugar" : "🥇",
             "Pontos" : 13
+        },
+        "DeadByDaylight" : {
+            "Lugar" : "🥇",
+            "Pontos" : 8
         }
     },
     "Braz" : {
@@ -381,6 +393,10 @@
         "Circuito" : {
             "Lugar" : "🥈",
             "Pontos" : 10
+        },
+        "DeadByDaylight" : {
+            "Lugar" : "🥈",
+            "Pontos" : 4
         }
     },
     "Squnha" : {
@@ -459,6 +475,10 @@
         "Business Tour" : {
             "Lugar" : "7º",
             "Pontos" : 4
+        },
+        "DeadByDaylight" : {
+            "Lugar" : "🥇",
+            "Pontos" : 8
         }
     },
     "Cludos" : {
@@ -533,6 +553,10 @@
         "Business Tour" : {
             "Lugar" : "4º",
             "Pontos" : 6
+        },
+        "DeadByDaylight" : {
+            "Lugar" : "🥇",
+            "Pontos" : 8
         }
     },
     "Droga" : {
@@ -823,6 +847,10 @@
         "Circuito" : {
             "Lugar" : "🥉",
             "Pontos" : 8
+        },
+        "DeadByDaylight" : {
+            "Lugar" : "🥇",
+            "Pontos" : 8
         }
     },
     "Tone" : {
@@ -1055,6 +1083,10 @@
         "Circuito" : {
             "Lugar" : "🥇",
             "Pontos" : 13
+        },
+        "DeadByDaylight" : {
+            "Lugar" : "🥈",
+            "Pontos" : 4
         }
     },
     "Alcunha" : {

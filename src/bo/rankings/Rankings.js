@@ -34,7 +34,8 @@ const Rankings = () => {
             "Ping Pong",
             "Volleyball",
             "Business Tour",
-            "Circuito"
+            "Circuito",
+            "DeadByDaylight"
         ],
 
         "março" : [
@@ -72,7 +73,8 @@ const Rankings = () => {
 
         "agosto" : [
             "Business Tour",
-            "Circuito"
+            "Circuito",
+            "DeadByDaylight"
         ],
         
         "duos" : [
@@ -96,6 +98,7 @@ const Rankings = () => {
             "CounterStrike 2",
             "Overwatch 2",
             "EscapeRoom",
+            "DeadByDaylight"
         ],
         
         
@@ -121,7 +124,8 @@ const Rankings = () => {
             "AmongUs",
             "Bilapredicts Europeu 2024",
             "Arenas LoL",
-            "Business Tour"
+            "Business Tour",
+            "DeadByDaylight"
         ],
         
         
@@ -133,7 +137,8 @@ const Rankings = () => {
             "Basquetiladas",
             "EscapeRoom",
             "Ping Pong",
-            "Volleyball"
+            "Volleyball",
+            "Circuito"
         ]
     }
 

@@ -16,7 +16,7 @@ const Volleyball = () => {
             <Navebar />
              <div className="w3-container w3-light-gray" style={{ textAlign: "center" }}>
                  <div className="w3-container w3-center" style={{ width: "60%", display: "inline-block" }}>
-                     <h1 className="w3-center">Rankings do Basquetiladas</h1>
+                     <h1 className="w3-center">Rankings do Volleyball</h1>
                      <div className="rankings-container">
                          <table className="rankings-table w3-table w3-centered w3-table-all w3-hoverable">
                              <thead>
