@@ -63,7 +63,7 @@ const DeadByDaylight = () => {
                                      <th>Killer A</th>
                                      <th>Pontos A</th>
                                      <th></th>
-                                     <th>Pontos A</th>
+                                     <th>Pontos B</th>
                                      <th>Killer B</th>
                                  </tr>
                              </thead>
