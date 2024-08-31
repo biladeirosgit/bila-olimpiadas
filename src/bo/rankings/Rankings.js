@@ -12,6 +12,7 @@ const Rankings = () => {
     const [formatFilters, setFormatFilters] = useState([])
     const [monthFilters, setMonthFilters] = useState([])
     const [filteredTournaments, setFilteredTournaments] = useState([])
+    const [selectedSort, setSelectedSort] = useState('rank');
 
     const filtersList = {
         "todos" : [
@@ -35,7 +36,8 @@ const Rankings = () => {
             "Volleyball",
             "Business Tour",
             "Circuito",
-            "DeadByDaylight"
+            "DeadByDaylight",
+            "Minecraft Minigames"
         ],
 
         "março" : [
@@ -74,7 +76,8 @@ const Rankings = () => {
         "agosto" : [
             "Business Tour",
             "Circuito",
-            "DeadByDaylight"
+            "DeadByDaylight",
+            "Minecraft Minigames"
         ],
         
         "duos" : [
@@ -109,7 +112,8 @@ const Rankings = () => {
             "AmongUs",
             "Bilapredicts Europeu 2024",
             "Ping Pong",
-            "Business Tour"
+            "Business Tour",
+            "Minecraft Minigames"
         ],
         
         
@@ -125,7 +129,8 @@ const Rankings = () => {
             "Bilapredicts Europeu 2024",
             "Arenas LoL",
             "Business Tour",
-            "DeadByDaylight"
+            "DeadByDaylight",
+            "Minecraft Minigames"
         ],
         
         
@@ -271,13 +276,25 @@ const Rankings = () => {
         setMonthFilters(monthFilters);
     }
 
+    function sortPlayers(players){
+        if(players !== null){
+            if(selectedSort === "rank") {
+                players.sort((a,b) => a[selectedSort] - b[selectedSort]);
+            }
+            else {
+                players.sort((a,b) => b[selectedSort] - a[selectedSort]);
+            }
+        }
+        return players;
+    }
+
     useEffect(() => {
-        setRankedPlayers(getRankingsWithTies());
+        setRankedPlayers(sortPlayers(getRankingsWithTies()));
     }, []);
 
     useEffect(() => {
-        setRankedPlayers(getRankingsWithTies());
-    }, [amountFilters,formatFilters,monthFilters])
+        setRankedPlayers(sortPlayers(getRankingsWithTies()));
+    }, [amountFilters,formatFilters,monthFilters,selectedSort])
 
     return (
         <div>
@@ -328,6 +345,19 @@ const Rankings = () => {
                             </div>
                         </div>
                         
+                    </div>
+                    <br></br>
+                    <div>
+                        <p>Sort by: </p>
+                        <select className="sort" onChange={e => setSelectedSort(e.target.value)} defaultValue="rank">
+                            <option value="rank">Rank</option>
+                            <option value="pts">Pontos</option>
+                            <option value="pr">Participações</option>
+                            <option value="mpp">Média Pontos por Torneio</option>
+                            <option value="1º">🥇</option>
+                            <option value="2º">🥈</option>
+                            <option value="3º">🥉</option>
+                        </select>
                     </div>
                     <h1 className="w3-center">Ranking Geral</h1>
                     <div className="rankings-container">

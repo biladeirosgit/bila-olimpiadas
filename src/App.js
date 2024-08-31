@@ -33,6 +33,7 @@ import BusinessTour from './bo/rankings/agosto/BusinessTour';
 import AgostoCalendar from './bo/calendario/AgostoCalendar';
 import Circuito from './bo/rankings/agosto/Circuito';
 import DeadByDaylight from './bo/rankings/agosto/DeadByDaylight';
+import MinecraftMinigames from './bo/rankings/agosto/Minecraft Minigames';
 
 
 
@@ -63,6 +64,7 @@ const App = () => {
                 <Route path="/rankings/businesstour" element={<BusinessTour />} />
                 <Route path="/rankings/circuito" element={<Circuito />} />
                 <Route path="/rankings/dbd" element={<DeadByDaylight />} />
+                <Route path="/rankings/minecraftminigames" element={<MinecraftMinigames />} />
 
                 <Route path="/calendario/marco" element={<MarcoCalendar />} />
                 <Route path="/calendario/abril" element={<AbrilCalendar />} />

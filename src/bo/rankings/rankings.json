@@ -83,6 +83,10 @@
         "DeadByDaylight" : {
             "Lugar" : "🥈",
             "Pontos" : 4
+        },
+        "Minecraft Minigames" : {
+            "Lugar" : "4º",
+            "Pontos" : 6
         }
     },
     "Wisdow" : {
@@ -335,6 +339,10 @@
         "DeadByDaylight" : {
             "Lugar" : "🥇",
             "Pontos" : 8
+        },
+        "Minecraft Minigames" : {
+            "Lugar" : "🥉",
+            "Pontos" : 8
         }
     },
     "Braz" : {
@@ -479,6 +487,10 @@
         "DeadByDaylight" : {
             "Lugar" : "🥇",
             "Pontos" : 8
+        },
+        "Minecraft Minigames" : {
+            "Lugar" : "🥇",
+            "Pontos" : 13
         }
     },
     "Cludos" : {
@@ -557,6 +569,10 @@
         "DeadByDaylight" : {
             "Lugar" : "🥇",
             "Pontos" : 8
+        },
+        "Minecraft Minigames" : {
+            "Lugar" : "6º",
+            "Pontos" : 5
         }
     },
     "Droga" : {
@@ -815,6 +831,10 @@
         "Circuito" : {
             "Lugar" : "🥈",
             "Pontos" : 10
+        },
+        "Minecraft Minigames" : {
+            "Lugar" : "7º",
+            "Pontos" : 4
         }
     },
     "Serino" : {
@@ -1159,6 +1179,10 @@
         "CounterStrike 2" : {
             "Lugar" : "🥉",
             "Pontos" : 4
+        },
+        "Minecraft Minigames" : {
+            "Lugar" : "🥈",
+            "Pontos" : 10
         }
     },
     "Xiro" : {
@@ -1205,6 +1229,10 @@
         "Arenas LoL" : {
             "Lugar" : "8º",
             "Pontos" : 4
+        },
+        "Minecraft Minigames" : {
+            "Lugar" : "5º",
+            "Pontos" : 5
         }
     },
     "Soares" : {
