@@ -34,6 +34,7 @@ import AgostoCalendar from './bo/calendario/AgostoCalendar';
 import Circuito from './bo/rankings/agosto/Circuito';
 import DeadByDaylight from './bo/rankings/agosto/DeadByDaylight';
 import MinecraftMinigames from './bo/rankings/agosto/Minecraft Minigames';
+import BatalhaNaval from './bo/rankings/agosto/BatalhaNaval';
 
 
 
@@ -65,6 +66,7 @@ const App = () => {
                 <Route path="/rankings/circuito" element={<Circuito />} />
                 <Route path="/rankings/dbd" element={<DeadByDaylight />} />
                 <Route path="/rankings/minecraftminigames" element={<MinecraftMinigames />} />
+                <Route path="/rankings/batalhanaval" element={<BatalhaNaval />} />
 
                 <Route path="/calendario/marco" element={<MarcoCalendar />} />
                 <Route path="/calendario/abril" element={<AbrilCalendar />} />

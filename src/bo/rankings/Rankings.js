@@ -37,7 +37,8 @@ const Rankings = () => {
             "Business Tour",
             "Circuito",
             "DeadByDaylight",
-            "Minecraft Minigames"
+            "Minecraft Minigames",
+            "Batalha Naval"
         ],
 
         "março" : [
@@ -77,7 +78,8 @@ const Rankings = () => {
             "Business Tour",
             "Circuito",
             "DeadByDaylight",
-            "Minecraft Minigames"
+            "Minecraft Minigames",
+            "Batalha Naval"
         ],
         
         "duos" : [
@@ -101,7 +103,8 @@ const Rankings = () => {
             "CounterStrike 2",
             "Overwatch 2",
             "EscapeRoom",
-            "DeadByDaylight"
+            "DeadByDaylight",
+            "Batalha Naval"
         ],
         
         
@@ -143,7 +146,8 @@ const Rankings = () => {
             "EscapeRoom",
             "Ping Pong",
             "Volleyball",
-            "Circuito"
+            "Circuito",
+            "Batalha Naval"
         ]
     }
 

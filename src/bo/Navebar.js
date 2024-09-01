@@ -65,6 +65,7 @@ const Navebar = () => {
                             <li><Link to={"/rankings/circuito"}>        <div className="w3-bar-item w3-button">Circuito</div></Link></li>
                             <li><Link to={"/rankings/dbd"}>        <div className="w3-bar-item w3-button">DeadByDaylight</div></Link></li>
                             <li><Link to={"/rankings/minecraftminigames"}>        <div className="w3-bar-item w3-button">Minecraft Minigames</div></Link></li>
+                            <li><Link to={"/rankings/batalhanaval"}>        <div className="w3-bar-item w3-button">Batalha Naval</div></Link></li>
                         </ul>
                     </li>
                 </ul>

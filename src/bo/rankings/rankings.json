@@ -87,6 +87,10 @@
         "Minecraft Minigames" : {
             "Lugar" : "4º",
             "Pontos" : 6
+        },
+        "Batalha Naval" : {
+            "Lugar" : "🥇",
+            "Pontos" : 8
         }
     },
     "Wisdow" : {
@@ -265,6 +269,10 @@
         "Circuito" : {
             "Lugar" : "🥇",
             "Pontos" : 13
+        },
+        "Batalha Naval" : {
+            "Lugar" : "🥇",
+            "Pontos" : 8
         }
     },
     "Geremias" : {
@@ -343,6 +351,10 @@
         "Minecraft Minigames" : {
             "Lugar" : "🥉",
             "Pontos" : 8
+        },
+        "Batalha Naval" : {
+            "Lugar" : "🥈",
+            "Pontos" : 4
         }
     },
     "Braz" : {
@@ -491,6 +503,10 @@
         "Minecraft Minigames" : {
             "Lugar" : "🥇",
             "Pontos" : 13
+        },
+        "Batalha Naval" : {
+            "Lugar" : "🥈",
+            "Pontos" : 4
         }
     },
     "Cludos" : {
@@ -573,6 +589,10 @@
         "Minecraft Minigames" : {
             "Lugar" : "6º",
             "Pontos" : 5
+        },
+        "Batalha Naval" : {
+            "Lugar" : "🥇",
+            "Pontos" : 8
         }
     },
     "Droga" : {
@@ -835,6 +855,10 @@
         "Minecraft Minigames" : {
             "Lugar" : "7º",
             "Pontos" : 4
+        },
+        "Batalha Naval" : {
+            "Lugar" : "🥇",
+            "Pontos" : 8
         }
     },
     "Serino" : {
@@ -871,6 +895,10 @@
         "DeadByDaylight" : {
             "Lugar" : "🥇",
             "Pontos" : 8
+        },
+        "Batalha Naval" : {
+            "Lugar" : "🥈",
+            "Pontos" : 4
         }
     },
     "Tone" : {
@@ -1105,6 +1133,10 @@
             "Pontos" : 13
         },
         "DeadByDaylight" : {
+            "Lugar" : "🥈",
+            "Pontos" : 4
+        },
+        "Batalha Naval" : {
             "Lugar" : "🥈",
             "Pontos" : 4
         }
