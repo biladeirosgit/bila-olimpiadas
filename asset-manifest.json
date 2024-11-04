@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/bila-olimpiadas/static/css/main.77a21d7d.css",
-    "main.js": "/bila-olimpiadas/static/js/main.1adb3293.js",
+    "main.js": "/bila-olimpiadas/static/js/main.22edbfaf.js",
     "static/js/453.560422a9.chunk.js": "/bila-olimpiadas/static/js/453.560422a9.chunk.js",
     "index.html": "/bila-olimpiadas/index.html",
     "main.77a21d7d.css.map": "/bila-olimpiadas/static/css/main.77a21d7d.css.map",
-    "main.1adb3293.js.map": "/bila-olimpiadas/static/js/main.1adb3293.js.map",
+    "main.22edbfaf.js.map": "/bila-olimpiadas/static/js/main.22edbfaf.js.map",
     "453.560422a9.chunk.js.map": "/bila-olimpiadas/static/js/453.560422a9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.77a21d7d.css",
-    "static/js/main.1adb3293.js"
+    "static/js/main.22edbfaf.js"
   ]
 }
