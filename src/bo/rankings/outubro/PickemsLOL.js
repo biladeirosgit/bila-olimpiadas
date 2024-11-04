@@ -47,9 +47,9 @@ const PickemsLOL = () => {
                                          <td>{player["#"]}</td>
                                          <td>{player.Membros}</td>
                                          <td>{player.Pt}</td>
+                                         <td>{player.T}</td>
                                          <td>{player.P}</td>
                                          <td>{player.Cb}</td>
-                                         <td>{player.T}</td>
                                      </tr>
                                  ))}
                              </tbody>
