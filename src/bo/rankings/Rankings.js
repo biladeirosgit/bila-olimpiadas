@@ -38,7 +38,8 @@ const Rankings = () => {
             "Circuito",
             "DeadByDaylight",
             "Minecraft Minigames",
-            "Batalha Naval"
+            "Batalha Naval",
+            "LOL Worlds 2024 Pick'em"
         ],
 
         "março" : [
@@ -81,6 +82,10 @@ const Rankings = () => {
             "Minecraft Minigames",
             "Batalha Naval"
         ],
+
+        "outubro" : [
+            "LOL Worlds 2024 Pick'em"
+        ],
         
         "duos" : [
             "Bilatrecos",
@@ -116,7 +121,8 @@ const Rankings = () => {
             "Bilapredicts Europeu 2024",
             "Ping Pong",
             "Business Tour",
-            "Minecraft Minigames"
+            "Minecraft Minigames",
+            "LOL Worlds 2024 Pick'em"
         ],
         
         
@@ -133,7 +139,9 @@ const Rankings = () => {
             "Arenas LoL",
             "Business Tour",
             "DeadByDaylight",
-            "Minecraft Minigames"
+            "Minecraft Minigames",
+            "LOL Worlds 2024 Pick'em"
+            
         ],
         
         
@@ -346,6 +354,9 @@ const Rankings = () => {
                             </div>
                             <div className="lns-checkbox">
                               <label><input type="checkbox" rel="agosto" onChange={change} /> <span>Agosto</span></label>
+                            </div>
+                            <div className="lns-checkbox">
+                              <label><input type="checkbox" rel="outubro" onChange={change} /> <span>Outubro</span></label>
                             </div>
                         </div>
                         
