@@ -1,456 +1,213 @@
-import React, { useState, useEffect } from 'react';
-import './Rankings.css';import rankingsjson from "./rankings.json";
+import React, { useState, useMemo } from 'react';
+import './Rankings.css';
+import rankingsjson from './rankings.json';
+import PageShell from '../../components/PageShell';
+import Avatar from '../../components/Avatar';
+import { buildFiltersList, MONTHS, AMOUNTS, FORMATS } from '../../data/tournaments';
+
+// A filtersList era 145 linhas hardcoded que re-listavam os 24 torneios 11
+// vezes. Agora e derivada da fonte unica, e ha um teste que prova que a
+// lista derivada e identica a original.
+const filtersList = buildFiltersList();
+
+const GRUPOS = [
+    { chave: 'amount', opcoes: AMOUNTS },
+    { chave: 'format', opcoes: FORMATS },
+    { chave: 'months', opcoes: MONTHS },
+];
+
+const capitalizar = (s) => s.charAt(0).toUpperCase() + s.slice(1);
 
 const Rankings = () => {
-
     const [expandedPlayer, setExpandedPlayer] = useState(null);
-    const [rankedPlayers, setRankedPlayers] = useState(null);
-    const [amountFilters, setAmountFilters] = useState([])
-    const [formatFilters, setFormatFilters] = useState([])
-    const [monthFilters, setMonthFilters] = useState([])
-    const [filteredTournaments, setFilteredTournaments] = useState([])
     const [selectedSort, setSelectedSort] = useState('rank');
 
-    const filtersList = {
-        "todos" : [
-            "Bilatrecos",
-            "Teamfight Tactics",
-            "Futbiladas",
-            "League of Legends 5x5",
-            "Rocket League 3x3",
-            "Sueca",
-            "Scribbl.io",
-            "Brawlhalla",
-            "Bilabilhar",
-            "CounterStrike 2",
-            "Basquetiladas",
-            "Overwatch 2",
-            "AmongUs",
-            "EscapeRoom",
-            "Bilapredicts Europeu 2024",
-            "Arenas LoL",
-            "Ping Pong",
-            "Volleyball",
-            "Business Tour",
-            "Circuito",
-            "DeadByDaylight",
-            "Minecraft Minigames",
-            "Batalha Naval",
-            "LOL Worlds 2024 Pick'em"
-        ],
+    // Antes, os filtros eram lidos do DOM com document.querySelectorAll, e os
+    // <input> eram nao-controlados com o atributo `rel` a transportar o valor.
+    // Agora sao estado. E equivalente: `concat` + `includes` e pertenca a
+    // conjunto, logo a ordem dos cliques nunca afetou o resultado -- ha um
+    // teste que o prova.
+    const [filters, setFilters] = useState({ amount: [], format: [], months: [] });
 
-        "março" : [
-            "Bilatrecos",
-            "Teamfight Tactics",
-            "Futbiladas",
-            "League of Legends 5x5",
-        ],
+    const toggle = (grupo, valor) =>
+        setFilters((f) => ({
+            ...f,
+            [grupo]: f[grupo].includes(valor) ? f[grupo].filter((x) => x !== valor) : [...f[grupo], valor],
+        }));
 
-        "abril" : [
-            "Rocket League 3x3",
-            "Sueca",
-            "Scribbl.io",
-        ],
-
-        "maio" : [
-            "Brawlhalla",
-            "Bilabilhar",
-            "CounterStrike 2",
-        ],
-
-        "junho" : [
-            "Basquetiladas",
-            "Overwatch 2",
-            "AmongUs",
-            "EscapeRoom",
-            "Bilapredicts Europeu 2024",
-        ],
-
-        "julho" : [
-            "Arenas LoL",
-            "Ping Pong",
-            "Volleyball"
-        ],
-
-        "agosto" : [
-            "Business Tour",
-            "Circuito",
-            "DeadByDaylight",
-            "Minecraft Minigames",
-            "Batalha Naval"
-        ],
-
-        "outubro" : [
-            "LOL Worlds 2024 Pick'em"
-        ],
-        
-        "duos" : [
-            "Bilatrecos",
-            "Sueca",
-            "Bilabilhar",
-            "Arenas LoL"
-        ],
-
-        "trios" : [
-            "Basquetiladas",
-            "Rocket League 3x3",
-            "Volleyball",
-            "Circuito"
-        ],
-        
-        "grupo" : [
-        
-            "Futbiladas",
-            "League of Legends 5x5",
-            "CounterStrike 2",
-            "Overwatch 2",
-            "EscapeRoom",
-            "DeadByDaylight",
-            "Batalha Naval"
-        ],
-        
-        
-        "individual" : [
-            "Teamfight Tactics",
-            "Scribbl.io",
-            "Brawlhalla",
-            "AmongUs",
-            "Bilapredicts Europeu 2024",
-            "Ping Pong",
-            "Business Tour",
-            "Minecraft Minigames",
-            "LOL Worlds 2024 Pick'em"
-        ],
-        
-        
-        "online" : [
-            "Teamfight Tactics",
-            "League of Legends 5x5",
-            "Scribbl.io",
-            "Rocket League 3x3",
-            "Brawlhalla",
-            "CounterStrike 2",
-            "Overwatch 2",
-            "AmongUs",
-            "Bilapredicts Europeu 2024",
-            "Arenas LoL",
-            "Business Tour",
-            "DeadByDaylight",
-            "Minecraft Minigames",
-            "LOL Worlds 2024 Pick'em"
-            
-        ],
-        
-        
-        "presencial" : [
-            "Bilatrecos",
-            "Futbiladas",
-            "Sueca",
-            "Bilabilhar",
-            "Basquetiladas",
-            "EscapeRoom",
-            "Ping Pong",
-            "Volleyball",
-            "Circuito",
-            "Batalha Naval"
-        ]
-    }
-
-
-    const togglePlayerDetails = (playerName) => {
-        if (expandedPlayer === playerName) {
-            setExpandedPlayer(null);
-        } else {
-            setExpandedPlayer(playerName);
-        }
-    };
-
-    
-    
-    const getPlayers = () => {
-        var rankings = {}
-        var filteredTournamentsAux = filtersList["todos"]
-        var listAmount = []
-        var listFormat = []
-        var listMonth = []
-        amountFilters.forEach(filter => {
-            listAmount = listAmount.concat(filtersList[filter]);
-        })
-        formatFilters.forEach(filter => {
-            listFormat = listFormat.concat(filtersList[filter]);
-        })
-        monthFilters.forEach(filter => {
-            listMonth = listMonth.concat(filtersList[filter]);
-        })
-
-        if(listAmount.length !== 0){
-            filteredTournamentsAux = filteredTournamentsAux.filter(item => listAmount.includes(item))
-        }
-        if(listFormat.length !== 0){
-            filteredTournamentsAux = filteredTournamentsAux.filter(item => listFormat.includes(item))
-        }
-        if(listMonth.length !== 0){
-            filteredTournamentsAux = filteredTournamentsAux.filter(item => listMonth.includes(item))
-        }
-        setFilteredTournaments(filteredTournamentsAux);
-        for (var player in rankingsjson){
-            var torneios = rankingsjson[player]
-            rankings[player] = {
-                "pts" : 0,
-                "pr" : 0,
-                "1º" : 0,
-                "2º" : 0,
-                "3º" : 0,
-                "torneios" : []
-            }
-            for (var torneio in torneios){
-                if (filteredTournamentsAux.includes(torneio)){
-                    rankings[player]["pr"] += 1
-                    rankings[player]["pts"] += torneios[torneio]["Pontos"]
-                    if ("Penalização" in torneios[torneio]) {
-                        rankings[player]["pts"] += torneios[torneio]["Penalização"]
-                    }
-                    if (torneios[torneio]["Lugar"] === "🥇"){
-                        rankings[player]["1º"] += 1
-                    }
-                    else if(torneios[torneio]["Lugar"] === "🥈"){
-                        rankings[player]["2º"] += 1
-                    }
-                    else if(torneios[torneio]["Lugar"] === "🥉"){
-                        rankings[player]["3º"] += 1
-                    }
-                    rankings[player]["mpp"] = rankings[player]["pts"] / rankings[player]["pr"]
-                    rankings[player]["mpp"] = parseFloat(rankings[player]["mpp"].toFixed(2))
-                }
-            }
-        }
-        const sortedPlayers = Object.keys(rankings).map(player => {
-            return { name: player, ...rankings[player] }
-        }).sort((a, b) => {
-            if (b.pts !== a.pts) return b.pts - a.pts;
-            if (b.mpp !== a.mpp) return b.mpp - a.mpp;
-            if (b["1º"] !== a["1º"]) return b["1º"] - a["1º"];
-            if (b["2º"] !== a["2º"]) return b["2º"] - a["2º"];
-            if (b["3º"] !== a["3º"]) return b["3º"] - a["3º"];
-            return 0;
+    const filteredTournaments = useMemo(() => {
+        let torneios = filtersList.todos;
+        GRUPOS.forEach(({ chave }) => {
+            const selecionados = filters[chave];
+            if (selecionados.length === 0) return;
+            const permitidos = selecionados.flatMap((f) => filtersList[f]);
+            torneios = torneios.filter((t) => permitidos.includes(t));
         });
+        return torneios;
+    }, [filters]);
 
-        return sortedPlayers;
-    }
-    
+    const rankedPlayers = useMemo(() => {
+        const rankings = {};
+        for (const player in rankingsjson) {
+            const torneios = rankingsjson[player];
+            rankings[player] = { pts: 0, pr: 0, '1º': 0, '2º': 0, '3º': 0 };
+            for (const torneio in torneios) {
+                if (!filteredTournaments.includes(torneio)) continue;
+                const r = torneios[torneio];
+                rankings[player].pr += 1;
+                rankings[player].pts += r.Pontos;
+                if ('Penalização' in r) rankings[player].pts += r['Penalização'];
+                if (r.Lugar === '🥇') rankings[player]['1º'] += 1;
+                else if (r.Lugar === '🥈') rankings[player]['2º'] += 1;
+                else if (r.Lugar === '🥉') rankings[player]['3º'] += 1;
+                rankings[player].mpp = parseFloat((rankings[player].pts / rankings[player].pr).toFixed(2));
+            }
+        }
 
-    // Function to calculate rankings considering ties
-    const getRankingsWithTies = () => {
-        const players = getPlayers();
+        const sorted = Object.keys(rankings)
+            .map((player) => ({ name: player, ...rankings[player] }))
+            .sort((a, b) => {
+                if (b.pts !== a.pts) return b.pts - a.pts;
+                if (b.mpp !== a.mpp) return b.mpp - a.mpp;
+                if (b['1º'] !== a['1º']) return b['1º'] - a['1º'];
+                if (b['2º'] !== a['2º']) return b['2º'] - a['2º'];
+                if (b['3º'] !== a['3º']) return b['3º'] - a['3º'];
+                return 0;
+            });
+
+        // Empates: quem tem os mesmos pts/mpp/ouros partilha o lugar.
         let rank = 1;
-        let previousPts = null;
-        let previousMpp = null;
-        let previousTg = null;
-        return players.map((player, index) => {
-            if (previousPts !== player.pts || previousMpp !== player.mpp || previousTg !== player["1º"]) {
+        let prevPts = null;
+        let prevMpp = null;
+        let prevTg = null;
+        const comRank = sorted.map((player, index) => {
+            if (prevPts !== player.pts || prevMpp !== player.mpp || prevTg !== player['1º']) {
                 rank = index + 1;
             }
-            previousPts = player.pts;
-            previousMpp = player.mpp;
-            previousTg = player["1º"];
+            prevPts = player.pts;
+            prevMpp = player.mpp;
+            prevTg = player['1º'];
             return { rank, ...player };
         });
-    };
 
-    function getClassOfCheckedCheckboxes(checkboxes) {
-        var classes = [];
-      
-        if (checkboxes && checkboxes.length > 0) {
-          for (var i = 0; i < checkboxes.length; i++) {
-            var cb = checkboxes[i];
-      
-            if (cb.checked) {
-              classes.push(cb.getAttribute("rel"));
-            }
-          }
-        }
-      
-        return classes;
-      }
+        // [...] em vez de sort() direto: o original mutava o array in-place.
+        return selectedSort === 'rank'
+            ? [...comRank].sort((a, b) => a.rank - b.rank)
+            : [...comRank].sort((a, b) => b[selectedSort] - a[selectedSort]);
+    }, [filteredTournaments, selectedSort]);
 
-    function change() {
-        var amountFilters = document.querySelectorAll(".amount input[type='checkbox']");
-        var formatFilters = document.querySelectorAll(".format input[type='checkbox']");
-        var monthFilters = document.querySelectorAll(".months input[type='checkbox']");
-        amountFilters = getClassOfCheckedCheckboxes(amountFilters);
-        formatFilters = getClassOfCheckedCheckboxes(formatFilters);
-        monthFilters = getClassOfCheckedCheckboxes(monthFilters);
-        setAmountFilters(amountFilters);
-        setFormatFilters(formatFilters);
-        setMonthFilters(monthFilters);
-    }
-
-    function sortPlayers(players){
-        if(players !== null){
-            if(selectedSort === "rank") {
-                players.sort((a,b) => a[selectedSort] - b[selectedSort]);
-            }
-            else {
-                players.sort((a,b) => b[selectedSort] - a[selectedSort]);
-            }
-        }
-        return players;
-    }
-
-    useEffect(() => {
-        setRankedPlayers(sortPlayers(getRankingsWithTies()));
-    }, []);
-
-    useEffect(() => {
-        setRankedPlayers(sortPlayers(getRankingsWithTies()));
-    }, [amountFilters,formatFilters,monthFilters,selectedSort])
+    const togglePlayerDetails = (name) => setExpandedPlayer((cur) => (cur === name ? null : name));
 
     return (
-        <div>
-            <div className="w3-container w3-light-gray" style={{textAlign:"center"}}>
-                <div className="w3-container w3-center" style={{width:"60%",display:"inline-block"}}>
-                    <div className="filters">
-                        <div className="amount">
-                            <div className="lns-checkbox">
-                              <label><input type="checkbox" rel="individual" onChange={change} /><span>Individual</span></label>
-                            </div>
-                            <div className="lns-checkbox">
-                              <label><input type="checkbox" rel="duos" onChange={change} /><span>Duos</span></label>
-                            </div>
-                            <div className="lns-checkbox">
-                              <label><input type="checkbox" rel="trios" onChange={change} /><span>Trios</span></label>
-                            </div>
-                            <div className="lns-checkbox">
-                              <label><input type="checkbox" rel="grupo" onChange={change} /><span>Grupo</span></label>
-                            </div>
-                        </div>
-                        <div className="format">
-                            <div className="lns-checkbox">
-                              <label><input type="checkbox" rel="online" onChange={change} /><span>Online</span></label>
-                            </div>
-                            <div className="lns-checkbox">
-                              <label><input type="checkbox" rel="presencial" onChange={change} /> <span>Presencial</span></label>
-                            </div>
-                        </div>
-                        <div className="months">
-                            <div className="lns-checkbox">
-                              <label><input type="checkbox" rel="março" onChange={change} /><span>Março</span></label>
-                            </div>
-                            <div className="lns-checkbox">
-                              <label><input type="checkbox" rel="abril" onChange={change} /> <span>Abril</span></label>
-                            </div>
-                            <div className="lns-checkbox">
-                              <label><input type="checkbox" rel="maio" onChange={change} /> <span>Maio</span></label>
-                            </div>
-                            <div className="lns-checkbox">
-                              <label><input type="checkbox" rel="junho" onChange={change} /> <span>Junho</span></label>
-                            </div>
-                            <div className="lns-checkbox">
-                              <label><input type="checkbox" rel="julho" onChange={change} /> <span>Julho</span></label>
-                            </div>
-                            <div className="lns-checkbox">
-                              <label><input type="checkbox" rel="agosto" onChange={change} /> <span>Agosto</span></label>
-                            </div>
-                            <div className="lns-checkbox">
-                              <label><input type="checkbox" rel="outubro" onChange={change} /> <span>Outubro</span></label>
-                            </div>
-                        </div>
-                        
+        <PageShell title="Ranking Geral">
+            <div className="filters">
+                {GRUPOS.map(({ chave, opcoes }) => (
+                    <div className={chave} key={chave}>
+                        {opcoes.map((opcao) => (
+                            <label className="lns-checkbox" key={opcao}>
+                                <input
+                                    type="checkbox"
+                                    rel={opcao}
+                                    checked={filters[chave].includes(opcao)}
+                                    onChange={() => toggle(chave, opcao)}
+                                />
+                                <span>{capitalizar(opcao)}</span>
+                            </label>
+                        ))}
                     </div>
-                    <br></br>
-                    <div>
-                        <p>Sort by: </p>
-                        <select className="sort" onChange={e => setSelectedSort(e.target.value)} defaultValue="rank">
-                            <option value="rank">Rank</option>
-                            <option value="pts">Pontos</option>
-                            <option value="pr">Participações</option>
-                            <option value="mpp">Média Pontos por Torneio</option>
-                            <option value="1º">🥇</option>
-                            <option value="2º">🥈</option>
-                            <option value="3º">🥉</option>
-                        </select>
-                    </div>
-                    <h1 className="w3-center">Ranking Geral</h1>
-                    <div className="rankings-container">
-                        <table className="rankings-table w3-table w3-centered w3-table-all w3-hoverable">
-                            <thead>
-                                <tr>
-                                    <th>Rank</th>
-                                    <th>Player</th>
-                                    <th>Pontos</th>
-                                    <th>Participações</th>
-                                    <th>Média Pontos por Torneio</th>
-                                    <th>🥇</th>
-                                    <th>🥈</th>
-                                    <th>🥉</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                {rankedPlayers && rankedPlayers.map(player => (
-                                    <React.Fragment key={player.name}>
-                                        <tr onClick={() => togglePlayerDetails(player.name)} style={{cursor: 'pointer'}}>
-                                            <td>{player.rank}</td>
-                                            <td>
-                                                <div style={{display:"block"}}>
-                                                <img 
-                                                    src={`images/${player.name}.png`} 
-                                                    alt={player.name} 
-                                                    className="player-image"
-                                                    style={{width:"50px",borderRadius:"50%"}}
-                                                />
-                                                <p>{player.name}</p>
-                                                </div>
-                                            </td>
-                                            <td>{player.pts}</td>
-                                            <td>{player.pr}</td>
-                                            <td>{player.mpp}</td>
-                                            <td>{player["1º"]}</td>
-                                            <td>{player["2º"]}</td>
-                                            <td>{player["3º"]}</td>
-                                        </tr>
-                                        {expandedPlayer === player.name && rankingsjson[player.name] && Object.keys(rankingsjson[player.name]).length > 0 && (
-                                            <tr>
-                                                <td colSpan="8">
-                                                    <div className="player-details">
-                                                        <h5 key={player.name}><b>Participações</b></h5>
-                                                        {Object.keys(rankingsjson[player.name]).map(torneio => (
-                                                            filteredTournaments.includes(torneio) && (<>
-                                                                <p><b>Torneio: </b>{torneio}</p>
-                                                                <p><b>Lugar: </b>{rankingsjson[player.name][torneio]["Lugar"]}</p>
-                                                                <p><b>Pontos Ganhos: </b>{rankingsjson[player.name][torneio]["Pontos"]}</p>
-                                                                {rankingsjson[player.name][torneio]["Penalização"] && (
-                                                                    <p><b>Penalização:</b> {rankingsjson[player.name][torneio]["Penalização"]} ({rankingsjson[player.name][torneio]["Penalização Justificativa"]}) </p>
-                                                                )}
-                                                                <br></br>
-                                                            </>)                                                        ))}
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                        )}
-                                        {expandedPlayer === player.name && (!rankingsjson[player.name] && Object.keys(rankingsjson[player.name]).length === 0) && (
-                                            <tr>
-                                                <td colSpan="8">
-                                                    <div className="player-details">
-                                                        <p>O jogador não tem torneios registrados.</p>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                        )}
-                                    </React.Fragment>
-                                ))}
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
+                ))}
             </div>
-        </div>
+
+            <div className="sort-row">
+                <label htmlFor="sort">Ordenar por</label>
+                <select
+                    id="sort"
+                    className="sort"
+                    value={selectedSort}
+                    onChange={(e) => setSelectedSort(e.target.value)}
+                >
+                    <option value="rank">Rank</option>
+                    <option value="pts">Pontos</option>
+                    <option value="pr">Participações</option>
+                    <option value="mpp">Média Pontos por Torneio</option>
+                    <option value="1º">🥇</option>
+                    <option value="2º">🥈</option>
+                    <option value="3º">🥉</option>
+                </select>
+                <span className="sort-count">
+                    {filteredTournaments.length} de {filtersList.todos.length} torneios
+                </span>
+            </div>
+
+            <div className="table-scroll">
+                <table className="ranking-table">
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Player</th>
+                            <th>Pontos</th>
+                            <th>Participações</th>
+                            <th>Média Pontos por Torneio</th>
+                            <th>🥇</th>
+                            <th>🥈</th>
+                            <th>🥉</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {rankedPlayers.map((player) => (
+                            <React.Fragment key={player.name}>
+                                <tr className="player-row" onClick={() => togglePlayerDetails(player.name)}>
+                                    <td>{player.rank}</td>
+                                    <td>
+                                        <div className="player-cell">
+                                            <Avatar name={player.name} />
+                                            <span>{player.name}</span>
+                                        </div>
+                                    </td>
+                                    <td className="cell-pts">{player.pts}</td>
+                                    <td>{player.pr}</td>
+                                    <td>{player.mpp}</td>
+                                    <td>{player['1º']}</td>
+                                    <td>{player['2º']}</td>
+                                    <td>{player['3º']}</td>
+                                </tr>
+                                {expandedPlayer === player.name && (
+                                    <tr>
+                                        <td colSpan="8">
+                                            <div className="player-details">
+                                                <h5>Participações</h5>
+                                                <div className="participacoes">
+                                                    {Object.keys(rankingsjson[player.name])
+                                                        .filter((t) => filteredTournaments.includes(t))
+                                                        .map((torneio) => {
+                                                            const r = rankingsjson[player.name][torneio];
+                                                            return (
+                                                                <div className="participacao" key={torneio}>
+                                                                    <p className="p-torneio">{torneio}</p>
+                                                                    <p>
+                                                                        <b>Lugar:</b> {r.Lugar} · <b>Pontos:</b> {r.Pontos}
+                                                                    </p>
+                                                                    {r['Penalização'] && (
+                                                                        <p className="p-penalizacao">
+                                                                            <b>Penalização:</b> {r['Penalização']} (
+                                                                            {r['Penalização Justificativa']})
+                                                                        </p>
+                                                                    )}
+                                                                </div>
+                                                            );
+                                                        })}
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                )}
+                            </React.Fragment>
+                        ))}
+                    </tbody>
+                </table>
+            </div>
+        </PageShell>
     );
-}
+};
 
 export default Rankings;
