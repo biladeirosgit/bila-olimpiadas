@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { TOURNAMENTS, MONTHS } from '../data/tournaments';
 import { logoSrc, hubIconSrc } from '../utils/images';
@@ -21,16 +21,26 @@ const byMonth = MONTHS.map((month) => ({
 
 const NavBar = () => {
     const location = useLocation();
-    const [open, setOpen] = useState(null); // 'rankings' | 'calendario' | 'burger' | null
+    // Dois estados, nao um. Com um so ('rankings'|'calendario'|'burger'|null),
+    // abrir os Rankings tirava o valor 'burger' -- a drawer fechava e o
+    // mega-menu abria dentro de um contentor em display:none. Em mobile o
+    // burger e os dropdowns tem de poder estar abertos AO MESMO TEMPO.
+    const [burgerOpen, setBurgerOpen] = useState(false);
+    const [menu, setMenu] = useState(null); // 'rankings' | 'calendario' | null
     const navRef = useRef(null);
 
+    const closeAll = useCallback(() => {
+        setBurgerOpen(false);
+        setMenu(null);
+    }, []);
+
     // Fechar ao navegar: sem isto o menu fica aberto por cima da pagina nova.
-    useEffect(() => setOpen(null), [location.pathname]);
+    useEffect(() => closeAll(), [location.pathname, closeAll]);
 
     useEffect(() => {
-        const onKey = (e) => e.key === 'Escape' && setOpen(null);
+        const onKey = (e) => e.key === 'Escape' && closeAll();
         const onClick = (e) => {
-            if (navRef.current && !navRef.current.contains(e.target)) setOpen(null);
+            if (navRef.current && !navRef.current.contains(e.target)) closeAll();
         };
         document.addEventListener('keydown', onKey);
         document.addEventListener('mousedown', onClick);
@@ -38,9 +48,16 @@ const NavBar = () => {
             document.removeEventListener('keydown', onKey);
             document.removeEventListener('mousedown', onClick);
         };
-    }, []);
+    }, [closeAll]);
 
-    const toggle = (menu) => setOpen((cur) => (cur === menu ? null : menu));
+    const toggleMenu = (m) => setMenu((cur) => (cur === m ? null : m));
+    // Fechar a drawer arruma tambem o dropdown que ficasse aberto la dentro.
+    const toggleBurger = () =>
+        setBurgerOpen((o) => {
+            if (o) setMenu(null);
+            return !o;
+        });
+
     const isRanking = location.pathname.startsWith('/rankings');
     const isCalendar = location.pathname.startsWith('/calendario');
 
@@ -72,15 +89,15 @@ const NavBar = () => {
                 <button
                     className="navbar-burger"
                     aria-label="Menu"
-                    aria-expanded={open === 'burger'}
-                    onClick={() => toggle('burger')}
+                    aria-expanded={burgerOpen}
+                    onClick={toggleBurger}
                 >
                     <span />
                     <span />
                     <span />
                 </button>
 
-                <div className={`navbar-links${open === 'burger' ? ' is-open' : ''}`}>
+                <div className={`navbar-links${burgerOpen ? ' is-open' : ''}`}>
                     <Link to="/" className={`navbar-link${location.pathname === '/' ? ' active' : ''}`}>
                         Home
                     </Link>
@@ -88,12 +105,12 @@ const NavBar = () => {
                     <div className="navbar-group">
                         <button
                             className={`navbar-link navbar-toggle${isRanking ? ' active' : ''}`}
-                            aria-expanded={open === 'rankings'}
-                            onClick={() => toggle('rankings')}
+                            aria-expanded={menu === 'rankings'}
+                            onClick={() => toggleMenu('rankings')}
                         >
                             Rankings <span className="chevron">▾</span>
                         </button>
-                        {open === 'rankings' && (
+                        {menu === 'rankings' && (
                             <div className="mega">
                                 <Link to="/rankings" className="mega-featured">
                                     Ranking Geral
@@ -117,12 +134,12 @@ const NavBar = () => {
                     <div className="navbar-group">
                         <button
                             className={`navbar-link navbar-toggle${isCalendar ? ' active' : ''}`}
-                            aria-expanded={open === 'calendario'}
-                            onClick={() => toggle('calendario')}
+                            aria-expanded={menu === 'calendario'}
+                            onClick={() => toggleMenu('calendario')}
                         >
                             Calendar <span className="chevron">▾</span>
                         </button>
-                        {open === 'calendario' && (
+                        {menu === 'calendario' && (
                             <div className="mega mega--narrow">
                                 <div className="mega-col">
                                     {MONTHS.filter((m) => m !== 'outubro').map((m) => (

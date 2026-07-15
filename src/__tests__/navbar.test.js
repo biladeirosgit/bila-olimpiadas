@@ -1,9 +1,13 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { render, fireEvent, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import NavBar from '../components/NavBar';
 
 const renderNav = () => render(<MemoryRouter><NavBar /></MemoryRouter>);
+
+const burger = (c) => c.querySelector('.navbar-burger');
+const toggleDe = (c, nome) =>
+    [...c.querySelectorAll('.navbar-toggle')].find((b) => b.textContent.includes(nome));
 
 describe('navbar', () => {
     // O `gap: 10px` do .navbar-brand aplicava-se a todos os filhos, logo abria
@@ -62,6 +66,79 @@ describe('navbar', () => {
             const a = container.querySelector('.hub-link');
             expect(a.getAttribute('aria-label')).toBeTruthy();
             expect(a.querySelector('img').getAttribute('alt')).toBe('');
+        });
+    });
+
+    // A navbar tinha UM estado para tres coisas: 'rankings'|'calendario'|
+    // 'burger'|null. A drawer so aparecia se o valor fosse 'burger', logo
+    // carregar nos Rankings tirava-lhe esse valor: a drawer fechava e o
+    // mega-menu abria dentro de um contentor em display:none. Em mobile os
+    // dropdowns eram inabriveis -- exatamente o bug que o utilizador viu.
+    describe('burger + dropdowns ao mesmo tempo (mobile)', () => {
+        test('com o burger aberto, os Rankings abrem E a drawer fica aberta', () => {
+            const { container } = renderNav();
+            fireEvent.click(burger(container));
+            expect(container.querySelector('.navbar-links')).toHaveClass('is-open');
+
+            fireEvent.click(toggleDe(container, 'Rankings'));
+            // o mega abriu...
+            expect(container.querySelector('.mega')).toBeInTheDocument();
+            // ...e a drawer NAO fechou (era aqui que partia)
+            expect(container.querySelector('.navbar-links')).toHaveClass('is-open');
+            expect(burger(container)).toHaveAttribute('aria-expanded', 'true');
+        });
+
+        test('o mesmo para o Calendar', () => {
+            const { container } = renderNav();
+            fireEvent.click(burger(container));
+            fireEvent.click(toggleDe(container, 'Calendar'));
+            expect(container.querySelector('.mega')).toBeInTheDocument();
+            expect(container.querySelector('.navbar-links')).toHaveClass('is-open');
+        });
+
+        test('os torneios ficam mesmo alcancaveis com o burger aberto', () => {
+            const { container } = renderNav();
+            fireEvent.click(burger(container));
+            fireEvent.click(toggleDe(container, 'Rankings'));
+            expect(screen.getByText('Bilatrecos').closest('a')).toHaveAttribute(
+                'href',
+                '/rankings/bilatrecos'
+            );
+        });
+
+        test('abrir um dropdown fecha o outro', () => {
+            const { container } = renderNav();
+            fireEvent.click(burger(container));
+            fireEvent.click(toggleDe(container, 'Rankings'));
+            expect(toggleDe(container, 'Rankings')).toHaveAttribute('aria-expanded', 'true');
+            fireEvent.click(toggleDe(container, 'Calendar'));
+            expect(toggleDe(container, 'Rankings')).toHaveAttribute('aria-expanded', 'false');
+            expect(toggleDe(container, 'Calendar')).toHaveAttribute('aria-expanded', 'true');
+        });
+
+        test('fechar o burger arruma o dropdown que ficou aberto', () => {
+            const { container } = renderNav();
+            fireEvent.click(burger(container));
+            fireEvent.click(toggleDe(container, 'Rankings'));
+            fireEvent.click(burger(container));
+            expect(container.querySelector('.mega')).not.toBeInTheDocument();
+            expect(container.querySelector('.navbar-links')).not.toHaveClass('is-open');
+        });
+
+        test('Escape fecha tudo', () => {
+            const { container } = renderNav();
+            fireEvent.click(burger(container));
+            fireEvent.click(toggleDe(container, 'Rankings'));
+            fireEvent.keyDown(document, { key: 'Escape' });
+            expect(burger(container)).toHaveAttribute('aria-expanded', 'false');
+            expect(container.querySelector('.mega')).not.toBeInTheDocument();
+        });
+
+        // Em desktop nao ha burger: os dropdowns tem de abrir na mesma.
+        test('em desktop o dropdown abre sem burger nenhum', () => {
+            const { container } = renderNav();
+            fireEvent.click(toggleDe(container, 'Rankings'));
+            expect(container.querySelector('.mega')).toBeInTheDocument();
         });
     });
 
