@@ -1,7 +1,4 @@
-// src/CinemaClubPage.js
-
 import React from 'react';
-import './BilaOlimpiadasPage.css';
 import Navebar from './Navebar';
 import Footer from './Footer';
 
