@@ -1,69 +1,31 @@
+import React from 'react';
+import PageShell, { Legend } from '../../../components/PageShell';
+import RankingTable from '../../../components/RankingTable';
+import Bracket from '../../../components/Bracket';
 
+// Dados dos jogadores
+const PLAYERS = [
+    { "#": "🥇", "Membros": "Lekky & Lemos", Pt: "+13", R: "4-0" },
+    { "#": "🥈", "Membros": "Geremias & Alcunha", Pt: "+10", R: "5-2" },
+    { "#": "🥉", "Membros": "Braz & João Nuno", Pt: "+8", R: "2-2" },
+    { "#": "4º", "Membros": "Tone & Hydra", Pt: "+6", R: "2-2" },
+    { "#": "5º", "Membros": "Squnha & Migas", Pt: "+5", R: "2-2" },
+    { "#": "5º", "Membros": "Wisdow & Sardoal", Pt: "+5", R: "1-2" },
+    { "#": "7º", "Membros": "Rodry & Camilo", Pt: "+4", R: "0-2" },
+    { "#": "7º", "Membros": "Gelly & Esquilo", Pt: "+4", R: "0-2" },
+    { "#": "7º", "Membros": "Xadas & Bárbara", Pt: "+4", R: "0-2" },
+];
 
-const Bilabilhar = () => {
+const COLUMNS = [['#'], ['Membros'], ['Pts', 'Pt'], ['R']];
 
-    // Dados dos jogadores
-    var player1 = { "#" : "🥇" , "Membros" : "Lekky & Lemos"         , Pt: "+13"   , R: "4-0" };
-    var player2 = { "#" : "🥈" , "Membros" : "Geremias & Alcunha"    , Pt: "+10"   , R: "5-2" };
-    var player3 = { "#" : "🥉" , "Membros" : "Braz & João Nuno"      , Pt: "+8"    , R: "2-2" };
-    var player4 = { "#" : "4º" , "Membros" : "Tone & Hydra"          , Pt: "+6"    , R: "2-2" };
-    var player5 = { "#" : "5º" , "Membros" : "Squnha & Migas"        , Pt: "+5"    , R: "2-2" };
-    var player6 = { "#" : "5º" , "Membros" : "Wisdow & Sardoal"      , Pt: "+5"    , R: "1-2" };
-    var player7 = { "#" : "7º" , "Membros" : "Rodry & Camilo"        , Pt: "+4"    , R: "0-2" };
-    var player8 = { "#" : "7º" , "Membros" : "Gelly & Esquilo"       , Pt: "+4"    , R: "0-2" };
-    var player9 = { "#" : "7º" , "Membros" : "Xadas & Bárbara"       , Pt: "+4"    , R: "0-2" };
+const Bilabilhar = () => (
+    <PageShell title="Rankings do Bilabilhar">
+        <RankingTable columns={COLUMNS} rows={PLAYERS} />
+        <Legend>
+            <b>Pts</b> - Pontos Ganhos | <b>R</b> - Resultados
+        </Legend>
+        <Bracket title="Bilabilhar" src="https://challonge.com/pt/cifb0bv5/module" />
+    </PageShell>
+);
 
-    var players = [player1, player2, player3, player4, player5, player6,player7,player8,player9];
-
-    return (
-        <>
-            <div className="w3-container w3-light-gray" style={{ textAlign: "center" }}>
-                <div className="w3-container w3-center" style={{ width: "60%", display: "inline-block" }}>
-                    <h1 className="w3-center">Rankings do Bilabilhar</h1>
-                    <div className="rankings-container">
-                        <table className="rankings-table w3-table w3-centered w3-table-all w3-hoverable">
-                            <thead>
-                                <tr>
-                                    <th>#</th>
-                                    <th>Membros</th>
-                                    <th>Pts</th>
-                                    <th>R</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                {players.map((player, index) => (
-                                    <tr key={index}>
-                                        <td>{player["#"]}</td>
-                                        <td>{player.Membros}</td>
-                                        <td>{player.Pt}</td>
-                                        <td>{player.R}</td>
-                                    </tr>
-                                ))}
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <div class="w3-container">
-                    <br></br>
-                    <p>
-                      <b>Pts</b> - Pontos Ganhos | <b>R</b> - Resultados
-                    </p>
-                </div>
-                <br></br>
-                <div class="w3-container">
-                    <div class="w3-container w3-center" style={{width:"80%",display:"inline-block"}}>
-                        <h1 class="w3-center">Brackets</h1>
-                        <iframe title="Bilabilhar" src="https://challonge.com/pt/cifb0bv5/module" width="100%" height="500" frameborder="0" scrolling="auto" allowtransparency="true"></iframe>
-                    </div>
-                </div>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-            </div>
-            
-        </>
-    );
-}
 export default Bilabilhar;

@@ -1,51 +1,24 @@
+import React from 'react';
+import PageShell, { Legend } from '../../../components/PageShell';
+import RankingTable from '../../../components/RankingTable';
 
+const PLAYERS = [
+    { "#": "🥇", Membros: "Wisdow, Geremias, Cludos, Squnha, Mestre Gui, Camilo, Sardoal", Pt: "+8", T: "46 min e 6 seg" },
+    { "#": "🥈", Membros: "Xadas, Bárbara, João Nuno, Braz, Gama", Pt: "+4", T: "58 min e 26 seg" },
+];
 
-const EscapeRoom = () => {
+// A coluna "Nome" saiu: o <th> existia e o <td> renderizava {player.Nome}, mas
+// os dados nunca tiveram essa chave -- a coluna aparecia vazia em todas as
+// linhas, no site em producao.
+const COLUMNS = [['#'], ['Membros'], ['Pts', 'Pt'], ['T']];
 
-    var player1 = { "#" : "🥇" , Membros : "Wisdow, Geremias, Cludos, Squnha, Mestre Gui, Camilo, Sardoal", Pt: "+8", T: "46 min e 6 seg"};
-    var player2 = { "#" : "🥈" , Membros : "Xadas, Bárbara, João Nuno, Braz, Gama"                        , Pt: "+4", T: "58 min e 26 seg"};
+const EscapeRoom = () => (
+    <PageShell title="Rankings do EscapeRoom">
+        <RankingTable columns={COLUMNS} rows={PLAYERS} />
+        <Legend>
+            <b>Pts</b> - Pontos Ganhos | <b>T</b> - Tempo
+        </Legend>
+    </PageShell>
+);
 
-    var players = [player1, player2];
-    return (
-        <>
-            <div className="w3-container w3-light-gray" style={{ textAlign: "center" }}>
-                <div className="w3-container w3-center" style={{ width: "60%", display: "inline-block" }}>
-                    <h1 className="w3-center">Rankings do EscapeRoom</h1>
-                    <div className="rankings-container">
-                        <table className="rankings-table w3-table w3-centered w3-table-all w3-hoverable">
-                            <thead>
-                                <tr>
-                                    <th>#</th>
-                                    <th>Nome</th>
-                                    <th>Membros</th>
-                                    <th>Pts</th>
-                                    <th>T</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                {players.map((player, index) => (
-                                    <tr key={index}>
-                                        <td>{player["#"]}</td>
-                                        <td>{player.Nome}</td>
-                                        <td>{player.Membros}</td>
-                                        <td>{player.Pt}</td>
-                                        <td>{player.T}</td>
-                                    </tr>
-                                ))}
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <div class="w3-container">
-                    <br></br>
-                    <p>
-                      <b>Pts</b> - Pontos Ganhos | <b>T</b> - Tempo
-                    </p>
-                </div>
-                <br></br>
-            </div>
-            
-        </>
-    );
-}
 export default EscapeRoom;

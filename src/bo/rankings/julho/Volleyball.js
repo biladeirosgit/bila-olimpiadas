@@ -1,67 +1,24 @@
+import React from 'react';
+import PageShell, { Legend } from '../../../components/PageShell';
+import RankingTable from '../../../components/RankingTable';
+import Bracket from '../../../components/Bracket';
 
+const PLAYERS = [
+    { "#": "🥇", Membros: "Squnha, Areias & Soares", Pt: "+8", R: "2-0" },
+    { "#": "🥈", Membros: "Xadas, Bárbara & Cludos", Pt: "+6", R: "1-1" },
+    { "#": "🥉", Membros: "Braz, João Nuno & Maria", Pt: "+4", R: "0-2" },
+];
 
-const Volleyball = () => {
+const COLUMNS = [['#'], ['Membros'], ['Pts', 'Pt'], ['R']];
 
-    
-    var player1 = { "#" : "🥇" , Membros : "Squnha, Areias & Soares"  , Pt: "+8", R: "2-0"};
-    var player2 = { "#" : "🥈" , Membros : "Xadas, Bárbara & Cludos" , Pt: "+6" , R: "1-1"};
-    var player3 = { "#" : "🥉" , Membros : "Braz, João Nuno & Maria" , Pt: "+4" , R: "0-2"};
-    
-    var players = [player1, player2, player3];
+const Volleyball = () => (
+    <PageShell title="Rankings do Volleyball">
+        <RankingTable columns={COLUMNS} rows={PLAYERS} />
+        <Legend>
+            <b>Pts</b> - Pontos Ganhos | <b>R</b> - Resultados
+        </Legend>
+        <Bracket title="Volleyball" src="https://challonge.com/pt/6d052y0e/module" heading="Resultados" />
+    </PageShell>
+);
 
-    return (
-        <>
-             <div className="w3-container w3-light-gray" style={{ textAlign: "center" }}>
-                 <div className="w3-container w3-center" style={{ width: "60%", display: "inline-block" }}>
-                     <h1 className="w3-center">Rankings do Volleyball</h1>
-                     <div className="rankings-container">
-                         <table className="rankings-table w3-table w3-centered w3-table-all w3-hoverable">
-                             <thead>
-                                 <tr>
-                                     <th>#</th>
-                                     <th>Membros</th>
-                                     <th>Pts</th>
-                                     <th>R</th>
-                                 </tr>
-                             </thead>
-                             <tbody>
-                                 {players.map((player, index) => (
-                                     <tr key={index}>
-                                         <td>{player["#"]}</td>
-                                         <td>{player.Membros}</td>
-                                         <td>{player.Pt}</td>
-                                         <td>{player.R}</td>
-                                     </tr>
-                                 ))}
-                             </tbody>
-                         </table>
-                     </div>
-                 </div>
-                 <div className="w3-container">
-                     <br></br>
-                     <p>
-                       <b>Pts</b> - Pontos Ganhos | <b>R</b> - Resultados
-                     </p>
-                 </div>
-                 <br></br>
-                 <br></br>
-                 <br></br>
-                 <div class="w3-container">
-                     <div class="w3-container w3-center" style={{width:"80%",display:"inline-block"}}>
-                         <h1 class="w3-center">Resultados</h1>
-                         <iframe title="Volleyball" src="https://challonge.com/pt/6d052y0e/module" width="100%" height="500" frameborder="0" scrolling="auto" allowtransparency="true"></iframe>
-                     </div>
-                 </div>
-                 <br></br>
-                 <br></br>
-                 <br></br>
-                 <br></br>
-                 <br></br>
-                 <br></br>
-                 
-            </div>
-            
-        </>
-    );
-}
 export default Volleyball;

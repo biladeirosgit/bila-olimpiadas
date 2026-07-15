@@ -8,16 +8,21 @@ import './PageShell.css';
 //            style={{width:"60%", display:"inline-block"}}>
 //
 // O `width:60%` inline confinava o conteudo a ~234px num telemovel de 390px.
-const PageShell = ({ title, legend, children }) => (
+const PageShell = ({ title, children }) => (
     <main className="page">
         {title && <h1 className="page-title">{title}</h1>}
         {children}
-        {legend && (
-            <div className="page-legend">
-                <p>{legend}</p>
-            </div>
-        )}
     </main>
+);
+
+// A legenda das abreviaturas explica a tabela que vem imediatamente antes dela,
+// por isso e composta no sitio certo pela pagina em vez de ser um prop do
+// PageShell -- um prop punha-a sempre no fim, e nas 9 paginas com brackets isso
+// empurrava-a para depois do embed do Challonge.
+export const Legend = ({ children }) => (
+    <div className="page-legend">
+        <p>{children}</p>
+    </div>
 );
 
 export default PageShell;

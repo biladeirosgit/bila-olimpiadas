@@ -378,7 +378,7 @@ exports[`Bilabilhar conteudo inalterado 1`] = `
 Object {
   "headings": Array [
     "H1: Rankings do Bilabilhar",
-    "H1: Brackets",
+    "H2: Brackets",
   ],
   "iframes": Array [
     Array [
@@ -594,7 +594,7 @@ exports[`Bilatrecos conteudo inalterado 1`] = `
 Object {
   "headings": Array [
     "H1: Rankings do Bilatrecos",
-    "H1: Brackets",
+    "H2: Brackets",
   ],
   "iframes": Array [
     Array [
@@ -692,7 +692,7 @@ exports[`Brawlhalla conteudo inalterado 1`] = `
 Object {
   "headings": Array [
     "H1: Rankings do Brawlhalla",
-    "H1: Brackets",
+    "H2: Brackets",
   ],
   "iframes": Array [
     Array [
@@ -833,7 +833,7 @@ exports[`Circuito conteudo inalterado 1`] = `
 Object {
   "headings": Array [
     "H1: Rankings do Circuito",
-    "H1: Tabela de Jogos do Circuito",
+    "H2: Tabela de Jogos do Circuito",
   ],
   "iframes": Array [],
   "images": Array [],
@@ -1038,7 +1038,7 @@ exports[`CounterStrike5x5 conteudo inalterado 1`] = `
 Object {
   "headings": Array [
     "H1: Rankings do CounterStrike 2",
-    "H1: Brackets",
+    "H2: Brackets",
   ],
   "iframes": Array [
     Array [
@@ -1171,28 +1171,25 @@ Object {
     Array [
       Array [
         "#",
-        "Nome",
         "Membros",
         "Pts",
         "T",
       ],
       Array [
         "🥇",
-        "",
         "Wisdow, Geremias, Cludos, Squnha, Mestre Gui, Camilo, Sardoal",
         "+8",
         "46 min e 6 seg",
       ],
       Array [
         "🥈",
-        "",
         "Xadas, Bárbara, João Nuno, Braz, Gama",
         "+4",
         "58 min e 26 seg",
       ],
     ],
   ],
-  "text": "Rankings do EscapeRoom#NomeMembrosPtsT🥇Wisdow, Geremias, Cludos, Squnha, Mestre Gui, Camilo, Sardoal+846 min e 6 seg🥈Xadas, Bárbara, João Nuno, Braz, Gama+458 min e 26 segPts - Pontos Ganhos | T - Tempo",
+  "text": "Rankings do EscapeRoom#MembrosPtsT🥇Wisdow, Geremias, Cludos, Squnha, Mestre Gui, Camilo, Sardoal+846 min e 6 seg🥈Xadas, Bárbara, João Nuno, Braz, Gama+458 min e 26 segPts - Pontos Ganhos | T - Tempo",
 }
 `;
 
@@ -1200,7 +1197,7 @@ exports[`Futbiladas conteudo inalterado 1`] = `
 Object {
   "headings": Array [
     "H1: Futbiladas",
-    "H3: +17 F.C 7 - 9 Liverpool F.C",
+    "H2: +17 F.C 7 - 9 Liverpool F.C",
   ],
   "iframes": Array [],
   "images": Array [],
@@ -1353,7 +1350,7 @@ Object {
       ],
     ],
   ],
-  "text": "Futbiladas+17 F.C 7 - 9 Liverpool F.C+17 F.CResultadoLiverpool F.C7-9Golo Filipe7-8Golo CunhaGolo Hydra7-76-7Golo Filipe6-6Golo Filipe6-5Golo SardoalGolo Costa6-45-4Golo EsquiloGolo Serino5-34-3Golo SardoalGolo Serino4-2Golo Areias3-22-2Golo Sardoal2-1Golo XadasGolo Serino2-0Golo Serino1-0Plantel +17 F.CPlantel Liverpool F.CCludosWisdowSerinoFilipeAreiasSardoalJoão NunoXadasToneRodryHydraLemosRuiGeremiasBárbaraBrazCostaSqunhaZé AfonsoEsquiloEquipasPontos GanhosLiverpool F.C. +8 pts+17 F.C. +4 pts",
+  "text": "Futbiladas+17 F.C 7 - 9 Liverpool F.C+17 F.CResultadoLiverpool F.C7-9Golo Filipe7-8Golo CunhaGolo Hydra7-76-7Golo Filipe6-6Golo Filipe6-5Golo SardoalGolo Costa6-45-4Golo EsquiloGolo Serino5-34-3Golo SardoalGolo Serino4-2Golo Areias3-22-2Golo Sardoal2-1Golo XadasGolo Serino2-0Golo Serino1-0Plantel +17 F.CPlantel Liverpool F.CCludosWisdowSerinoFilipeAreiasSardoalJoão NunoXadasToneRodryHydraLemosRuiGeremiasBárbaraBrazCostaSqunhaZé AfonsoEsquiloEquipasPontos GanhosLiverpool F.C.+8 pts+17 F.C.+4 pts",
 }
 `;
 
@@ -1361,7 +1358,7 @@ exports[`LOL5x5 conteudo inalterado 1`] = `
 Object {
   "headings": Array [
     "H1: Rankings do League of Legends 5x5",
-    "H1: Brackets",
+    "H2: Brackets",
   ],
   "iframes": Array [
     Array [
@@ -1372,19 +1369,19 @@ Object {
   "images": Array [
     Array [
       "omnimommy",
-      "https://biladeirosgit.github.io/bila-olimpiadas/images/omnimommy.png",
+      "/images/omnimommy.png",
     ],
     Array [
       "Chega do Hydra",
-      "https://biladeirosgit.github.io/bila-olimpiadas/images/Chega do Hydra.png",
+      "/images/Chega do Hydra.png",
     ],
     Array [
       "Queremos Waffles Quentes",
-      "https://biladeirosgit.github.io/bila-olimpiadas/images/Queremos Waffles Quentes.png",
+      "/images/Queremos Waffles Quentes.png",
     ],
     Array [
       "Torres do Frazão",
-      "https://biladeirosgit.github.io/bila-olimpiadas/images/Torres do Frazão.png",
+      "/images/Torres do Frazão.png",
     ],
   ],
   "tables": Array [
@@ -1755,7 +1752,7 @@ exports[`PingPong conteudo inalterado 1`] = `
 Object {
   "headings": Array [
     "H1: Rankings do Ping Pong",
-    "H1: Brackets",
+    "H2: Brackets",
   ],
   "iframes": Array [
     Array [
@@ -2599,7 +2596,7 @@ exports[`RocketLeague3x3 conteudo inalterado 1`] = `
 Object {
   "headings": Array [
     "H1: Rankings do Rocket League 3x3",
-    "H1: Brackets",
+    "H2: Brackets",
   ],
   "iframes": Array [
     Array [
@@ -2755,7 +2752,7 @@ exports[`Sueca conteudo inalterado 1`] = `
 Object {
   "headings": Array [
     "H1: Rankings do Sueca",
-    "H1: Brackets",
+    "H2: Brackets",
   ],
   "iframes": Array [
     Array [
@@ -2811,9 +2808,9 @@ exports[`TFT conteudo inalterado 1`] = `
 Object {
   "headings": Array [
     "H1: Rankings Teamfight Tactics",
-    "H1: Tabela do Grupo 1",
-    "H1: Tabela do Grupo 2",
-    "H1: Tabela do Grupo Final",
+    "H2: Tabela do Grupo 1",
+    "H2: Tabela do Grupo 2",
+    "H2: Tabela do Grupo Final",
   ],
   "iframes": Array [],
   "images": Array [],
@@ -3222,7 +3219,7 @@ exports[`Volleyball conteudo inalterado 1`] = `
 Object {
   "headings": Array [
     "H1: Rankings do Volleyball",
-    "H1: Resultados",
+    "H2: Resultados",
   ],
   "iframes": Array [
     Array [
@@ -3296,7 +3293,7 @@ exports[`invariantes total de celulas por pagina de torneio 1`] = `
 Object {
   "AmongUs": 99,
   "ArenasLOL": 80,
-  "Basquetiladas": 24,
+  "Basquetiladas": 21,
   "BatalhaNaval": 6,
   "Bilabilhar": 36,
   "BilapredictsEuropeu": 84,
@@ -3306,7 +3303,7 @@ Object {
   "Circuito": 124,
   "CounterStrike5x5": 16,
   "DeadByDaylight": 32,
-  "EscapeRoom": 10,
+  "EscapeRoom": 8,
   "Futbiladas": 72,
   "LOL5x5": 20,
   "MinecraftMinigames": 112,
