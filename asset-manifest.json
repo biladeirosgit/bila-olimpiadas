@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bila-olimpiadas/static/css/main.4a4d8507.css",
-    "main.js": "/bila-olimpiadas/static/js/main.fc7d6a17.js",
+    "main.css": "/bila-olimpiadas/static/css/main.003c57d7.css",
+    "main.js": "/bila-olimpiadas/static/js/main.cbfbb7e8.js",
     "static/js/453.8201d03e.chunk.js": "/bila-olimpiadas/static/js/453.8201d03e.chunk.js",
     "static/media/inter-latin-ext-600-normal.woff": "/bila-olimpiadas/static/media/inter-latin-ext-600-normal.4d0d5017d71ea1750fc1.woff",
     "static/media/inter-latin-ext-700-normal.woff": "/bila-olimpiadas/static/media/inter-latin-ext-700-normal.d4a91814dd3f1e022ab1.woff",
@@ -64,12 +64,12 @@
     "static/media/bricolage-grotesque-vietnamese-800-normal.woff2": "/bila-olimpiadas/static/media/bricolage-grotesque-vietnamese-800-normal.f641604bfdb002404b01.woff2",
     "static/media/inter-vietnamese-400-normal.woff2": "/bila-olimpiadas/static/media/inter-vietnamese-400-normal.44c9df135eec470b0ab6.woff2",
     "index.html": "/bila-olimpiadas/index.html",
-    "main.4a4d8507.css.map": "/bila-olimpiadas/static/css/main.4a4d8507.css.map",
-    "main.fc7d6a17.js.map": "/bila-olimpiadas/static/js/main.fc7d6a17.js.map",
+    "main.003c57d7.css.map": "/bila-olimpiadas/static/css/main.003c57d7.css.map",
+    "main.cbfbb7e8.js.map": "/bila-olimpiadas/static/js/main.cbfbb7e8.js.map",
     "453.8201d03e.chunk.js.map": "/bila-olimpiadas/static/js/453.8201d03e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a4d8507.css",
-    "static/js/main.fc7d6a17.js"
+    "static/css/main.003c57d7.css",
+    "static/js/main.cbfbb7e8.js"
   ]
 }
