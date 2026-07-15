@@ -22,11 +22,53 @@ describe('navbar', () => {
         expect(filhos[1]).toHaveClass('brand-text');
     });
 
-    test('em mobile some "Bila-" e sobra "Olimpíadas"', () => {
+    // Antes escondia-se so o "Bila-" a 900px, e ate num tablet se lia
+    // "Olimpíadas" sozinho. Agora e tudo-ou-nada: abaixo de 420px o
+    // .brand-text inteiro sai e fica o logo, que continua a identificar o site.
+    test('o nome nunca e cortado a meio: ou inteiro, ou so o logo', () => {
         const { container } = renderNav();
-        // A regra e CSS (@media max-width:900px -> .brand-long { display:none })
-        // mas a estrutura tem de a suportar: o traco vai COM o "Bila-".
-        expect(container.querySelector('.brand-long').textContent).toBe('Bila-');
-        expect(container.querySelector('.brand-accent').textContent).toBe('Olimpíadas');
+        const css = require('fs').readFileSync(
+            require('path').join(__dirname, '../components/NavBar.css'),
+            'utf8'
+        );
+        expect(css).not.toMatch(/\.brand-long\s*\{\s*display:\s*none/);
+        expect(css).toMatch(/\.navbar-brand \.brand-text\s*\{\s*display:\s*none/);
+        // e o logo tem de sobreviver para haver a que cair
+        expect(container.querySelector('.navbar-logo')).toBeInTheDocument();
+    });
+
+    describe('voltar ao hub', () => {
+        test('aponta para o hub dos Biladeiros', () => {
+            const { container } = renderNav();
+            expect(container.querySelector('.hub-link')).toHaveAttribute(
+                'href',
+                'https://biladeirosgit.github.io/'
+            );
+        });
+
+        // O hub e OUTRO site: um <Link> do router tentaria navegar dentro
+        // desta app e nunca la chegava.
+        test('e um <a> normal, nao um Link do router', () => {
+            const { container } = renderNav();
+            const a = container.querySelector('.hub-link');
+            expect(a.tagName).toBe('A');
+            expect(a.getAttribute('href')).toMatch(/^https:\/\//);
+        });
+
+        // Abaixo de 900px o .hub-link-text e escondido por CSS. Sem o
+        // aria-label, o link ficaria com nome acessivel vazio (a img e alt="").
+        test('tem nome acessivel que sobrevive ao mobile', () => {
+            const { container } = renderNav();
+            const a = container.querySelector('.hub-link');
+            expect(a.getAttribute('aria-label')).toBeTruthy();
+            expect(a.querySelector('img').getAttribute('alt')).toBe('');
+        });
+    });
+
+    test('as tabs de topo estao em ingles', () => {
+        const { container } = renderNav();
+        const tabs = [...container.querySelectorAll('.navbar-links > .navbar-link, .navbar-group > .navbar-link')]
+            .map((n) => n.textContent.replace('▾', '').trim());
+        expect(tabs).toEqual(['Home', 'Rankings', 'Calendar']);
     });
 });

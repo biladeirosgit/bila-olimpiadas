@@ -1,8 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { TOURNAMENTS, MONTHS } from '../data/tournaments';
-import { logoSrc } from '../utils/images';
+import { logoSrc, hubIconSrc } from '../utils/images';
 import './NavBar.css';
+
+const HUB_URL = 'https://biladeirosgit.github.io/';
 
 // A navbar antiga abria os submenus por `:hover` puro CSS (com a tecnica do
 // left:-99999px). Em touch nao ha hover, logo os Rankings e o Calendario eram
@@ -45,16 +47,27 @@ const NavBar = () => {
     return (
         <nav className="navbar" ref={navRef}>
             <div className="navbar-inner">
-                <Link to="/" className="navbar-brand">
-                    <img src={logoSrc()} alt="" className="navbar-logo" />
-                    {/* O texto vai num so filho: o `gap` do .navbar-brand serve
-                        para separar o logo, nao para abrir espaco no meio da
-                        palavra. */}
-                    <span className="brand-text">
-                        <span className="brand-long">Bila-</span>
-                        <span className="brand-accent">Olimpíadas</span>
-                    </span>
-                </Link>
+                <div className="navbar-left">
+                    {/* O hub e outro site: <a href> normal, nao um <Link> do
+                        router. O aria-label nao e decorativo -- abaixo dos
+                        900px o texto e escondido e sem ele o link ficava sem
+                        nome acessivel. */}
+                    <a className="hub-link" href={HUB_URL} aria-label="Biladeiros — voltar ao hub">
+                        <img src={hubIconSrc()} alt="" />
+                        <span className="hub-link-text">Biladeiros</span>
+                    </a>
+                    <span className="navbar-sep" aria-hidden="true" />
+                    <Link to="/" className="navbar-brand">
+                        <img src={logoSrc()} alt="" className="navbar-logo" />
+                        {/* O texto vai num so filho: o `gap` do .navbar-brand serve
+                            para separar o logo, nao para abrir espaco no meio da
+                            palavra. */}
+                        <span className="brand-text">
+                            <span className="brand-long">Bila-</span>
+                            <span className="brand-accent">Olimpíadas</span>
+                        </span>
+                    </Link>
+                </div>
 
                 <button
                     className="navbar-burger"
@@ -107,7 +120,7 @@ const NavBar = () => {
                             aria-expanded={open === 'calendario'}
                             onClick={() => toggle('calendario')}
                         >
-                            Calendário <span className="chevron">▾</span>
+                            Calendar <span className="chevron">▾</span>
                         </button>
                         {open === 'calendario' && (
                             <div className="mega mega--narrow">

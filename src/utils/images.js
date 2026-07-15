@@ -16,3 +16,7 @@ export const teamSrc = (name) => `${base()}/images/${name}.png`;
 export const calendarSrc = (mes) => `${base()}/images/${mes}.webp`;
 
 export const logoSrc = () => `${base()}/logo.png`;
+
+// Icone do hub dos Biladeiros, na navbar. E o favicon do hub, extraido do .ico
+// (170 kB) e reduzido a 64px -> 4 kB.
+export const hubIconSrc = () => `${base()}/hub.png`;
