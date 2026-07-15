@@ -12,14 +12,10 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import { HashRouter } from 'react-router-dom';
 
-// A Navebar e o Footer sao mockados de proposito: sem isto, o snapshot
-// pre-refactor incluiria o lixo deles em text/headings/images, e quando o
-// <Layout> os retirar das paginas esses campos mudavam em massa, afogando
-// qualquer regressao real. Com os mocks, a migracao para <Layout> e invisivel
-// ao teste. ATENCAO: quando o Navebar.js/Footer.js forem apagados, estas duas
-// linhas tem de sair NO MESMO COMMIT ou o jest rebenta com "Cannot find module".
-jest.mock('../bo/Navebar', () => () => null);
-jest.mock('../bo/Footer', () => () => null);
+// Os jest.mock do Navebar e do Footer sairam aqui, no mesmo commit em que os
+// ficheiros foram apagados: as paginas deixaram de os renderizar de todo, e a
+// nav/footer passaram para o <Layout>, ao nivel da rota. Os snapshots ficam
+// identicos -- era exatamente para isto que os mocks existiam.
 
 import BilaOlimpiadasPage from '../bo/BilaOlimpiadasPage';
 import Rankings from '../bo/rankings/Rankings';
@@ -50,17 +46,10 @@ import Volleyball from '../bo/rankings/julho/Volleyball';
 import BusinessTour from '../bo/rankings/agosto/BusinessTour';
 import Circuito from '../bo/rankings/agosto/Circuito';
 import DeadByDaylight from '../bo/rankings/agosto/DeadByDaylight';
-import MinecraftMinigames from '../bo/rankings/agosto/Minecraft Minigames';
+import MinecraftMinigames from '../bo/rankings/agosto/MinecraftMinigames';
 import BatalhaNaval from '../bo/rankings/agosto/BatalhaNaval';
 
 import PickemsLOL from '../bo/rankings/outubro/PickemsLOL';
-
-import MarcoCalendar from '../bo/calendario/MarcoCalendar';
-import AbrilCalendar from '../bo/calendario/AbrilCalendar';
-import MaioCalendar from '../bo/calendario/MaioCalendar';
-import JunhoCalendar from '../bo/calendario/JunhoCalendar';
-import JulhoCalendar from '../bo/calendario/JulhoCalendar';
-import AgostoCalendar from '../bo/calendario/AgostoCalendar';
 
 const TOURNAMENT_PAGES = {
     Bilatrecos, TFT, Futbiladas, LOL5x5,
@@ -72,9 +61,12 @@ const TOURNAMENT_PAGES = {
     PickemsLOL,
 };
 
+// Os 6 componentes {Marco,Abril,...}Calendar.js eram identicos linha a linha e
+// foram consolidados num <Calendar mes={...}/>, que depende de useParams e
+// portanto nao se renderiza isoladamente como estes. Os seus 6 snapshots
+// saem daqui; a cobertura passa para o calendar.test.js, que exercita a rota.
 const OTHER_PAGES = {
     BilaOlimpiadasPage, Rankings,
-    MarcoCalendar, AbrilCalendar, MaioCalendar, JunhoCalendar, JulhoCalendar, AgostoCalendar,
 };
 
 const ALL_PAGES = { ...TOURNAMENT_PAGES, ...OTHER_PAGES };

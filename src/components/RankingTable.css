@@ -1,0 +1,76 @@
+/* O TFT tem 12 colunas e o Minecraft Minigames 16: sem isto, deitam o layout
+   fora em ecras pequenos. Antes nao havia scroll container nenhum. */
+.table-scroll {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--color-line);
+    background-color: var(--color-surface);
+    box-shadow: var(--shadow-sm);
+}
+
+.ranking-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    text-align: center;
+    color: var(--color-text-primary);
+}
+
+.ranking-table thead tr {
+    background-color: var(--color-surface-alt);
+}
+
+.ranking-table th {
+    padding: 12px 14px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-text-secondary);
+    white-space: nowrap;
+}
+
+.ranking-table td {
+    padding: 11px 14px;
+    border-top: 1px solid var(--color-line);
+}
+
+.ranking-table tbody tr {
+    transition: background-color var(--transition-fast);
+}
+
+.ranking-table tbody tr:hover {
+    background-color: var(--color-surface-alt);
+}
+
+/* A primeira coluna e sempre o lugar (medalha ou "4º"). */
+.ranking-table td:first-child {
+    font-weight: 800;
+    white-space: nowrap;
+}
+
+.ranking-table img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Celula com logo + nome (LOL5x5). */
+.team-cell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    min-width: 120px;
+}
+
+.team-cell img {
+    width: 46px;
+    height: 46px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid var(--color-line);
+}

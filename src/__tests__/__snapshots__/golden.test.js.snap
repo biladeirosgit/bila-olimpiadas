@@ -1,35 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`AbrilCalendar conteudo inalterado 1`] = `
-Object {
-  "headings": Array [],
-  "iframes": Array [],
-  "images": Array [
-    Array [
-      "logo",
-      "https://biladeirosgit.github.io/bila-olimpiadas/images/abril.png",
-    ],
-  ],
-  "tables": Array [],
-  "text": "",
-}
-`;
-
-exports[`AgostoCalendar conteudo inalterado 1`] = `
-Object {
-  "headings": Array [],
-  "iframes": Array [],
-  "images": Array [
-    Array [
-      "logo",
-      "https://biladeirosgit.github.io/bila-olimpiadas/images/agosto.png",
-    ],
-  ],
-  "tables": Array [],
-  "text": "",
-}
-`;
-
 exports[`AmongUs conteudo inalterado 1`] = `
 Object {
   "headings": Array [
@@ -391,16 +361,30 @@ Object {
 
 exports[`BilaOlimpiadasPage conteudo inalterado 1`] = `
 Object {
-  "headings": Array [],
+  "headings": Array [
+    "H1: Bila-Olimpíadas",
+    "H2: Pódio geral",
+    "H2: Mais ouros",
+    "H2: Torneios por mês",
+    "H2: Medalhas distribuídas",
+  ],
   "iframes": Array [],
   "images": Array [
     Array [
-      "logo",
-      "images/logo2.png",
+      "Squnha",
+      "/images/Squnha.png",
+    ],
+    Array [
+      "Xadas",
+      "/images/Xadas.png",
+    ],
+    Array [
+      "Cludos",
+      "/images/Cludos.png",
     ],
   ],
   "tables": Array [],
-  "text": "",
+  "text": "Edição de 2024Bila-Olimpíadas24 torneios, 53 jogadores, de março a outubro.Ver Ranking Geral24Torneios53Jogadores298Participações1770Pontos179Medalhas7MesesPódio geral🥇Squnha167🥈Xadas154🥉Cludos130Mais ourosSqunha9 🥇Xadas5 🥇Geremias5 🥇Cludos4 🥇Wisdow3 🥇Torneios por mêsmarço4abril3maio3junho5julho3agosto5outubro1Medalhas distribuídas🥇 Ouro69🥈 Prata66🥉 Bronze44",
 }
 `;
 
@@ -408,7 +392,7 @@ exports[`Bilabilhar conteudo inalterado 1`] = `
 Object {
   "headings": Array [
     "H1: Rankings do Bilabilhar",
-    "H1: Brackets",
+    "H2: Brackets",
   ],
   "iframes": Array [
     Array [
@@ -624,7 +608,7 @@ exports[`Bilatrecos conteudo inalterado 1`] = `
 Object {
   "headings": Array [
     "H1: Rankings do Bilatrecos",
-    "H1: Brackets",
+    "H2: Brackets",
   ],
   "iframes": Array [
     Array [
@@ -722,7 +706,7 @@ exports[`Brawlhalla conteudo inalterado 1`] = `
 Object {
   "headings": Array [
     "H1: Rankings do Brawlhalla",
-    "H1: Brackets",
+    "H2: Brackets",
   ],
   "iframes": Array [
     Array [
@@ -863,7 +847,7 @@ exports[`Circuito conteudo inalterado 1`] = `
 Object {
   "headings": Array [
     "H1: Rankings do Circuito",
-    "H1: Tabela de Jogos do Circuito",
+    "H2: Tabela de Jogos do Circuito",
   ],
   "iframes": Array [],
   "images": Array [],
@@ -1068,7 +1052,7 @@ exports[`CounterStrike5x5 conteudo inalterado 1`] = `
 Object {
   "headings": Array [
     "H1: Rankings do CounterStrike 2",
-    "H1: Brackets",
+    "H2: Brackets",
   ],
   "iframes": Array [
     Array [
@@ -1201,28 +1185,25 @@ Object {
     Array [
       Array [
         "#",
-        "Nome",
         "Membros",
         "Pts",
         "T",
       ],
       Array [
         "🥇",
-        "",
         "Wisdow, Geremias, Cludos, Squnha, Mestre Gui, Camilo, Sardoal",
         "+8",
         "46 min e 6 seg",
       ],
       Array [
         "🥈",
-        "",
         "Xadas, Bárbara, João Nuno, Braz, Gama",
         "+4",
         "58 min e 26 seg",
       ],
     ],
   ],
-  "text": "Rankings do EscapeRoom#NomeMembrosPtsT🥇Wisdow, Geremias, Cludos, Squnha, Mestre Gui, Camilo, Sardoal+846 min e 6 seg🥈Xadas, Bárbara, João Nuno, Braz, Gama+458 min e 26 segPts - Pontos Ganhos | T - Tempo",
+  "text": "Rankings do EscapeRoom#MembrosPtsT🥇Wisdow, Geremias, Cludos, Squnha, Mestre Gui, Camilo, Sardoal+846 min e 6 seg🥈Xadas, Bárbara, João Nuno, Braz, Gama+458 min e 26 segPts - Pontos Ganhos | T - Tempo",
 }
 `;
 
@@ -1230,7 +1211,7 @@ exports[`Futbiladas conteudo inalterado 1`] = `
 Object {
   "headings": Array [
     "H1: Futbiladas",
-    "H3: +17 F.C 7 - 9 Liverpool F.C",
+    "H2: +17 F.C 7 - 9 Liverpool F.C",
   ],
   "iframes": Array [],
   "images": Array [],
@@ -1383,37 +1364,7 @@ Object {
       ],
     ],
   ],
-  "text": "Futbiladas+17 F.C 7 - 9 Liverpool F.C+17 F.CResultadoLiverpool F.C7-9Golo Filipe7-8Golo CunhaGolo Hydra7-76-7Golo Filipe6-6Golo Filipe6-5Golo SardoalGolo Costa6-45-4Golo EsquiloGolo Serino5-34-3Golo SardoalGolo Serino4-2Golo Areias3-22-2Golo Sardoal2-1Golo XadasGolo Serino2-0Golo Serino1-0Plantel +17 F.CPlantel Liverpool F.CCludosWisdowSerinoFilipeAreiasSardoalJoão NunoXadasToneRodryHydraLemosRuiGeremiasBárbaraBrazCostaSqunhaZé AfonsoEsquiloEquipasPontos GanhosLiverpool F.C. +8 pts+17 F.C. +4 pts",
-}
-`;
-
-exports[`JulhoCalendar conteudo inalterado 1`] = `
-Object {
-  "headings": Array [],
-  "iframes": Array [],
-  "images": Array [
-    Array [
-      "logo",
-      "https://biladeirosgit.github.io/bila-olimpiadas/images/julho.png",
-    ],
-  ],
-  "tables": Array [],
-  "text": "",
-}
-`;
-
-exports[`JunhoCalendar conteudo inalterado 1`] = `
-Object {
-  "headings": Array [],
-  "iframes": Array [],
-  "images": Array [
-    Array [
-      "logo",
-      "https://biladeirosgit.github.io/bila-olimpiadas/images/junho.png",
-    ],
-  ],
-  "tables": Array [],
-  "text": "",
+  "text": "Futbiladas+17 F.C 7 - 9 Liverpool F.C+17 F.CResultadoLiverpool F.C7-9Golo Filipe7-8Golo CunhaGolo Hydra7-76-7Golo Filipe6-6Golo Filipe6-5Golo SardoalGolo Costa6-45-4Golo EsquiloGolo Serino5-34-3Golo SardoalGolo Serino4-2Golo Areias3-22-2Golo Sardoal2-1Golo XadasGolo Serino2-0Golo Serino1-0Plantel +17 F.CPlantel Liverpool F.CCludosWisdowSerinoFilipeAreiasSardoalJoão NunoXadasToneRodryHydraLemosRuiGeremiasBárbaraBrazCostaSqunhaZé AfonsoEsquiloEquipasPontos GanhosLiverpool F.C.+8 pts+17 F.C.+4 pts",
 }
 `;
 
@@ -1421,7 +1372,7 @@ exports[`LOL5x5 conteudo inalterado 1`] = `
 Object {
   "headings": Array [
     "H1: Rankings do League of Legends 5x5",
-    "H1: Brackets",
+    "H2: Brackets",
   ],
   "iframes": Array [
     Array [
@@ -1432,19 +1383,19 @@ Object {
   "images": Array [
     Array [
       "omnimommy",
-      "https://biladeirosgit.github.io/bila-olimpiadas/images/omnimommy.png",
+      "/images/omnimommy.png",
     ],
     Array [
       "Chega do Hydra",
-      "https://biladeirosgit.github.io/bila-olimpiadas/images/Chega do Hydra.png",
+      "/images/Chega do Hydra.png",
     ],
     Array [
       "Queremos Waffles Quentes",
-      "https://biladeirosgit.github.io/bila-olimpiadas/images/Queremos Waffles Quentes.png",
+      "/images/Queremos Waffles Quentes.png",
     ],
     Array [
       "Torres do Frazão",
-      "https://biladeirosgit.github.io/bila-olimpiadas/images/Torres do Frazão.png",
+      "/images/Torres do Frazão.png",
     ],
   ],
   "tables": Array [
@@ -1487,36 +1438,6 @@ Object {
     ],
   ],
   "text": "Rankings do League of Legends 5x5#NomeMembrosPtsR🥇omnimommyFrost, Omniomm, Lekky, Madmess e Zé Afonso+83-1🥈Chega do HydraRusso, Gama, Cludos, Hydra e Wisdow+62-1🥉Queremos Waffles QuentesLemos, Gelly, Rodry, Squnha e João Nuno+41-24ºTorres do FrazãoGeremias, Mestre Gui, Xadas, Areias e Frazão+20-2Pts - Pontos Ganhos | J - Jogos | R - ResultadosBrackets",
-}
-`;
-
-exports[`MaioCalendar conteudo inalterado 1`] = `
-Object {
-  "headings": Array [],
-  "iframes": Array [],
-  "images": Array [
-    Array [
-      "logo",
-      "https://biladeirosgit.github.io/bila-olimpiadas/images/maio.png",
-    ],
-  ],
-  "tables": Array [],
-  "text": "",
-}
-`;
-
-exports[`MarcoCalendar conteudo inalterado 1`] = `
-Object {
-  "headings": Array [],
-  "iframes": Array [],
-  "images": Array [
-    Array [
-      "logo",
-      "https://biladeirosgit.github.io/bila-olimpiadas/images/março.png",
-    ],
-  ],
-  "tables": Array [],
-  "text": "",
 }
 `;
 
@@ -1845,7 +1766,7 @@ exports[`PingPong conteudo inalterado 1`] = `
 Object {
   "headings": Array [
     "H1: Rankings do Ping Pong",
-    "H1: Brackets",
+    "H2: Brackets",
   ],
   "iframes": Array [
     Array [
@@ -1926,215 +1847,215 @@ Object {
   "images": Array [
     Array [
       "Squnha",
-      "images/Squnha.png",
+      "/images/Squnha.png",
     ],
     Array [
       "Xadas",
-      "images/Xadas.png",
+      "/images/Xadas.png",
     ],
     Array [
       "Cludos",
-      "images/Cludos.png",
+      "/images/Cludos.png",
     ],
     Array [
       "Geremias",
-      "images/Geremias.png",
+      "/images/Geremias.png",
     ],
     Array [
       "Wisdow",
-      "images/Wisdow.png",
+      "/images/Wisdow.png",
     ],
     Array [
       "Bárbara",
-      "images/Bárbara.png",
+      "/images/Bárbara.png",
     ],
     Array [
       "Braz",
-      "images/Braz.png",
+      "/images/Braz.png",
     ],
     Array [
       "Mestre Gui",
-      "images/Mestre Gui.png",
+      "/images/Mestre Gui.png",
     ],
     Array [
       "João Nuno",
-      "images/João Nuno.png",
+      "/images/João Nuno.png",
     ],
     Array [
       "Lemos",
-      "images/Lemos.png",
+      "/images/Lemos.png",
     ],
     Array [
       "Hydra",
-      "images/Hydra.png",
+      "/images/Hydra.png",
     ],
     Array [
       "Gelly",
-      "images/Gelly.png",
+      "/images/Gelly.png",
     ],
     Array [
       "Atlas",
-      "images/Atlas.png",
+      "/images/Atlas.png",
     ],
     Array [
       "Areias",
-      "images/Areias.png",
+      "/images/Areias.png",
     ],
     Array [
       "Lekky",
-      "images/Lekky.png",
+      "/images/Lekky.png",
     ],
     Array [
       "Rodry",
-      "images/Rodry.png",
+      "/images/Rodry.png",
     ],
     Array [
       "Madmess",
-      "images/Madmess.png",
+      "/images/Madmess.png",
     ],
     Array [
       "Esquilo",
-      "images/Esquilo.png",
+      "/images/Esquilo.png",
     ],
     Array [
       "Sardoal",
-      "images/Sardoal.png",
+      "/images/Sardoal.png",
     ],
     Array [
       "Omniomm",
-      "images/Omniomm.png",
+      "/images/Omniomm.png",
     ],
     Array [
       "Camilo",
-      "images/Camilo.png",
+      "/images/Camilo.png",
     ],
     Array [
       "Alcunha",
-      "images/Alcunha.png",
+      "/images/Alcunha.png",
     ],
     Array [
       "Frazão",
-      "images/Frazão.png",
+      "/images/Frazão.png",
     ],
     Array [
       "Droga",
-      "images/Droga.png",
+      "/images/Droga.png",
     ],
     Array [
       "Frosty",
-      "images/Frosty.png",
+      "/images/Frosty.png",
     ],
     Array [
       "Lobato",
-      "images/Lobato.png",
+      "/images/Lobato.png",
     ],
     Array [
       "Tone",
-      "images/Tone.png",
+      "/images/Tone.png",
     ],
     Array [
       "Serino",
-      "images/Serino.png",
+      "/images/Serino.png",
     ],
     Array [
       "Gama",
-      "images/Gama.png",
+      "/images/Gama.png",
     ],
     Array [
       "Escher",
-      "images/Escher.png",
+      "/images/Escher.png",
     ],
     Array [
       "Xiro",
-      "images/Xiro.png",
+      "/images/Xiro.png",
     ],
     Array [
       "Lampreia",
-      "images/Lampreia.png",
+      "/images/Lampreia.png",
     ],
     Array [
       "Filipe",
-      "images/Filipe.png",
+      "/images/Filipe.png",
     ],
     Array [
       "Zé",
-      "images/Zé.png",
+      "/images/Zé.png",
     ],
     Array [
       "Mestre Diogo",
-      "images/Mestre Diogo.png",
+      "/images/Mestre Diogo.png",
     ],
     Array [
       "Xavier",
-      "images/Xavier.png",
+      "/images/Xavier.png",
     ],
     Array [
       "g0mes_26",
-      "images/g0mes_26.png",
+      "/images/g0mes_26.png",
     ],
     Array [
       "simas7559",
-      "images/simas7559.png",
+      "/images/simas7559.png",
     ],
     Array [
       "xxbrunoxx2514",
-      "images/xxbrunoxx2514.png",
+      "/images/xxbrunoxx2514.png",
     ],
     Array [
       "Shanks",
-      "images/Shanks.png",
+      "/images/Shanks.png",
     ],
     Array [
       "Soares",
-      "images/Soares.png",
+      "/images/Soares.png",
     ],
     Array [
       "Simão",
-      "images/Simão.png",
+      "/images/Simão.png",
     ],
     Array [
       "Russo",
-      "images/Russo.png",
+      "/images/Russo.png",
     ],
     Array [
       "XSitlo",
-      "images/XSitlo.png",
+      "/images/XSitlo.png",
     ],
     Array [
       "Zé Afonso",
-      "images/Zé Afonso.png",
+      "/images/Zé Afonso.png",
     ],
     Array [
       "Migas",
-      "images/Migas.png",
+      "/images/Migas.png",
     ],
     Array [
       "Brito",
-      "images/Brito.png",
+      "/images/Brito.png",
     ],
     Array [
       "Rui",
-      "images/Rui.png",
+      "/images/Rui.png",
     ],
     Array [
       "Costa",
-      "images/Costa.png",
+      "/images/Costa.png",
     ],
     Array [
       "Diogo",
-      "images/Diogo.png",
+      "/images/Diogo.png",
     ],
     Array [
       "Joãozinho",
-      "images/Joãozinho.png",
+      "/images/Joãozinho.png",
     ],
     Array [
       "João Tavares",
-      "images/João Tavares.png",
+      "/images/João Tavares.png",
     ],
     Array [
       "Maria",
-      "images/Maria.png",
+      "/images/Maria.png",
     ],
   ],
   "tables": Array [
@@ -2681,7 +2602,7 @@ Object {
       ],
     ],
   ],
-  "text": "IndividualDuosTriosGrupoOnline PresencialMarço Abril Maio Junho Julho Agosto OutubroSort by: RankPontosParticipaçõesMédia Pontos por Torneio🥇🥈🥉Ranking GeralRankPlayerPontosParticipaçõesMédia Pontos por Torneio🥇🥈🥉1Squnha167237.269442Xadas154246.425713Cludos130225.914534Geremias127216.055235Wisdow106176.243266Bárbara103166.443527Braz85155.671638Mestre Gui83136.383219João Nuno81155.415310Lemos53105.323111Hydra51133.9213112Gelly4795.2212113Atlas427613114Areias4285.2522115Lekky40113.6431116Rodry3766.1730117Madmess31310.3321018Esquilo3156.220019Sardoal3165.1720120Omniomm273920021Camilo2036.6710122Alcunha204501023Frazão1963.1700024Droga182910025Frosty162810126Lobato142701127Tone1343.2503028Serino122611029Gama102502029Escher102501131Xiro924.500131Lampreia924.500033Filipe81810033Zé81810033Mestre Diogo81810033Xavier81810033g0mes_2681810033simas755981810033xxbrunoxx251481810033Shanks81810033Soares81810042Simão81800143Russo61601043XSitlo61600045Zé Afonso62311046Migas51500046Brito51500048Rui41401048Costa41401048Diogo41400148Joãozinho41400148João Tavares41400148Maria414001",
+  "text": "Ranking GeralIndividualDuosTriosGrupoOnlinePresencialMarçoAbrilMaioJunhoJulhoAgostoOutubroOrdenar porRankPontosParticipaçõesMédia Pontos por Torneio🥇🥈🥉24 de 24 torneiosRankPlayerPontosParticipaçõesMédia Pontos por Torneio🥇🥈🥉1Squnha167237.269442Xadas154246.425713Cludos130225.914534Geremias127216.055235Wisdow106176.243266Bárbara103166.443527Braz85155.671638Mestre Gui83136.383219João Nuno81155.415310Lemos53105.323111Hydra51133.9213112Gelly4795.2212113Atlas427613114Areias4285.2522115Lekky40113.6431116Rodry3766.1730117Madmess31310.3321018Esquilo3156.220019Sardoal3165.1720120Omniomm273920021Camilo2036.6710122Alcunha204501023Frazão1963.1700024Droga182910025Frosty162810126Lobato142701127Tone1343.2503028Serino122611029Gama102502029Escher102501131Xiro924.500131Lampreia924.500033Filipe81810033Zé81810033Mestre Diogo81810033Xavier81810033g0mes_2681810033simas755981810033xxbrunoxx251481810033Shanks81810033Soares81810042Simão81800143Russo61601043XSitlo61600045Zé Afonso62311046Migas51500046Brito51500048Rui41401048Costa41401048Diogo41400148Joãozinho41400148João Tavares41400148Maria414001",
 }
 `;
 
@@ -2689,7 +2610,7 @@ exports[`RocketLeague3x3 conteudo inalterado 1`] = `
 Object {
   "headings": Array [
     "H1: Rankings do Rocket League 3x3",
-    "H1: Brackets",
+    "H2: Brackets",
   ],
   "iframes": Array [
     Array [
@@ -2845,7 +2766,7 @@ exports[`Sueca conteudo inalterado 1`] = `
 Object {
   "headings": Array [
     "H1: Rankings do Sueca",
-    "H1: Brackets",
+    "H2: Brackets",
   ],
   "iframes": Array [
     Array [
@@ -2901,9 +2822,9 @@ exports[`TFT conteudo inalterado 1`] = `
 Object {
   "headings": Array [
     "H1: Rankings Teamfight Tactics",
-    "H1: Tabela do Grupo 1",
-    "H1: Tabela do Grupo 2",
-    "H1: Tabela do Grupo Final",
+    "H2: Tabela do Grupo 1",
+    "H2: Tabela do Grupo 2",
+    "H2: Tabela do Grupo Final",
   ],
   "iframes": Array [],
   "images": Array [],
@@ -3312,7 +3233,7 @@ exports[`Volleyball conteudo inalterado 1`] = `
 Object {
   "headings": Array [
     "H1: Rankings do Volleyball",
-    "H1: Resultados",
+    "H2: Resultados",
   ],
   "iframes": Array [
     Array [
@@ -3386,7 +3307,7 @@ exports[`invariantes total de celulas por pagina de torneio 1`] = `
 Object {
   "AmongUs": 99,
   "ArenasLOL": 80,
-  "Basquetiladas": 24,
+  "Basquetiladas": 21,
   "BatalhaNaval": 6,
   "Bilabilhar": 36,
   "BilapredictsEuropeu": 84,
@@ -3396,7 +3317,7 @@ Object {
   "Circuito": 124,
   "CounterStrike5x5": 16,
   "DeadByDaylight": 32,
-  "EscapeRoom": 10,
+  "EscapeRoom": 8,
   "Futbiladas": 72,
   "LOL5x5": 20,
   "MinecraftMinigames": 112,

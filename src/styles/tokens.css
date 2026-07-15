@@ -1,0 +1,50 @@
+:root {
+    /* Paleta v2: verde-quase-preto + lima + dourado + azul */
+    --color-bg: #0a0f08;
+    --color-ink2: #111807;
+    --color-surface: #161d12;
+    --color-surface-alt: #1e2818;
+    --color-panel2: #1e2818;
+    --color-line: #2a3520;
+
+    --color-accent: #bada55;
+    --color-accent-hover: #c9e572;
+    --color-accent-soft: #d9eda0;
+    --color-gold: #ffce54;
+    --color-teal: #38bdf8;
+
+    /* Texto sobre fundos accent/gold. Contraste 10.5:1 sobre o lima. */
+    --color-on-accent: #1a2107;
+
+    --color-text-primary: #eef3e6;
+    --color-text-secondary: #9aa88c;
+
+    /* aliases legacy */
+    --color-bg-alt: #9aa88c;
+    --color-text: #eef3e6;
+
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 12px;
+    --space-4: 20px;
+    --space-5: 32px;
+
+    --radius-sm: 8px;
+    --radius-md: 14px;
+    --radius-lg: 999px;
+
+    --shadow-sm: 0 6px 18px rgba(0, 0, 0, 0.35);
+    --shadow-md: 0 18px 50px rgba(0, 0, 0, 0.45);
+    --shadow-accent: 0 8px 22px rgba(186, 218, 85, 0.28);
+
+    --transition-fast: 0.15s ease;
+    --transition-base: 0.25s ease;
+
+    --font-display: 'Bricolage Grotesque', 'Inter', sans-serif;
+    --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+    /* glow ambiente do fundo (v2) */
+    --bg-glow:
+        radial-gradient(1200px 600px at 85% -10%, rgba(186, 218, 85, 0.10), transparent 60%),
+        radial-gradient(900px 500px at -10% 10%, rgba(56, 189, 248, 0.07), transparent 55%);
+}

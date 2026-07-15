@@ -1,0 +1,18 @@
+/* Nao e `position: fixed`. O antigo era, e por isso todas as paginas
+   terminavam com 5 a 8 <br> para o conteudo nao ficar por baixo dele. */
+.footer {
+    border-top: 1px solid var(--color-line);
+    background-color: var(--color-ink2);
+    padding: 22px 16px;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--color-text-secondary);
+}

@@ -1,179 +1,69 @@
-import Navebar from "../../Navebar";
-import Footer from "../../Footer";
+import React from 'react';
+import PageShell from '../../../components/PageShell';
+import RankingTable from '../../../components/RankingTable';
 
+// Esta pagina e o unico outlier do site: nao e um ranking, e o relato de um
+// jogo. Nao tinha objetos de dados nenhuns -- eram 48 celulas escritas a mao,
+// um <tr> por golo, sem .map(). Aqui os dados passam a existir; os valores
+// foram transcritos um a um e o golden test prova que nenhum se perdeu.
 
-const Futbiladas = () => {
+const GOLOS = [
+    { casa: '', resultado: '7-9', fora: 'Golo Filipe' },
+    { casa: '', resultado: '7-8', fora: 'Golo Cunha' },
+    { casa: 'Golo Hydra', resultado: '7-7', fora: '' },
+    { casa: '', resultado: '6-7', fora: 'Golo Filipe' },
+    { casa: '', resultado: '6-6', fora: 'Golo Filipe' },
+    { casa: '', resultado: '6-5', fora: 'Golo Sardoal' },
+    { casa: 'Golo Costa', resultado: '6-4', fora: '' },
+    { casa: '', resultado: '5-4', fora: 'Golo Esquilo' },
+    { casa: 'Golo Serino', resultado: '5-3', fora: '' },
+    { casa: '', resultado: '4-3', fora: 'Golo Sardoal' },
+    { casa: 'Golo Serino', resultado: '4-2', fora: '' },
+    { casa: 'Golo Areias', resultado: '3-2', fora: '' },
+    { casa: '', resultado: '2-2', fora: 'Golo Sardoal' },
+    { casa: '', resultado: '2-1', fora: 'Golo Xadas' },
+    { casa: 'Golo Serino', resultado: '2-0', fora: '' },
+    { casa: 'Golo Serino', resultado: '1-0', fora: '' },
+];
 
+const GOLOS_COLUMNS = [
+    ['+17 F.C', 'casa'],
+    ['Resultado', 'resultado'],
+    ['Liverpool F.C', 'fora'],
+];
 
-    return (
-        <>
-            <Navebar />
-            <div class="w3-container w3-light-gray" style={{textAlign:"center"}}>
-                <div class="w3-container w3-center" style={{width:"60%",display:"inline-block"}}>
-                    <br></br>
-                    <h1 class="w3-center">Futbiladas</h1>
-                    <h3><b>+17 F.C 7 - 9 Liverpool F.C</b></h3>
-                    <table class="w3-table w3-centered w3-table-all w3-hoverable">
-                        <tr>
-                          <th>+17 F.C</th>
-                          <th>Resultado</th>
-                          <th>Liverpool F.C</th>
-                        </tr>
-                        <tr>
-                          <td></td>
-                          <td>7-9</td>
-                          <td>Golo Filipe</td>
-                        </tr>
-                        <tr>
-                          <td></td>
-                          <td>7-8</td>
-                          <td>Golo Cunha</td>
-                        </tr>
-                        <tr>
-                          <td>Golo Hydra</td>
-                          <td>7-7</td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td></td>
-                          <td>6-7</td>
-                          <td>Golo Filipe</td>
-                        </tr>
-                        <tr>
-                          <td></td>
-                          <td>6-6</td>
-                          <td>Golo Filipe</td>
-                        </tr>
-                        <tr>
-                          <td></td>
-                          <td>6-5</td>
-                          <td>Golo Sardoal</td>
-                        </tr>
-                        <tr>
-                          <td>Golo Costa</td>
-                          <td>6-4</td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td></td>
-                          <td>5-4</td>
-                          <td>Golo Esquilo</td>
-                        </tr>
-                        <tr>
-                          <td>Golo Serino</td>
-                          <td>5-3</td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td></td>
-                          <td>4-3</td>
-                          <td>Golo Sardoal</td>
-                        </tr>
-                        <tr>
-                          <td>Golo Serino</td>
-                          <td>4-2</td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td>Golo Areias</td>
-                          <td>3-2</td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td></td>
-                          <td>2-2</td>
-                          <td>Golo Sardoal</td>
-                        </tr>
-                        <tr>
-                          <td></td>
-                          <td>2-1</td>
-                          <td>Golo Xadas</td>
-                        </tr>
-                        <tr>
-                          <td>Golo Serino</td>
-                          <td>2-0</td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td>Golo Serino</td>
-                          <td>1-0</td>
-                          <td></td>
-                        </tr>
-                    </table>
-                    <br></br>
-                    <br></br>
-                    <table class="w3-table w3-centered w3-table-all w3-hoverable">
-                        <tr>
-                          <th>Plantel +17 F.C</th>
-                          <th>Plantel Liverpool F.C</th>
-                        </tr>
-                        <tr>
-                          <td>Cludos</td>
-                          <td>Wisdow</td>
-                        </tr>
-                        <tr>
-                          <td>Serino</td>
-                          <td>Filipe</td>
-                        </tr>
-                        <tr>
-                          <td>Areias</td>
-                          <td>Sardoal</td>
-                        </tr>
-                        <tr>
-                          <td>João Nuno</td>
-                          <td>Xadas</td>
-                        </tr>
-                        <tr>
-                          <td>Tone</td>
-                          <td>Rodry</td>
-                        </tr>
-                        <tr>
-                          <td>Hydra</td>
-                          <td>Lemos</td>
-                        </tr>
-                        <tr>
-                          <td>Rui</td>
-                          <td>Geremias</td>
-                        </tr>
-                        <tr>
-                          <td>Bárbara</td>
-                          <td>Braz</td>
-                        </tr>
-                        <tr>
-                          <td>Costa</td>
-                          <td>Squnha</td>
-                        </tr>
-                        <tr>
-                          <td>Zé Afonso</td>
-                          <td>Esquilo</td>
-                        </tr>
-                    </table>
-                    <br></br>
-                    <br></br>
-                    <table class="w3-table w3-centered w3-table-all w3-hoverable">
-                      <tr>
-                        <th>Equipas</th>
-                        <th>Pontos Ganhos</th>
-                      </tr>
-                      <tr>
-                        <td>Liverpool F.C. </td>
-                        <td>+8 pts</td>
-                      </tr>
-                      <tr>
-                        <td>+17 F.C. </td>
-                        <td>+4 pts</td>
-                      </tr>
-                    </table>
-                </div>    
-            </div>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            
-            <Footer />
-        </>
-    );
-}
+const PLANTEIS = [
+    { casa: 'Cludos', fora: 'Wisdow' },
+    { casa: 'Serino', fora: 'Filipe' },
+    { casa: 'Areias', fora: 'Sardoal' },
+    { casa: 'João Nuno', fora: 'Xadas' },
+    { casa: 'Tone', fora: 'Rodry' },
+    { casa: 'Hydra', fora: 'Lemos' },
+    { casa: 'Rui', fora: 'Geremias' },
+    { casa: 'Bárbara', fora: 'Braz' },
+    { casa: 'Costa', fora: 'Squnha' },
+    { casa: 'Zé Afonso', fora: 'Esquilo' },
+];
+
+const PLANTEIS_COLUMNS = [
+    ['Plantel +17 F.C', 'casa'],
+    ['Plantel Liverpool F.C', 'fora'],
+];
+
+const PONTOS = [
+    { equipa: 'Liverpool F.C.', pontos: '+8 pts' },
+    { equipa: '+17 F.C.', pontos: '+4 pts' },
+];
+
+const PONTOS_COLUMNS = [['Equipas', 'equipa'], ['Pontos Ganhos', 'pontos']];
+
+const Futbiladas = () => (
+    <PageShell title="Futbiladas">
+        <h2 className="section-title">+17 F.C 7 - 9 Liverpool F.C</h2>
+        <RankingTable columns={GOLOS_COLUMNS} rows={GOLOS} />
+        <RankingTable columns={PLANTEIS_COLUMNS} rows={PLANTEIS} />
+        <RankingTable columns={PONTOS_COLUMNS} rows={PONTOS} />
+    </PageShell>
+);
+
 export default Futbiladas;
