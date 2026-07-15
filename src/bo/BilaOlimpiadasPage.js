@@ -38,7 +38,7 @@ const computar = () => {
         medalhas,
         totalMedalhas: medalhas['🥇'] + medalhas['🥈'] + medalhas['🥉'],
         nJogadores: jogadores.length,
-        podio: [...jogadores].sort((a, b) => b.pts - a.pts).slice(0, 3),
+        podio: [...jogadores].sort((a, b) => b.pts - a.pts).slice(0, 5),
         maisOuros: [...jogadores].sort((a, b) => b.ouros - a.ouros).slice(0, 5),
         porMes: MONTHS.map((mes) => ({ mes, n: TOURNAMENTS.filter((t) => t.month === mes).length })),
     };
@@ -89,7 +89,11 @@ const BilaOlimpiadasPage = () => {
                     <ol className="podio">
                         {s.podio.map((p, i) => (
                             <li key={p.nome}>
-                                <span className="podio-medalha">{['🥇', '🥈', '🥉'][i]}</span>
+                                {/* So o pódio leva medalha; do 4º em diante e o
+                                    numero, como na tabela de rankings. */}
+                                <span className={`podio-lugar${i > 2 ? ' podio-lugar--num' : ''}`}>
+                                    {i < 3 ? ['🥇', '🥈', '🥉'][i] : `${i + 1}º`}
+                                </span>
                                 <Avatar name={p.nome} size="sm" />
                                 <span className="podio-nome">{p.nome}</span>
                                 <strong>{p.pts}</strong>

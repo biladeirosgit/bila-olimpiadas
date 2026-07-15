@@ -157,9 +157,19 @@
     border-bottom: 0;
 }
 
-.podio-medalha {
-    font-size: 1.1rem;
+/* Largura fixa: a medalha e o "4º" tem larguras diferentes, e sem isto os
+   avatares das 5 linhas nao alinhavam. */
+.podio-lugar {
+    width: 26px;
     flex-shrink: 0;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.podio-lugar--num {
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: var(--color-text-secondary);
 }
 
 .podio-nome,

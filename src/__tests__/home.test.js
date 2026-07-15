@@ -41,17 +41,27 @@ describe('homepage', () => {
         expect(part).toBe('298');
     });
 
-    test('o podio e Squnha 167, Xadas 154, Cludos 130', () => {
+    test('o podio mostra os 5 primeiros', () => {
         const { container } = renderHome();
         const podio = [...container.querySelectorAll('.podio li')].map((li) => [
+            li.querySelector('.podio-lugar').textContent,
             li.querySelector('.podio-nome').textContent,
             li.querySelector('strong').textContent,
         ]);
         expect(podio).toEqual([
-            ['Squnha', '167'],
-            ['Xadas', '154'],
-            ['Cludos', '130'],
+            ['🥇', 'Squnha', '167'],
+            ['🥈', 'Xadas', '154'],
+            ['🥉', 'Cludos', '130'],
+            ['4º', 'Geremias', '127'],
+            ['5º', 'Wisdow', '106'],
         ]);
+    });
+
+    test('so os 3 primeiros levam medalha', () => {
+        const { container } = renderHome();
+        const lugares = [...container.querySelectorAll('.podio-lugar')];
+        expect(lugares.filter((l) => /[🥇🥈🥉]/u.test(l.textContent))).toHaveLength(3);
+        expect(lugares.filter((l) => l.classList.contains('podio-lugar--num'))).toHaveLength(2);
     });
 
     test('o Squnha lidera os ouros com 9', () => {
