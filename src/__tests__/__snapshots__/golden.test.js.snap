@@ -1,35 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`AbrilCalendar conteudo inalterado 1`] = `
-Object {
-  "headings": Array [],
-  "iframes": Array [],
-  "images": Array [
-    Array [
-      "logo",
-      "https://biladeirosgit.github.io/bila-olimpiadas/images/abril.png",
-    ],
-  ],
-  "tables": Array [],
-  "text": "",
-}
-`;
-
-exports[`AgostoCalendar conteudo inalterado 1`] = `
-Object {
-  "headings": Array [],
-  "iframes": Array [],
-  "images": Array [
-    Array [
-      "logo",
-      "https://biladeirosgit.github.io/bila-olimpiadas/images/agosto.png",
-    ],
-  ],
-  "tables": Array [],
-  "text": "",
-}
-`;
-
 exports[`AmongUs conteudo inalterado 1`] = `
 Object {
   "headings": Array [
@@ -1387,36 +1357,6 @@ Object {
 }
 `;
 
-exports[`JulhoCalendar conteudo inalterado 1`] = `
-Object {
-  "headings": Array [],
-  "iframes": Array [],
-  "images": Array [
-    Array [
-      "logo",
-      "https://biladeirosgit.github.io/bila-olimpiadas/images/julho.png",
-    ],
-  ],
-  "tables": Array [],
-  "text": "",
-}
-`;
-
-exports[`JunhoCalendar conteudo inalterado 1`] = `
-Object {
-  "headings": Array [],
-  "iframes": Array [],
-  "images": Array [
-    Array [
-      "logo",
-      "https://biladeirosgit.github.io/bila-olimpiadas/images/junho.png",
-    ],
-  ],
-  "tables": Array [],
-  "text": "",
-}
-`;
-
 exports[`LOL5x5 conteudo inalterado 1`] = `
 Object {
   "headings": Array [
@@ -1487,36 +1427,6 @@ Object {
     ],
   ],
   "text": "Rankings do League of Legends 5x5#NomeMembrosPtsR🥇omnimommyFrost, Omniomm, Lekky, Madmess e Zé Afonso+83-1🥈Chega do HydraRusso, Gama, Cludos, Hydra e Wisdow+62-1🥉Queremos Waffles QuentesLemos, Gelly, Rodry, Squnha e João Nuno+41-24ºTorres do FrazãoGeremias, Mestre Gui, Xadas, Areias e Frazão+20-2Pts - Pontos Ganhos | J - Jogos | R - ResultadosBrackets",
-}
-`;
-
-exports[`MaioCalendar conteudo inalterado 1`] = `
-Object {
-  "headings": Array [],
-  "iframes": Array [],
-  "images": Array [
-    Array [
-      "logo",
-      "https://biladeirosgit.github.io/bila-olimpiadas/images/maio.png",
-    ],
-  ],
-  "tables": Array [],
-  "text": "",
-}
-`;
-
-exports[`MarcoCalendar conteudo inalterado 1`] = `
-Object {
-  "headings": Array [],
-  "iframes": Array [],
-  "images": Array [
-    Array [
-      "logo",
-      "https://biladeirosgit.github.io/bila-olimpiadas/images/março.png",
-    ],
-  ],
-  "tables": Array [],
-  "text": "",
 }
 `;
 

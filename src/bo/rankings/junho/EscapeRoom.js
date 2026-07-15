@@ -1,5 +1,3 @@
-import Navebar from "../../Navebar";
-import Footer from "../../Footer";
 
 
 const EscapeRoom = () => {
@@ -10,7 +8,6 @@ const EscapeRoom = () => {
     var players = [player1, player2];
     return (
         <>
-            <Navebar />
             <div className="w3-container w3-light-gray" style={{ textAlign: "center" }}>
                 <div className="w3-container w3-center" style={{ width: "60%", display: "inline-block" }}>
                     <h1 className="w3-center">Rankings do EscapeRoom</h1>
@@ -48,7 +45,6 @@ const EscapeRoom = () => {
                 <br></br>
             </div>
             
-            <Footer />
         </>
     );
 }

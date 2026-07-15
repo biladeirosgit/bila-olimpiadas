@@ -1,5 +1,3 @@
-import Navebar from "../../Navebar";
-import Footer from "../../Footer";
 
 
 const LOL5x5 = () => {
@@ -13,7 +11,6 @@ const LOL5x5 = () => {
 
     return (
         <>
-            <Navebar />
             <div className="w3-container w3-light-gray" style={{ textAlign: "center" }}>
                 <div className="w3-container w3-center" style={{ width: "60%", display: "inline-block" }}>
                     <h1 className="w3-center">Rankings do League of Legends 5x5</h1>
@@ -72,7 +69,6 @@ const LOL5x5 = () => {
                 <br></br>
             </div>
             
-            <Footer />
         </>
     );
 }

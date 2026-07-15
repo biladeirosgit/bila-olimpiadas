@@ -1,0 +1,15 @@
+.calendar {
+    display: flex;
+    justify-content: center;
+}
+
+/* Antes: style={{width:"80%"}} inline, sem limite. */
+.calendar img {
+    display: block;
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--color-line);
+    box-shadow: var(--shadow-md);
+}

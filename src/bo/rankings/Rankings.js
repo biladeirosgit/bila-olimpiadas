@@ -1,8 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Rankings.css';
-import Navebar from './../Navebar';
-import Footer from './../Footer';
-import rankingsjson from "./rankings.json";
+import './Rankings.css';import rankingsjson from "./rankings.json";
 
 const Rankings = () => {
 
@@ -310,7 +307,6 @@ const Rankings = () => {
 
     return (
         <div>
-            <Navebar />
             <div className="w3-container w3-light-gray" style={{textAlign:"center"}}>
                 <div className="w3-container w3-center" style={{width:"60%",display:"inline-block"}}>
                     <div className="filters">
@@ -453,7 +449,6 @@ const Rankings = () => {
                 <br></br>
                 <br></br>
             </div>
-            <Footer />
         </div>
     );
 }

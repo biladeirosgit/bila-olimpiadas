@@ -1,5 +1,3 @@
-import Navebar from "../../Navebar";
-import Footer from "../../Footer";
 
 
 const BusinessTour = () => {
@@ -19,7 +17,6 @@ const BusinessTour = () => {
  
      return (
          <>
-             <Navebar />
              <div className="w3-container w3-light-gray" style={{ textAlign: "center" }}>
                  <div className="w3-container w3-center" style={{ width: "60%", display: "inline-block" }}>
                      <h1 className="w3-center">Rankings do Business Tour</h1>
@@ -52,7 +49,6 @@ const BusinessTour = () => {
                  </div>
              </div>
              
-             <Footer />
          </>
      );
  }

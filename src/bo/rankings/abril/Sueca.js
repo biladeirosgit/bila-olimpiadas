@@ -1,5 +1,3 @@
-import Navebar from "../../Navebar";
-import Footer from "../../Footer";
 
 
 const Sueca = () => {
@@ -17,7 +15,6 @@ const Sueca = () => {
  
      return (
          <>
-             <Navebar />
              <div className="w3-container w3-light-gray" style={{ textAlign: "center" }}>
                  <div className="w3-container w3-center" style={{ width: "60%", display: "inline-block" }}>
                      <h1 className="w3-center">Rankings do Sueca</h1>
@@ -62,7 +59,6 @@ const Sueca = () => {
                  <br></br>
              </div>
              
-             <Footer />
          </>
      );
  }

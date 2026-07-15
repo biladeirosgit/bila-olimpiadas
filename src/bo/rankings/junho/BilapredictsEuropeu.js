@@ -1,5 +1,3 @@
-import Navebar from "../../Navebar";
-import Footer from "../../Footer";
 
 
 const BilapredictsEuropeu = () => {
@@ -27,7 +25,6 @@ const BilapredictsEuropeu = () => {
  
      return (
          <>
-             <Navebar />
              <div className="w3-container w3-light-gray" style={{ textAlign: "center" }}>
                  <div className="w3-container w3-center" style={{ width: "60%", display: "inline-block" }}>
                      <h1 className="w3-center">Rankings do Bilapredicts Europeu 2024</h1>
@@ -71,7 +68,6 @@ const BilapredictsEuropeu = () => {
                  <br></br>
              </div>
              
-             <Footer />
          </>
      );
  }

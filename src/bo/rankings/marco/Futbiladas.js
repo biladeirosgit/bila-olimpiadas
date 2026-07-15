@@ -1,5 +1,3 @@
-import Navebar from "../../Navebar";
-import Footer from "../../Footer";
 
 
 const Futbiladas = () => {
@@ -7,7 +5,6 @@ const Futbiladas = () => {
 
     return (
         <>
-            <Navebar />
             <div class="w3-container w3-light-gray" style={{textAlign:"center"}}>
                 <div class="w3-container w3-center" style={{width:"60%",display:"inline-block"}}>
                     <br></br>
@@ -172,7 +169,6 @@ const Futbiladas = () => {
             <br></br>
             <br></br>
             
-            <Footer />
         </>
     );
 }
