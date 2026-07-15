@@ -16,5 +16,3 @@ export const teamSrc = (name) => `${base()}/images/${name}.png`;
 export const calendarSrc = (mes) => `${base()}/images/${mes}.webp`;
 
 export const logoSrc = () => `${base()}/logo.png`;
-
-export const heroLogoSrc = () => `${base()}/images/logo2.png`;

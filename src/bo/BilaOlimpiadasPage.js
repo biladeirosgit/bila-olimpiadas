@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import rankingsjson from './rankings/rankings.json';
 import { TOURNAMENTS, MONTHS } from '../data/tournaments';
 import Avatar from '../components/Avatar';
-import { heroLogoSrc } from '../utils/images';
 import './BilaOlimpiadasPage.css';
 
 // Tudo o que esta pagina mostra sai do rankings.json em runtime -- nao ha um
@@ -60,7 +59,9 @@ const BilaOlimpiadasPage = () => {
 
     return (
         <main className="home">
-            <section className="hero" style={{ backgroundImage: `url("${heroLogoSrc()}")` }}>
+            {/* Sem imagem de fundo: o logo e transparente e ficava lavado pelo
+                scrim. O logo ja aparece na navbar. */}
+            <section className="hero">
                 <div className="hero-content">
                     <p className="hero-eyebrow">Edição de 2024</p>
                     <h1 className="hero-title">Bila-Olimpíadas</h1>

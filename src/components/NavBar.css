@@ -38,6 +38,12 @@
     display: block;
 }
 
+/* Sem gap: "Bila-" e "Olimpíadas" sao a mesma palavra. */
+.navbar-brand .brand-text {
+    display: inline-flex;
+    align-items: baseline;
+}
+
 .navbar-brand .brand-accent {
     color: var(--color-accent);
 }

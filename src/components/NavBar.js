@@ -47,8 +47,13 @@ const NavBar = () => {
             <div className="navbar-inner">
                 <Link to="/" className="navbar-brand">
                     <img src={logoSrc()} alt="" className="navbar-logo" />
-                    <span className="brand-long">Bila</span>
-                    <span className="brand-accent">Olimpíadas</span>
+                    {/* O texto vai num so filho: o `gap` do .navbar-brand serve
+                        para separar o logo, nao para abrir espaco no meio da
+                        palavra. */}
+                    <span className="brand-text">
+                        <span className="brand-long">Bila-</span>
+                        <span className="brand-accent">Olimpíadas</span>
+                    </span>
                 </Link>
 
                 <button

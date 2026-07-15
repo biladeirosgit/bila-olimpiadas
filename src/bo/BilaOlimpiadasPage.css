@@ -7,24 +7,22 @@
     gap: var(--space-4);
 }
 
-/* Hero: o logo passa de <img> centrada a fundo com scrim. */
+/* Cor solida, sem imagem: o logo2 e transparente e como background ficava
+   lavado pelo scrim. O logo vive na navbar. O glow de acento da profundidade
+   sem precisar de imagem nenhuma. */
 .hero {
     position: relative;
-    min-height: 340px;
+    min-height: 300px;
     display: flex;
     align-items: flex-end;
     border-radius: var(--radius-md);
     overflow: hidden;
+    border: 1px solid var(--color-line);
     box-shadow: var(--shadow-md);
-    background-size: cover;
-    background-position: center;
-}
-
-.hero::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(180deg, rgba(10, 15, 8, 0.25) 0%, rgba(10, 15, 8, 0.95) 92%);
+    background-color: var(--color-surface);
+    background-image:
+        radial-gradient(900px 320px at 85% 0%, rgba(186, 218, 85, 0.16), transparent 60%),
+        linear-gradient(180deg, var(--color-surface-alt), var(--color-ink2));
 }
 
 .hero-content {
