@@ -21,14 +21,15 @@ const renderAt = (path) =>
         </MemoryRouter>
     );
 
-// slug da rota -> ficheiro que o componente antigo carregava
+// slug da rota -> ficheiro servido. O mes mantem-se (incluindo a cedilha de
+// "março"); so a extensao mudou de .png para .webp na otimizacao das imagens.
 const ESPERADO = {
-    marco: 'março.png',
-    abril: 'abril.png',
-    maio: 'maio.png',
-    junho: 'junho.png',
-    julho: 'julho.png',
-    agosto: 'agosto.png',
+    marco: 'março.webp',
+    abril: 'abril.webp',
+    maio: 'maio.webp',
+    junho: 'junho.webp',
+    julho: 'julho.webp',
+    agosto: 'agosto.webp',
 };
 
 describe('calendário consolidado', () => {

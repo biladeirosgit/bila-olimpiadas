@@ -11,7 +11,9 @@ export const avatarSrc = (name) => `${base()}/images/${name}.png`;
 
 export const teamSrc = (name) => `${base()}/images/${name}.png`;
 
-export const calendarSrc = (mes) => `${base()}/images/${mes}.png`;
+// Os calendarios sao fotografias de um cartaz: em PNG pesavam 2.4-3.7 MB cada,
+// em WebP pesam ~90 kB. Sao referenciados so por aqui.
+export const calendarSrc = (mes) => `${base()}/images/${mes}.webp`;
 
 export const logoSrc = () => `${base()}/logo.png`;
 
