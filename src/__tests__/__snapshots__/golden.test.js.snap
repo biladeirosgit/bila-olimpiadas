@@ -361,16 +361,30 @@ Object {
 
 exports[`BilaOlimpiadasPage conteudo inalterado 1`] = `
 Object {
-  "headings": Array [],
+  "headings": Array [
+    "H1: Bila-Olimpíadas",
+    "H2: Pódio geral",
+    "H2: Mais ouros",
+    "H2: Torneios por mês",
+    "H2: Medalhas distribuídas",
+  ],
   "iframes": Array [],
   "images": Array [
     Array [
-      "logo",
-      "images/logo2.png",
+      "Squnha",
+      "/images/Squnha.png",
+    ],
+    Array [
+      "Xadas",
+      "/images/Xadas.png",
+    ],
+    Array [
+      "Cludos",
+      "/images/Cludos.png",
     ],
   ],
   "tables": Array [],
-  "text": "",
+  "text": "Edição de 2024Bila-Olimpíadas24 torneios, 53 jogadores, de março a outubro.Ver Ranking Geral24Torneios53Jogadores298Participações1770Pontos179Medalhas7MesesPódio geral🥇Squnha167🥈Xadas154🥉Cludos130Mais ourosSqunha9 🥇Xadas5 🥇Geremias5 🥇Cludos4 🥇Wisdow3 🥇Torneios por mêsmarço4abril3maio3junho5julho3agosto5outubro1Medalhas distribuídas🥇 Ouro69🥈 Prata66🥉 Bronze44",
 }
 `;
 
